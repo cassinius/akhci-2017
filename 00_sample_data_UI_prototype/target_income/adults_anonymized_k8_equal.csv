@@ -1,500 +1,500 @@
 age, education-num, hours-per-week, workclass, native-country, sex, race, marital-status, relationship, occupation, income
-41, 13, 42.5, *, United-States, Male, White, *, *, *, <=50K
-41, 13, 42.5, *, United-States, Male, White, *, *, *, >50K
-41, 13, 42.5, *, United-States, Male, White, *, *, *, <=50K
-41, 13, 42.5, *, United-States, Male, White, *, *, *, >50K
-41, 13, 42.5, *, United-States, Male, White, *, *, *, <=50K
-41, 13, 42.5, *, United-States, Male, White, *, *, *, <=50K
-41, 13, 42.5, *, United-States, Male, White, *, *, *, >50K
-41, 13, 42.5, *, United-States, Male, White, *, *, *, >50K
-53.5, 13, 26.5, *, America, Male, *, Married-civ-spouse, Husband, *, <=50K
-53.5, 13, 26.5, *, America, Male, *, Married-civ-spouse, Husband, *, >50K
-53.5, 13, 26.5, *, America, Male, *, Married-civ-spouse, Husband, *, <=50K
-53.5, 13, 26.5, *, America, Male, *, Married-civ-spouse, Husband, *, >50K
-53.5, 13, 26.5, *, America, Male, *, Married-civ-spouse, Husband, *, <=50K
-53.5, 13, 26.5, *, America, Male, *, Married-civ-spouse, Husband, *, <=50K
-53.5, 13, 26.5, *, America, Male, *, Married-civ-spouse, Husband, *, >50K
-53.5, 13, 26.5, *, America, Male, *, Married-civ-spouse, Husband, *, >50K
-38.5, 9.5, 40, Self, United-States, Male, White, *, *, *, <=50K
-38.5, 9.5, 40, Self, United-States, Male, White, *, *, *, <=50K
-38.5, 9.5, 40, Self, United-States, Male, White, *, *, *, <=50K
-38.5, 9.5, 40, Self, United-States, Male, White, *, *, *, <=50K
-38.5, 9.5, 40, Self, United-States, Male, White, *, *, *, >50K
-38.5, 9.5, 40, Self, United-States, Male, White, *, *, *, <=50K
-38.5, 9.5, 40, Self, United-States, Male, White, *, *, *, <=50K
-38.5, 9.5, 40, Self, United-States, Male, White, *, *, *, <=50K
-56, 8, 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
-56, 8, 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
-56, 8, 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
-56, 8, 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, >50K
-56, 8, 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
-56, 8, 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
-56, 8, 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
-56, 8, 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
-30.5, 13, 40, Private, *, *, *, *, *, *, <=50K
-30.5, 13, 40, Private, *, *, *, *, *, *, <=50K
-30.5, 13, 40, Private, *, *, *, *, *, *, <=50K
-30.5, 13, 40, Private, *, *, *, *, *, *, <=50K
-30.5, 13, 40, Private, *, *, *, *, *, *, <=50K
-30.5, 13, 40, Private, *, *, *, *, *, *, <=50K
-30.5, 13, 40, Private, *, *, *, *, *, *, >50K
-30.5, 13, 40, Private, *, *, *, *, *, *, <=50K
-40.5, 14.5, 40, *, *, *, White, *, *, *, <=50K
-40.5, 14.5, 40, *, *, *, White, *, *, *, <=50K
-40.5, 14.5, 40, *, *, *, White, *, *, *, >50K
-40.5, 14.5, 40, *, *, *, White, *, *, *, >50K
-40.5, 14.5, 40, *, *, *, White, *, *, *, >50K
-40.5, 14.5, 40, *, *, *, White, *, *, *, >50K
-40.5, 14.5, 40, *, *, *, White, *, *, *, <=50K
-40.5, 14.5, 40, *, *, *, White, *, *, *, <=50K
-54, 6, 28, *, America, *, *, *, *, *, <=50K
-54, 6, 28, *, America, *, *, *, *, *, <=50K
-54, 6, 28, *, America, *, *, *, *, *, >50K
-54, 6, 28, *, America, *, *, *, *, *, <=50K
-54, 6, 28, *, America, *, *, *, *, *, <=50K
-54, 6, 28, *, America, *, *, *, *, *, <=50K
-54, 6, 28, *, America, *, *, *, *, *, <=50K
-54, 6, 28, *, America, *, *, *, *, *, <=50K
-57.5, 9, 47.5, *, North-America, Male, White, Married-civ-spouse, Husband, *, >50K
-57.5, 9, 47.5, *, North-America, Male, White, Married-civ-spouse, Husband, *, <=50K
-57.5, 9, 47.5, *, North-America, Male, White, Married-civ-spouse, Husband, *, >50K
-57.5, 9, 47.5, *, North-America, Male, White, Married-civ-spouse, Husband, *, <=50K
-57.5, 9, 47.5, *, North-America, Male, White, Married-civ-spouse, Husband, *, >50K
-57.5, 9, 47.5, *, North-America, Male, White, Married-civ-spouse, Husband, *, <=50K
-57.5, 9, 47.5, *, North-America, Male, White, Married-civ-spouse, Husband, *, <=50K
-57.5, 9, 47.5, *, North-America, Male, White, Married-civ-spouse, Husband, *, >50K
-34, 14, 50, Private, United-States, *, White, *, *, services, >50K
-34, 14, 50, Private, United-States, *, White, *, *, services, <=50K
-34, 14, 50, Private, United-States, *, White, *, *, services, <=50K
-34, 14, 50, Private, United-States, *, White, *, *, services, <=50K
-34, 14, 50, Private, United-States, *, White, *, *, services, <=50K
-34, 14, 50, Private, United-States, *, White, *, *, services, >50K
-34, 14, 50, Private, United-States, *, White, *, *, services, <=50K
-34, 14, 50, Private, United-States, *, White, *, *, services, >50K
-39, 12, 80, *, *, Male, *, *, *, *, >50K
-39, 12, 80, *, *, Male, *, *, *, *, <=50K
-39, 12, 80, *, *, Male, *, *, *, *, <=50K
-39, 12, 80, *, *, Male, *, *, *, *, >50K
-39, 12, 80, *, *, Male, *, *, *, *, >50K
-39, 12, 80, *, *, Male, *, *, *, *, <=50K
-39, 12, 80, *, *, Male, *, *, *, *, >50K
-39, 12, 80, *, *, Male, *, *, *, *, >50K
-33, 13, 40, *, *, *, *, *, *, *, >50K
-33, 13, 40, *, *, *, *, *, *, *, >50K
-33, 13, 40, *, *, *, *, *, *, *, >50K
-33, 13, 40, *, *, *, *, *, *, *, >50K
-33, 13, 40, *, *, *, *, *, *, *, <=50K
-33, 13, 40, *, *, *, *, *, *, *, >50K
-33, 13, 40, *, *, *, *, *, *, *, >50K
-33, 13, 40, *, *, *, *, *, *, *, >50K
-24.5, 13, 35, Private, United-States, *, *, Never-married, *, *, <=50K
-24.5, 13, 35, Private, United-States, *, *, Never-married, *, *, <=50K
-24.5, 13, 35, Private, United-States, *, *, Never-married, *, *, <=50K
-24.5, 13, 35, Private, United-States, *, *, Never-married, *, *, <=50K
-24.5, 13, 35, Private, United-States, *, *, Never-married, *, *, <=50K
-24.5, 13, 35, Private, United-States, *, *, Never-married, *, *, <=50K
-24.5, 13, 35, Private, United-States, *, *, Never-married, *, *, <=50K
-24.5, 13, 35, Private, United-States, *, *, Never-married, *, *, <=50K
-37, 12.5, 50, Private, *, *, *, *, *, *, <=50K
-37, 12.5, 50, Private, *, *, *, *, *, *, <=50K
-37, 12.5, 50, Private, *, *, *, *, *, *, <=50K
-37, 12.5, 50, Private, *, *, *, *, *, *, >50K
-37, 12.5, 50, Private, *, *, *, *, *, *, <=50K
-37, 12.5, 50, Private, *, *, *, *, *, *, <=50K
-37, 12.5, 50, Private, *, *, *, *, *, *, <=50K
-37, 12.5, 50, Private, *, *, *, *, *, *, >50K
-37, 4.5, 45, *, *, Male, *, *, *, *, <=50K
-37, 4.5, 45, *, *, Male, *, *, *, *, <=50K
-37, 4.5, 45, *, *, Male, *, *, *, *, <=50K
-37, 4.5, 45, *, *, Male, *, *, *, *, <=50K
-37, 4.5, 45, *, *, Male, *, *, *, *, <=50K
-37, 4.5, 45, *, *, Male, *, *, *, *, >50K
-37, 4.5, 45, *, *, Male, *, *, *, *, <=50K
-37, 4.5, 45, *, *, Male, *, *, *, *, <=50K
-26, 9, 37.5, Self, United-States, Male, White, Never-married, *, *, <=50K
-26, 9, 37.5, Self, United-States, Male, White, Never-married, *, *, <=50K
-26, 9, 37.5, Self, United-States, Male, White, Never-married, *, *, <=50K
-26, 9, 37.5, Self, United-States, Male, White, Never-married, *, *, <=50K
-26, 9, 37.5, Self, United-States, Male, White, Never-married, *, *, <=50K
-26, 9, 37.5, Self, United-States, Male, White, Never-married, *, *, <=50K
-26, 9, 37.5, Self, United-States, Male, White, Never-married, *, *, <=50K
-26, 9, 37.5, Self, United-States, Male, White, Never-married, *, *, <=50K
-34, 9, 40, *, United-States, *, *, Never-married, *, *, <=50K
-34, 9, 40, *, United-States, *, *, Never-married, *, *, <=50K
-34, 9, 40, *, United-States, *, *, Never-married, *, *, <=50K
-34, 9, 40, *, United-States, *, *, Never-married, *, *, <=50K
-34, 9, 40, *, United-States, *, *, Never-married, *, *, <=50K
-34, 9, 40, *, United-States, *, *, Never-married, *, *, <=50K
-34, 9, 40, *, United-States, *, *, Never-married, *, *, <=50K
-34, 9, 40, *, United-States, *, *, Never-married, *, *, <=50K
-40.5, 8.5, 50, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
-40.5, 8.5, 50, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
-40.5, 8.5, 50, *, United-States, Male, *, Married-civ-spouse, Husband, *, >50K
-40.5, 8.5, 50, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
-40.5, 8.5, 50, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
-40.5, 8.5, 50, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
-40.5, 8.5, 50, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
-40.5, 8.5, 50, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
-46, 14, 50, *, United-States, *, *, *, *, *, >50K
-46, 14, 50, *, United-States, *, *, *, *, *, <=50K
-46, 14, 50, *, United-States, *, *, *, *, *, <=50K
-46, 14, 50, *, United-States, *, *, *, *, *, >50K
-46, 14, 50, *, United-States, *, *, *, *, *, <=50K
-46, 14, 50, *, United-States, *, *, *, *, *, >50K
-46, 14, 50, *, United-States, *, *, *, *, *, <=50K
-46, 14, 50, *, United-States, *, *, *, *, *, >50K
-44.5, 16, 60, *, America, *, White, *, *, *, >50K
-44.5, 16, 60, *, America, *, White, *, *, *, >50K
-44.5, 16, 60, *, America, *, White, *, *, *, >50K
-44.5, 16, 60, *, America, *, White, *, *, *, >50K
-44.5, 16, 60, *, America, *, White, *, *, *, >50K
-44.5, 16, 60, *, America, *, White, *, *, *, >50K
-44.5, 16, 60, *, America, *, White, *, *, *, <=50K
-44.5, 16, 60, *, America, *, White, *, *, *, >50K
-60.5, 10.5, 22.5, *, *, *, *, *, *, *, <=50K
-60.5, 10.5, 22.5, *, *, *, *, *, *, *, <=50K
-60.5, 10.5, 22.5, *, *, *, *, *, *, *, <=50K
-60.5, 10.5, 22.5, *, *, *, *, *, *, *, <=50K
-60.5, 10.5, 22.5, *, *, *, *, *, *, *, <=50K
-60.5, 10.5, 22.5, *, *, *, *, *, *, *, <=50K
-60.5, 10.5, 22.5, *, *, *, *, *, *, *, <=50K
-60.5, 10.5, 22.5, *, *, *, *, *, *, *, <=50K
-46, 8, 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
-46, 8, 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
-46, 8, 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
-46, 8, 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
-46, 8, 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
-46, 8, 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
-46, 8, 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
-46, 8, 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
-62, 9, 40, *, United-States, *, White, *, *, *, <=50K
-62, 9, 40, *, United-States, *, White, *, *, *, <=50K
-62, 9, 40, *, United-States, *, White, *, *, *, <=50K
-62, 9, 40, *, United-States, *, White, *, *, *, >50K
-62, 9, 40, *, United-States, *, White, *, *, *, >50K
-62, 9, 40, *, United-States, *, White, *, *, *, >50K
-62, 9, 40, *, United-States, *, White, *, *, *, >50K
-62, 9, 40, *, United-States, *, White, *, *, *, <=50K
-21, 9, 40, Private, United-States, *, *, Never-married, *, *, <=50K
-21, 9, 40, Private, United-States, *, *, Never-married, *, *, <=50K
-21, 9, 40, Private, United-States, *, *, Never-married, *, *, <=50K
-21, 9, 40, Private, United-States, *, *, Never-married, *, *, <=50K
-21, 9, 40, Private, United-States, *, *, Never-married, *, *, <=50K
-21, 9, 40, Private, United-States, *, *, Never-married, *, *, <=50K
-21, 9, 40, Private, United-States, *, *, Never-married, *, *, <=50K
-21, 9, 40, Private, United-States, *, *, Never-married, *, *, <=50K
-26, 12.5, 54, *, United-States, Male, White, *, *, *, <=50K
-26, 12.5, 54, *, United-States, Male, White, *, *, *, <=50K
-26, 12.5, 54, *, United-States, Male, White, *, *, *, >50K
-26, 12.5, 54, *, United-States, Male, White, *, *, *, <=50K
-26, 12.5, 54, *, United-States, Male, White, *, *, *, <=50K
-26, 12.5, 54, *, United-States, Male, White, *, *, *, <=50K
-26, 12.5, 54, *, United-States, Male, White, *, *, *, <=50K
-26, 12.5, 54, *, United-States, Male, White, *, *, *, >50K
-20.5, 10, 44.5, *, United-States, *, *, Never-married, Own-child, *, <=50K
-20.5, 10, 44.5, *, United-States, *, *, Never-married, Own-child, *, <=50K
-20.5, 10, 44.5, *, United-States, *, *, Never-married, Own-child, *, <=50K
-20.5, 10, 44.5, *, United-States, *, *, Never-married, Own-child, *, <=50K
-20.5, 10, 44.5, *, United-States, *, *, Never-married, Own-child, *, <=50K
-20.5, 10, 44.5, *, United-States, *, *, Never-married, Own-child, *, <=50K
-20.5, 10, 44.5, *, United-States, *, *, Never-married, Own-child, *, <=50K
-20.5, 10, 44.5, *, United-States, *, *, Never-married, Own-child, *, <=50K
-46, 13, 40, *, United-States, *, *, *, *, *, <=50K
-46, 13, 40, *, United-States, *, *, *, *, *, >50K
-46, 13, 40, *, United-States, *, *, *, *, *, <=50K
-46, 13, 40, *, United-States, *, *, *, *, *, <=50K
-46, 13, 40, *, United-States, *, *, *, *, *, <=50K
-46, 13, 40, *, United-States, *, *, *, *, *, <=50K
-46, 13, 40, *, United-States, *, *, *, *, *, <=50K
-46, 13, 40, *, United-States, *, *, *, *, *, <=50K
-30.5, 10, 40, *, United-States, *, White, *, *, *, <=50K
-30.5, 10, 40, *, United-States, *, White, *, *, *, <=50K
-30.5, 10, 40, *, United-States, *, White, *, *, *, <=50K
-30.5, 10, 40, *, United-States, *, White, *, *, *, <=50K
-30.5, 10, 40, *, United-States, *, White, *, *, *, <=50K
-30.5, 10, 40, *, United-States, *, White, *, *, *, <=50K
-30.5, 10, 40, *, United-States, *, White, *, *, *, <=50K
-30.5, 10, 40, *, United-States, *, White, *, *, *, <=50K
-23.5, 10, 20, *, United-States, *, *, *, *, *, <=50K
-23.5, 10, 20, *, United-States, *, *, *, *, *, <=50K
-23.5, 10, 20, *, United-States, *, *, *, *, *, <=50K
-23.5, 10, 20, *, United-States, *, *, *, *, *, <=50K
-23.5, 10, 20, *, United-States, *, *, *, *, *, <=50K
-23.5, 10, 20, *, United-States, *, *, *, *, *, <=50K
-23.5, 10, 20, *, United-States, *, *, *, *, *, <=50K
-23.5, 10, 20, *, United-States, *, *, *, *, *, <=50K
-23.5, 9.5, 27.5, Private, United-States, *, *, *, *, *, <=50K
-23.5, 9.5, 27.5, Private, United-States, *, *, *, *, *, <=50K
-23.5, 9.5, 27.5, Private, United-States, *, *, *, *, *, <=50K
-23.5, 9.5, 27.5, Private, United-States, *, *, *, *, *, <=50K
-23.5, 9.5, 27.5, Private, United-States, *, *, *, *, *, <=50K
-23.5, 9.5, 27.5, Private, United-States, *, *, *, *, *, <=50K
-23.5, 9.5, 27.5, Private, United-States, *, *, *, *, *, <=50K
-23.5, 9.5, 27.5, Private, United-States, *, *, *, *, *, <=50K
-49, 12, 41, Self, *, *, White, *, *, *, <=50K
-49, 12, 41, Self, *, *, White, *, *, *, <=50K
-49, 12, 41, Self, *, *, White, *, *, *, <=50K
-49, 12, 41, Self, *, *, White, *, *, *, <=50K
-49, 12, 41, Self, *, *, White, *, *, *, <=50K
-49, 12, 41, Self, *, *, White, *, *, *, <=50K
-49, 12, 41, Self, *, *, White, *, *, *, <=50K
-49, 12, 41, Self, *, *, White, *, *, *, <=50K
-51.5, 9, 40, *, United-States, *, *, *, *, *, <=50K
-51.5, 9, 40, *, United-States, *, *, *, *, *, >50K
-51.5, 9, 40, *, United-States, *, *, *, *, *, <=50K
-51.5, 9, 40, *, United-States, *, *, *, *, *, >50K
-51.5, 9, 40, *, United-States, *, *, *, *, *, <=50K
-51.5, 9, 40, *, United-States, *, *, *, *, *, <=50K
-51.5, 9, 40, *, United-States, *, *, *, *, *, <=50K
-51.5, 9, 40, *, United-States, *, *, *, *, *, <=50K
-42, 11, 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
-42, 11, 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, >50K
-42, 11, 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, >50K
-42, 11, 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, >50K
-42, 11, 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, >50K
-42, 11, 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, >50K
-42, 11, 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, >50K
-42, 11, 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
-32, 11.5, 44, Private, America, Male, *, *, *, *, <=50K
-32, 11.5, 44, Private, America, Male, *, *, *, *, <=50K
-32, 11.5, 44, Private, America, Male, *, *, *, *, >50K
-32, 11.5, 44, Private, America, Male, *, *, *, *, <=50K
-32, 11.5, 44, Private, America, Male, *, *, *, *, <=50K
-32, 11.5, 44, Private, America, Male, *, *, *, *, >50K
-32, 11.5, 44, Private, America, Male, *, *, *, *, <=50K
-32, 11.5, 44, Private, America, Male, *, *, *, *, <=50K
-26, 10, 40, Private, *, *, *, *, *, *, <=50K
-26, 10, 40, Private, *, *, *, *, *, *, <=50K
-26, 10, 40, Private, *, *, *, *, *, *, <=50K
-26, 10, 40, Private, *, *, *, *, *, *, <=50K
-26, 10, 40, Private, *, *, *, *, *, *, <=50K
-26, 10, 40, Private, *, *, *, *, *, *, <=50K
-26, 10, 40, Private, *, *, *, *, *, *, <=50K
-26, 10, 40, Private, *, *, *, *, *, *, <=50K
-55, 13, 57.5, *, United-States, *, White, *, *, *, >50K
-55, 13, 57.5, *, United-States, *, White, *, *, *, >50K
-55, 13, 57.5, *, United-States, *, White, *, *, *, >50K
-55, 13, 57.5, *, United-States, *, White, *, *, *, <=50K
-55, 13, 57.5, *, United-States, *, White, *, *, *, <=50K
-55, 13, 57.5, *, United-States, *, White, *, *, *, >50K
-55, 13, 57.5, *, United-States, *, White, *, *, *, >50K
-55, 13, 57.5, *, United-States, *, White, *, *, *, >50K
-51.5, 9.5, 60, Self, United-States, Male, White, *, *, *, <=50K
-51.5, 9.5, 60, Self, United-States, Male, White, *, *, *, >50K
-51.5, 9.5, 60, Self, United-States, Male, White, *, *, *, <=50K
-51.5, 9.5, 60, Self, United-States, Male, White, *, *, *, <=50K
-51.5, 9.5, 60, Self, United-States, Male, White, *, *, *, <=50K
-51.5, 9.5, 60, Self, United-States, Male, White, *, *, *, <=50K
-51.5, 9.5, 60, Self, United-States, Male, White, *, *, *, >50K
-51.5, 9.5, 60, Self, United-States, Male, White, *, *, *, >50K
-49.5, 6, 45, *, America, *, *, *, *, *, <=50K
-49.5, 6, 45, *, America, *, *, *, *, *, <=50K
-49.5, 6, 45, *, America, *, *, *, *, *, <=50K
-49.5, 6, 45, *, America, *, *, *, *, *, <=50K
-49.5, 6, 45, *, America, *, *, *, *, *, <=50K
-49.5, 6, 45, *, America, *, *, *, *, *, <=50K
-49.5, 6, 45, *, America, *, *, *, *, *, <=50K
-49.5, 6, 45, *, America, *, *, *, *, *, <=50K
-34, 9, 42.5, *, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
-34, 9, 42.5, *, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
-34, 9, 42.5, *, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
-34, 9, 42.5, *, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
-34, 9, 42.5, *, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
-34, 9, 42.5, *, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
-34, 9, 42.5, *, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
-34, 9, 42.5, *, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
-32, 10, 59, *, United-States, Male, *, *, *, *, <=50K
-32, 10, 59, *, United-States, Male, *, *, *, *, <=50K
-32, 10, 59, *, United-States, Male, *, *, *, *, <=50K
-32, 10, 59, *, United-States, Male, *, *, *, *, <=50K
-32, 10, 59, *, United-States, Male, *, *, *, *, <=50K
-32, 10, 59, *, United-States, Male, *, *, *, *, <=50K
-32, 10, 59, *, United-States, Male, *, *, *, *, <=50K
-32, 10, 59, *, United-States, Male, *, *, *, *, >50K
-21, 10, 36, Private, America, Male, *, *, *, *, <=50K
-21, 10, 36, Private, America, Male, *, *, *, *, <=50K
-21, 10, 36, Private, America, Male, *, *, *, *, <=50K
-21, 10, 36, Private, America, Male, *, *, *, *, <=50K
-21, 10, 36, Private, America, Male, *, *, *, *, <=50K
-21, 10, 36, Private, America, Male, *, *, *, *, <=50K
-21, 10, 36, Private, America, Male, *, *, *, *, <=50K
-21, 10, 36, Private, America, Male, *, *, *, *, <=50K
-34.5, 13, 70, Self, United-States, *, *, *, *, *, >50K
-34.5, 13, 70, Self, United-States, *, *, *, *, *, <=50K
-34.5, 13, 70, Self, United-States, *, *, *, *, *, <=50K
-34.5, 13, 70, Self, United-States, *, *, *, *, *, >50K
-34.5, 13, 70, Self, United-States, *, *, *, *, *, >50K
-34.5, 13, 70, Self, United-States, *, *, *, *, *, <=50K
-34.5, 13, 70, Self, United-States, *, *, *, *, *, <=50K
-34.5, 13, 70, Self, United-States, *, *, *, *, *, <=50K
-79, 12, 30, Self, America, *, White, *, *, *, <=50K
-79, 12, 30, Self, America, *, White, *, *, *, >50K
-79, 12, 30, Self, America, *, White, *, *, *, <=50K
-79, 12, 30, Self, America, *, White, *, *, *, <=50K
-79, 12, 30, Self, America, *, White, *, *, *, <=50K
-79, 12, 30, Self, America, *, White, *, *, *, <=50K
-79, 12, 30, Self, America, *, White, *, *, *, >50K
-79, 12, 30, Self, America, *, White, *, *, *, <=50K
-29, 9, 40, Private, America, *, White, *, *, *, <=50K
-29, 9, 40, Private, America, *, White, *, *, *, <=50K
-29, 9, 40, Private, America, *, White, *, *, *, <=50K
-29, 9, 40, Private, America, *, White, *, *, *, <=50K
-29, 9, 40, Private, America, *, White, *, *, *, <=50K
-29, 9, 40, Private, America, *, White, *, *, *, <=50K
-29, 9, 40, Private, America, *, White, *, *, *, <=50K
-29, 9, 40, Private, America, *, White, *, *, *, <=50K
-18, 7, 31, Private, United-States, *, White, Never-married, Own-child, *, <=50K
-18, 7, 31, Private, United-States, *, White, Never-married, Own-child, *, <=50K
-18, 7, 31, Private, United-States, *, White, Never-married, Own-child, *, <=50K
-18, 7, 31, Private, United-States, *, White, Never-married, Own-child, *, <=50K
-18, 7, 31, Private, United-States, *, White, Never-married, Own-child, *, <=50K
-18, 7, 31, Private, United-States, *, White, Never-married, Own-child, *, <=50K
-18, 7, 31, Private, United-States, *, White, Never-married, Own-child, *, <=50K
-18, 7, 31, Private, United-States, *, White, Never-married, Own-child, *, <=50K
-23, 9, 35.5, *, *, *, *, *, *, *, <=50K
-23, 9, 35.5, *, *, *, *, *, *, *, <=50K
-23, 9, 35.5, *, *, *, *, *, *, *, <=50K
-23, 9, 35.5, *, *, *, *, *, *, *, <=50K
-23, 9, 35.5, *, *, *, *, *, *, *, <=50K
-23, 9, 35.5, *, *, *, *, *, *, *, <=50K
-23, 9, 35.5, *, *, *, *, *, *, *, <=50K
-23, 9, 35.5, *, *, *, *, *, *, *, <=50K
-45, 9.5, 40, Self, United-States, *, White, *, *, *, >50K
-45, 9.5, 40, Self, United-States, *, White, *, *, *, <=50K
-45, 9.5, 40, Self, United-States, *, White, *, *, *, >50K
-45, 9.5, 40, Self, United-States, *, White, *, *, *, <=50K
-45, 9.5, 40, Self, United-States, *, White, *, *, *, <=50K
-45, 9.5, 40, Self, United-States, *, White, *, *, *, <=50K
-45, 9.5, 40, Self, United-States, *, White, *, *, *, <=50K
-45, 9.5, 40, Self, United-States, *, White, *, *, *, >50K
-56.5, 9.5, 40, Self, United-States, *, *, *, *, *, <=50K
-56.5, 9.5, 40, Self, United-States, *, *, *, *, *, >50K
-56.5, 9.5, 40, Self, United-States, *, *, *, *, *, >50K
-56.5, 9.5, 40, Self, United-States, *, *, *, *, *, <=50K
-56.5, 9.5, 40, Self, United-States, *, *, *, *, *, <=50K
-56.5, 9.5, 40, Self, United-States, *, *, *, *, *, <=50K
-56.5, 9.5, 40, Self, United-States, *, *, *, *, *, >50K
-56.5, 9.5, 40, Self, United-States, *, *, *, *, *, <=50K
-57.5, 12.5, 41, *, *, *, *, *, *, *, <=50K
-57.5, 12.5, 41, *, *, *, *, *, *, *, >50K
-57.5, 12.5, 41, *, *, *, *, *, *, *, <=50K
-57.5, 12.5, 41, *, *, *, *, *, *, *, >50K
-57.5, 12.5, 41, *, *, *, *, *, *, *, >50K
-57.5, 12.5, 41, *, *, *, *, *, *, *, <=50K
-57.5, 12.5, 41, *, *, *, *, *, *, *, >50K
-57.5, 12.5, 41, *, *, *, *, *, *, *, <=50K
-37, 10, 42.5, *, America, *, White, *, *, *, <=50K
-37, 10, 42.5, *, America, *, White, *, *, *, <=50K
-37, 10, 42.5, *, America, *, White, *, *, *, >50K
-37, 10, 42.5, *, America, *, White, *, *, *, <=50K
-37, 10, 42.5, *, America, *, White, *, *, *, <=50K
-37, 10, 42.5, *, America, *, White, *, *, *, <=50K
-37, 10, 42.5, *, America, *, White, *, *, *, <=50K
-37, 10, 42.5, *, America, *, White, *, *, *, >50K
-32.5, 8, 40, *, United-States, *, *, *, *, *, <=50K
-32.5, 8, 40, *, United-States, *, *, *, *, *, <=50K
-32.5, 8, 40, *, United-States, *, *, *, *, *, <=50K
-32.5, 8, 40, *, United-States, *, *, *, *, *, <=50K
-32.5, 8, 40, *, United-States, *, *, *, *, *, <=50K
-32.5, 8, 40, *, United-States, *, *, *, *, *, <=50K
-32.5, 8, 40, *, United-States, *, *, *, *, *, <=50K
-32.5, 8, 40, *, United-States, *, *, *, *, *, <=50K
-40, 9, 37.5, Self, *, *, *, *, *, *, <=50K
-40, 9, 37.5, Self, *, *, *, *, *, *, <=50K
-40, 9, 37.5, Self, *, *, *, *, *, *, <=50K
-40, 9, 37.5, Self, *, *, *, *, *, *, >50K
-40, 9, 37.5, Self, *, *, *, *, *, *, <=50K
-40, 9, 37.5, Self, *, *, *, *, *, *, <=50K
-40, 9, 37.5, Self, *, *, *, *, *, *, <=50K
-40, 9, 37.5, Self, *, *, *, *, *, *, <=50K
-29, 12.5, 40, *, United-States, *, White, *, *, *, <=50K
-29, 12.5, 40, *, United-States, *, White, *, *, *, <=50K
-29, 12.5, 40, *, United-States, *, White, *, *, *, <=50K
-29, 12.5, 40, *, United-States, *, White, *, *, *, <=50K
-29, 12.5, 40, *, United-States, *, White, *, *, *, <=50K
-29, 12.5, 40, *, United-States, *, White, *, *, *, >50K
-29, 12.5, 40, *, United-States, *, White, *, *, *, <=50K
-29, 12.5, 40, *, United-States, *, White, *, *, *, <=50K
-33, 9, 35, Private, United-States, Female, *, *, *, *, <=50K
-33, 9, 35, Private, United-States, Female, *, *, *, *, <=50K
-33, 9, 35, Private, United-States, Female, *, *, *, *, <=50K
-33, 9, 35, Private, United-States, Female, *, *, *, *, >50K
-33, 9, 35, Private, United-States, Female, *, *, *, *, <=50K
-33, 9, 35, Private, United-States, Female, *, *, *, *, >50K
-33, 9, 35, Private, United-States, Female, *, *, *, *, <=50K
-33, 9, 35, Private, United-States, Female, *, *, *, *, <=50K
-41, 9, 30, *, United-States, *, White, *, *, *, <=50K
-41, 9, 30, *, United-States, *, White, *, *, *, <=50K
-41, 9, 30, *, United-States, *, White, *, *, *, <=50K
-41, 9, 30, *, United-States, *, White, *, *, *, <=50K
-41, 9, 30, *, United-States, *, White, *, *, *, <=50K
-41, 9, 30, *, United-States, *, White, *, *, *, <=50K
-41, 9, 30, *, United-States, *, White, *, *, *, <=50K
-41, 9, 30, *, United-States, *, White, *, *, *, <=50K
-65, 8.5, 47.5, Self, United-States, Male, *, *, *, *, <=50K
-65, 8.5, 47.5, Self, United-States, Male, *, *, *, *, <=50K
-65, 8.5, 47.5, Self, United-States, Male, *, *, *, *, <=50K
-65, 8.5, 47.5, Self, United-States, Male, *, *, *, *, <=50K
-65, 8.5, 47.5, Self, United-States, Male, *, *, *, *, <=50K
-65, 8.5, 47.5, Self, United-States, Male, *, *, *, *, <=50K
-65, 8.5, 47.5, Self, United-States, Male, *, *, *, *, <=50K
-65, 8.5, 47.5, Self, United-States, Male, *, *, *, *, >50K
-47, 10.5, 41.5, *, America, *, *, *, *, *, <=50K
-47, 10.5, 41.5, *, America, *, *, *, *, *, >50K
-47, 10.5, 41.5, *, America, *, *, *, *, *, <=50K
-47, 10.5, 41.5, *, America, *, *, *, *, *, <=50K
-47, 10.5, 41.5, *, America, *, *, *, *, *, <=50K
-47, 10.5, 41.5, *, America, *, *, *, *, *, <=50K
-47, 10.5, 41.5, *, America, *, *, *, *, *, <=50K
-47, 10.5, 41.5, *, America, *, *, *, *, *, <=50K
-80.5, 13, 25, *, United-States, *, *, *, *, *, <=50K
-80.5, 13, 25, *, United-States, *, *, *, *, *, >50K
-80.5, 13, 25, *, United-States, *, *, *, *, *, <=50K
-80.5, 13, 25, *, United-States, *, *, *, *, *, <=50K
-80.5, 13, 25, *, United-States, *, *, *, *, *, >50K
-80.5, 13, 25, *, United-States, *, *, *, *, *, <=50K
-80.5, 13, 25, *, United-States, *, *, *, *, *, <=50K
-80.5, 13, 25, *, United-States, *, *, *, *, *, >50K
-23, 11, 16, *, *, *, White, Never-married, *, *, <=50K
-23, 11, 16, *, *, *, White, Never-married, *, *, <=50K
-23, 11, 16, *, *, *, White, Never-married, *, *, <=50K
-23, 11, 16, *, *, *, White, Never-married, *, *, <=50K
-23, 11, 16, *, *, *, White, Never-married, *, *, <=50K
-23, 11, 16, *, *, *, White, Never-married, *, *, <=50K
-23, 11, 16, *, *, *, White, Never-married, *, *, <=50K
-23, 11, 16, *, *, *, White, Never-married, *, *, <=50K
-25.5, 6.5, 44, Private, America, *, White, *, *, *, <=50K
-25.5, 6.5, 44, Private, America, *, White, *, *, *, <=50K
-25.5, 6.5, 44, Private, America, *, White, *, *, *, >50K
-25.5, 6.5, 44, Private, America, *, White, *, *, *, <=50K
-25.5, 6.5, 44, Private, America, *, White, *, *, *, <=50K
-25.5, 6.5, 44, Private, America, *, White, *, *, *, <=50K
-25.5, 6.5, 44, Private, America, *, White, *, *, *, <=50K
-25.5, 6.5, 44, Private, America, *, White, *, *, *, <=50K
-39, 10, 50, *, United-States, *, *, *, *, *, <=50K
-39, 10, 50, *, United-States, *, *, *, *, *, <=50K
-39, 10, 50, *, United-States, *, *, *, *, *, >50K
-39, 10, 50, *, United-States, *, *, *, *, *, <=50K
-39, 10, 50, *, United-States, *, *, *, *, *, >50K
-39, 10, 50, *, United-States, *, *, *, *, *, <=50K
-39, 10, 50, *, United-States, *, *, *, *, *, <=50K
-39, 10, 50, *, United-States, *, *, *, *, *, <=50K
-55, 7.5, 42.5, *, *, *, *, *, *, *, <=50K
-55, 7.5, 42.5, *, *, *, *, *, *, *, >50K
-55, 7.5, 42.5, *, *, *, *, *, *, *, <=50K
-55, 7.5, 42.5, *, *, *, *, *, *, *, <=50K
-55, 7.5, 42.5, *, *, *, *, *, *, *, <=50K
-55, 7.5, 42.5, *, *, *, *, *, *, *, >50K
-55, 7.5, 42.5, *, *, *, *, *, *, *, <=50K
-55, 7.5, 42.5, *, *, *, *, *, *, *, <=50K
-30.5, 15.5, 63.5, Private, America, *, White, *, *, *, >50K
-30.5, 15.5, 63.5, Private, America, *, White, *, *, *, <=50K
-30.5, 15.5, 63.5, Private, America, *, White, *, *, *, <=50K
-30.5, 15.5, 63.5, Private, America, *, White, *, *, *, <=50K
-30.5, 15.5, 63.5, Private, America, *, White, *, *, *, <=50K
-30.5, 15.5, 63.5, Private, America, *, White, *, *, *, >50K
-30.5, 15.5, 63.5, Private, America, *, White, *, *, *, <=50K
-30.5, 15.5, 63.5, Private, America, *, White, *, *, *, <=50K
+[39 - 43], 13, [40 - 45], *, United-States, Male, White, *, *, *, <=50K
+[39 - 43], 13, [40 - 45], *, United-States, Male, White, *, *, *, >50K
+[39 - 43], 13, [40 - 45], *, United-States, Male, White, *, *, *, <=50K
+[39 - 43], 13, [40 - 45], *, United-States, Male, White, *, *, *, >50K
+[39 - 43], 13, [40 - 45], *, United-States, Male, White, *, *, *, <=50K
+[39 - 43], 13, [40 - 45], *, United-States, Male, White, *, *, *, <=50K
+[39 - 43], 13, [40 - 45], *, United-States, Male, White, *, *, *, >50K
+[39 - 43], 13, [40 - 45], *, United-States, Male, White, *, *, *, >50K
+[50 - 57], 13, [13 - 40], *, America, Male, *, Married-civ-spouse, Husband, *, <=50K
+[50 - 57], 13, [13 - 40], *, America, Male, *, Married-civ-spouse, Husband, *, >50K
+[50 - 57], 13, [13 - 40], *, America, Male, *, Married-civ-spouse, Husband, *, <=50K
+[50 - 57], 13, [13 - 40], *, America, Male, *, Married-civ-spouse, Husband, *, >50K
+[50 - 57], 13, [13 - 40], *, America, Male, *, Married-civ-spouse, Husband, *, <=50K
+[50 - 57], 13, [13 - 40], *, America, Male, *, Married-civ-spouse, Husband, *, <=50K
+[50 - 57], 13, [13 - 40], *, America, Male, *, Married-civ-spouse, Husband, *, >50K
+[50 - 57], 13, [13 - 40], *, America, Male, *, Married-civ-spouse, Husband, *, >50K
+[38 - 39], [9 - 10], 40, Self, United-States, Male, White, *, *, *, <=50K
+[38 - 39], [9 - 10], 40, Self, United-States, Male, White, *, *, *, <=50K
+[38 - 39], [9 - 10], 40, Self, United-States, Male, White, *, *, *, <=50K
+[38 - 39], [9 - 10], 40, Self, United-States, Male, White, *, *, *, <=50K
+[38 - 39], [9 - 10], 40, Self, United-States, Male, White, *, *, *, >50K
+[38 - 39], [9 - 10], 40, Self, United-States, Male, White, *, *, *, <=50K
+[38 - 39], [9 - 10], 40, Self, United-States, Male, White, *, *, *, <=50K
+[38 - 39], [9 - 10], 40, Self, United-States, Male, White, *, *, *, <=50K
+[53 - 59], [7 - 9], 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
+[53 - 59], [7 - 9], 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
+[53 - 59], [7 - 9], 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
+[53 - 59], [7 - 9], 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, >50K
+[53 - 59], [7 - 9], 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
+[53 - 59], [7 - 9], 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
+[53 - 59], [7 - 9], 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
+[53 - 59], [7 - 9], 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
+[28 - 33], 13, 40, Private, *, *, *, *, *, *, <=50K
+[28 - 33], 13, 40, Private, *, *, *, *, *, *, <=50K
+[28 - 33], 13, 40, Private, *, *, *, *, *, *, <=50K
+[28 - 33], 13, 40, Private, *, *, *, *, *, *, <=50K
+[28 - 33], 13, 40, Private, *, *, *, *, *, *, <=50K
+[28 - 33], 13, 40, Private, *, *, *, *, *, *, <=50K
+[28 - 33], 13, 40, Private, *, *, *, *, *, *, >50K
+[28 - 33], 13, 40, Private, *, *, *, *, *, *, <=50K
+[37 - 44], [14 - 15], 40, *, *, *, White, *, *, *, <=50K
+[37 - 44], [14 - 15], 40, *, *, *, White, *, *, *, <=50K
+[37 - 44], [14 - 15], 40, *, *, *, White, *, *, *, >50K
+[37 - 44], [14 - 15], 40, *, *, *, White, *, *, *, >50K
+[37 - 44], [14 - 15], 40, *, *, *, White, *, *, *, >50K
+[37 - 44], [14 - 15], 40, *, *, *, White, *, *, *, >50K
+[37 - 44], [14 - 15], 40, *, *, *, White, *, *, *, <=50K
+[37 - 44], [14 - 15], 40, *, *, *, White, *, *, *, <=50K
+[49 - 59], [5 - 7], [16 - 40], *, America, *, *, *, *, *, <=50K
+[49 - 59], [5 - 7], [16 - 40], *, America, *, *, *, *, *, <=50K
+[49 - 59], [5 - 7], [16 - 40], *, America, *, *, *, *, *, >50K
+[49 - 59], [5 - 7], [16 - 40], *, America, *, *, *, *, *, <=50K
+[49 - 59], [5 - 7], [16 - 40], *, America, *, *, *, *, *, <=50K
+[49 - 59], [5 - 7], [16 - 40], *, America, *, *, *, *, *, <=50K
+[49 - 59], [5 - 7], [16 - 40], *, America, *, *, *, *, *, <=50K
+[49 - 59], [5 - 7], [16 - 40], *, America, *, *, *, *, *, <=50K
+[52 - 63], 9, [45 - 50], *, North-America, Male, White, Married-civ-spouse, Husband, *, >50K
+[52 - 63], 9, [45 - 50], *, North-America, Male, White, Married-civ-spouse, Husband, *, <=50K
+[52 - 63], 9, [45 - 50], *, North-America, Male, White, Married-civ-spouse, Husband, *, >50K
+[52 - 63], 9, [45 - 50], *, North-America, Male, White, Married-civ-spouse, Husband, *, <=50K
+[52 - 63], 9, [45 - 50], *, North-America, Male, White, Married-civ-spouse, Husband, *, >50K
+[52 - 63], 9, [45 - 50], *, North-America, Male, White, Married-civ-spouse, Husband, *, <=50K
+[52 - 63], 9, [45 - 50], *, North-America, Male, White, Married-civ-spouse, Husband, *, <=50K
+[52 - 63], 9, [45 - 50], *, North-America, Male, White, Married-civ-spouse, Husband, *, >50K
+[31 - 37], 14, 50, Private, United-States, *, White, *, *, services, >50K
+[31 - 37], 14, 50, Private, United-States, *, White, *, *, services, <=50K
+[31 - 37], 14, 50, Private, United-States, *, White, *, *, services, <=50K
+[31 - 37], 14, 50, Private, United-States, *, White, *, *, services, <=50K
+[31 - 37], 14, 50, Private, United-States, *, White, *, *, services, <=50K
+[31 - 37], 14, 50, Private, United-States, *, White, *, *, services, >50K
+[31 - 37], 14, 50, Private, United-States, *, White, *, *, services, <=50K
+[31 - 37], 14, 50, Private, United-States, *, White, *, *, services, >50K
+[37 - 41], [10 - 14], 80, *, *, Male, *, *, *, *, >50K
+[37 - 41], [10 - 14], 80, *, *, Male, *, *, *, *, <=50K
+[37 - 41], [10 - 14], 80, *, *, Male, *, *, *, *, <=50K
+[37 - 41], [10 - 14], 80, *, *, Male, *, *, *, *, >50K
+[37 - 41], [10 - 14], 80, *, *, Male, *, *, *, *, >50K
+[37 - 41], [10 - 14], 80, *, *, Male, *, *, *, *, <=50K
+[37 - 41], [10 - 14], 80, *, *, Male, *, *, *, *, >50K
+[37 - 41], [10 - 14], 80, *, *, Male, *, *, *, *, >50K
+[30 - 36], 13, 40, *, *, *, *, *, *, *, >50K
+[30 - 36], 13, 40, *, *, *, *, *, *, *, >50K
+[30 - 36], 13, 40, *, *, *, *, *, *, *, >50K
+[30 - 36], 13, 40, *, *, *, *, *, *, *, >50K
+[30 - 36], 13, 40, *, *, *, *, *, *, *, <=50K
+[30 - 36], 13, 40, *, *, *, *, *, *, *, >50K
+[30 - 36], 13, 40, *, *, *, *, *, *, *, >50K
+[30 - 36], 13, 40, *, *, *, *, *, *, *, >50K
+[23 - 26], 13, [30 - 40], Private, United-States, *, *, Never-married, *, *, <=50K
+[23 - 26], 13, [30 - 40], Private, United-States, *, *, Never-married, *, *, <=50K
+[23 - 26], 13, [30 - 40], Private, United-States, *, *, Never-married, *, *, <=50K
+[23 - 26], 13, [30 - 40], Private, United-States, *, *, Never-married, *, *, <=50K
+[23 - 26], 13, [30 - 40], Private, United-States, *, *, Never-married, *, *, <=50K
+[23 - 26], 13, [30 - 40], Private, United-States, *, *, Never-married, *, *, <=50K
+[23 - 26], 13, [30 - 40], Private, United-States, *, *, Never-married, *, *, <=50K
+[23 - 26], 13, [30 - 40], Private, United-States, *, *, Never-married, *, *, <=50K
+[32 - 42], [12 - 13], 50, Private, *, *, *, *, *, *, <=50K
+[32 - 42], [12 - 13], 50, Private, *, *, *, *, *, *, <=50K
+[32 - 42], [12 - 13], 50, Private, *, *, *, *, *, *, <=50K
+[32 - 42], [12 - 13], 50, Private, *, *, *, *, *, *, >50K
+[32 - 42], [12 - 13], 50, Private, *, *, *, *, *, *, <=50K
+[32 - 42], [12 - 13], 50, Private, *, *, *, *, *, *, <=50K
+[32 - 42], [12 - 13], 50, Private, *, *, *, *, *, *, <=50K
+[32 - 42], [12 - 13], 50, Private, *, *, *, *, *, *, >50K
+[34 - 40], [4 - 5], 45, *, *, Male, *, *, *, *, <=50K
+[34 - 40], [4 - 5], 45, *, *, Male, *, *, *, *, <=50K
+[34 - 40], [4 - 5], 45, *, *, Male, *, *, *, *, <=50K
+[34 - 40], [4 - 5], 45, *, *, Male, *, *, *, *, <=50K
+[34 - 40], [4 - 5], 45, *, *, Male, *, *, *, *, <=50K
+[34 - 40], [4 - 5], 45, *, *, Male, *, *, *, *, >50K
+[34 - 40], [4 - 5], 45, *, *, Male, *, *, *, *, <=50K
+[34 - 40], [4 - 5], 45, *, *, Male, *, *, *, *, <=50K
+[25 - 27], 9, [35 - 40], Self, United-States, Male, White, Never-married, *, *, <=50K
+[25 - 27], 9, [35 - 40], Self, United-States, Male, White, Never-married, *, *, <=50K
+[25 - 27], 9, [35 - 40], Self, United-States, Male, White, Never-married, *, *, <=50K
+[25 - 27], 9, [35 - 40], Self, United-States, Male, White, Never-married, *, *, <=50K
+[25 - 27], 9, [35 - 40], Self, United-States, Male, White, Never-married, *, *, <=50K
+[25 - 27], 9, [35 - 40], Self, United-States, Male, White, Never-married, *, *, <=50K
+[25 - 27], 9, [35 - 40], Self, United-States, Male, White, Never-married, *, *, <=50K
+[25 - 27], 9, [35 - 40], Self, United-States, Male, White, Never-married, *, *, <=50K
+[32 - 36], 9, 40, *, United-States, *, *, Never-married, *, *, <=50K
+[32 - 36], 9, 40, *, United-States, *, *, Never-married, *, *, <=50K
+[32 - 36], 9, 40, *, United-States, *, *, Never-married, *, *, <=50K
+[32 - 36], 9, 40, *, United-States, *, *, Never-married, *, *, <=50K
+[32 - 36], 9, 40, *, United-States, *, *, Never-married, *, *, <=50K
+[32 - 36], 9, 40, *, United-States, *, *, Never-married, *, *, <=50K
+[32 - 36], 9, 40, *, United-States, *, *, Never-married, *, *, <=50K
+[32 - 36], 9, 40, *, United-States, *, *, Never-married, *, *, <=50K
+[38 - 43], [7 - 10], 50, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
+[38 - 43], [7 - 10], 50, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
+[38 - 43], [7 - 10], 50, *, United-States, Male, *, Married-civ-spouse, Husband, *, >50K
+[38 - 43], [7 - 10], 50, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
+[38 - 43], [7 - 10], 50, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
+[38 - 43], [7 - 10], 50, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
+[38 - 43], [7 - 10], 50, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
+[38 - 43], [7 - 10], 50, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
+[43 - 49], 14, [45 - 55], *, United-States, *, *, *, *, *, >50K
+[43 - 49], 14, [45 - 55], *, United-States, *, *, *, *, *, <=50K
+[43 - 49], 14, [45 - 55], *, United-States, *, *, *, *, *, <=50K
+[43 - 49], 14, [45 - 55], *, United-States, *, *, *, *, *, >50K
+[43 - 49], 14, [45 - 55], *, United-States, *, *, *, *, *, <=50K
+[43 - 49], 14, [45 - 55], *, United-States, *, *, *, *, *, >50K
+[43 - 49], 14, [45 - 55], *, United-States, *, *, *, *, *, <=50K
+[43 - 49], 14, [45 - 55], *, United-States, *, *, *, *, *, >50K
+[40 - 49], 16, 60, *, America, *, White, *, *, *, >50K
+[40 - 49], 16, 60, *, America, *, White, *, *, *, >50K
+[40 - 49], 16, 60, *, America, *, White, *, *, *, >50K
+[40 - 49], 16, 60, *, America, *, White, *, *, *, >50K
+[40 - 49], 16, 60, *, America, *, White, *, *, *, >50K
+[40 - 49], 16, 60, *, America, *, White, *, *, *, >50K
+[40 - 49], 16, 60, *, America, *, White, *, *, *, <=50K
+[40 - 49], 16, 60, *, America, *, White, *, *, *, >50K
+[54 - 67], [9 - 12], [20 - 25], *, *, *, *, *, *, *, <=50K
+[54 - 67], [9 - 12], [20 - 25], *, *, *, *, *, *, *, <=50K
+[54 - 67], [9 - 12], [20 - 25], *, *, *, *, *, *, *, <=50K
+[54 - 67], [9 - 12], [20 - 25], *, *, *, *, *, *, *, <=50K
+[54 - 67], [9 - 12], [20 - 25], *, *, *, *, *, *, *, <=50K
+[54 - 67], [9 - 12], [20 - 25], *, *, *, *, *, *, *, <=50K
+[54 - 67], [9 - 12], [20 - 25], *, *, *, *, *, *, *, <=50K
+[54 - 67], [9 - 12], [20 - 25], *, *, *, *, *, *, *, <=50K
+[43 - 49], [7 - 9], 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
+[43 - 49], [7 - 9], 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
+[43 - 49], [7 - 9], 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
+[43 - 49], [7 - 9], 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
+[43 - 49], [7 - 9], 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
+[43 - 49], [7 - 9], 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
+[43 - 49], [7 - 9], 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
+[43 - 49], [7 - 9], 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
+[59 - 65], 9, 40, *, United-States, *, White, *, *, *, <=50K
+[59 - 65], 9, 40, *, United-States, *, White, *, *, *, <=50K
+[59 - 65], 9, 40, *, United-States, *, White, *, *, *, <=50K
+[59 - 65], 9, 40, *, United-States, *, White, *, *, *, >50K
+[59 - 65], 9, 40, *, United-States, *, White, *, *, *, >50K
+[59 - 65], 9, 40, *, United-States, *, White, *, *, *, >50K
+[59 - 65], 9, 40, *, United-States, *, White, *, *, *, >50K
+[59 - 65], 9, 40, *, United-States, *, White, *, *, *, <=50K
+[19 - 23], 9, 40, Private, United-States, *, *, Never-married, *, *, <=50K
+[19 - 23], 9, 40, Private, United-States, *, *, Never-married, *, *, <=50K
+[19 - 23], 9, 40, Private, United-States, *, *, Never-married, *, *, <=50K
+[19 - 23], 9, 40, Private, United-States, *, *, Never-married, *, *, <=50K
+[19 - 23], 9, 40, Private, United-States, *, *, Never-married, *, *, <=50K
+[19 - 23], 9, 40, Private, United-States, *, *, Never-married, *, *, <=50K
+[19 - 23], 9, 40, Private, United-States, *, *, Never-married, *, *, <=50K
+[19 - 23], 9, 40, Private, United-States, *, *, Never-married, *, *, <=50K
+[23 - 29], [12 - 13], [52 - 56], *, United-States, Male, White, *, *, *, <=50K
+[23 - 29], [12 - 13], [52 - 56], *, United-States, Male, White, *, *, *, <=50K
+[23 - 29], [12 - 13], [52 - 56], *, United-States, Male, White, *, *, *, >50K
+[23 - 29], [12 - 13], [52 - 56], *, United-States, Male, White, *, *, *, <=50K
+[23 - 29], [12 - 13], [52 - 56], *, United-States, Male, White, *, *, *, <=50K
+[23 - 29], [12 - 13], [52 - 56], *, United-States, Male, White, *, *, *, <=50K
+[23 - 29], [12 - 13], [52 - 56], *, United-States, Male, White, *, *, *, <=50K
+[23 - 29], [12 - 13], [52 - 56], *, United-States, Male, White, *, *, *, >50K
+[20 - 21], 10, [44 - 45], *, United-States, *, *, Never-married, Own-child, *, <=50K
+[20 - 21], 10, [44 - 45], *, United-States, *, *, Never-married, Own-child, *, <=50K
+[20 - 21], 10, [44 - 45], *, United-States, *, *, Never-married, Own-child, *, <=50K
+[20 - 21], 10, [44 - 45], *, United-States, *, *, Never-married, Own-child, *, <=50K
+[20 - 21], 10, [44 - 45], *, United-States, *, *, Never-married, Own-child, *, <=50K
+[20 - 21], 10, [44 - 45], *, United-States, *, *, Never-married, Own-child, *, <=50K
+[20 - 21], 10, [44 - 45], *, United-States, *, *, Never-married, Own-child, *, <=50K
+[20 - 21], 10, [44 - 45], *, United-States, *, *, Never-married, Own-child, *, <=50K
+[45 - 47], 13, 40, *, United-States, *, *, *, *, *, <=50K
+[45 - 47], 13, 40, *, United-States, *, *, *, *, *, >50K
+[45 - 47], 13, 40, *, United-States, *, *, *, *, *, <=50K
+[45 - 47], 13, 40, *, United-States, *, *, *, *, *, <=50K
+[45 - 47], 13, 40, *, United-States, *, *, *, *, *, <=50K
+[45 - 47], 13, 40, *, United-States, *, *, *, *, *, <=50K
+[45 - 47], 13, 40, *, United-States, *, *, *, *, *, <=50K
+[45 - 47], 13, 40, *, United-States, *, *, *, *, *, <=50K
+[30 - 31], 10, 40, *, United-States, *, White, *, *, *, <=50K
+[30 - 31], 10, 40, *, United-States, *, White, *, *, *, <=50K
+[30 - 31], 10, 40, *, United-States, *, White, *, *, *, <=50K
+[30 - 31], 10, 40, *, United-States, *, White, *, *, *, <=50K
+[30 - 31], 10, 40, *, United-States, *, White, *, *, *, <=50K
+[30 - 31], 10, 40, *, United-States, *, White, *, *, *, <=50K
+[30 - 31], 10, 40, *, United-States, *, White, *, *, *, <=50K
+[30 - 31], 10, 40, *, United-States, *, White, *, *, *, <=50K
+[22 - 25], 10, [15 - 25], *, United-States, *, *, *, *, *, <=50K
+[22 - 25], 10, [15 - 25], *, United-States, *, *, *, *, *, <=50K
+[22 - 25], 10, [15 - 25], *, United-States, *, *, *, *, *, <=50K
+[22 - 25], 10, [15 - 25], *, United-States, *, *, *, *, *, <=50K
+[22 - 25], 10, [15 - 25], *, United-States, *, *, *, *, *, <=50K
+[22 - 25], 10, [15 - 25], *, United-States, *, *, *, *, *, <=50K
+[22 - 25], 10, [15 - 25], *, United-States, *, *, *, *, *, <=50K
+[22 - 25], 10, [15 - 25], *, United-States, *, *, *, *, *, <=50K
+[19 - 28], [9 - 10], [25 - 30], Private, United-States, *, *, *, *, *, <=50K
+[19 - 28], [9 - 10], [25 - 30], Private, United-States, *, *, *, *, *, <=50K
+[19 - 28], [9 - 10], [25 - 30], Private, United-States, *, *, *, *, *, <=50K
+[19 - 28], [9 - 10], [25 - 30], Private, United-States, *, *, *, *, *, <=50K
+[19 - 28], [9 - 10], [25 - 30], Private, United-States, *, *, *, *, *, <=50K
+[19 - 28], [9 - 10], [25 - 30], Private, United-States, *, *, *, *, *, <=50K
+[19 - 28], [9 - 10], [25 - 30], Private, United-States, *, *, *, *, *, <=50K
+[19 - 28], [9 - 10], [25 - 30], Private, United-States, *, *, *, *, *, <=50K
+[48 - 50], 12, [40 - 42], Self, *, *, White, *, *, *, <=50K
+[48 - 50], 12, [40 - 42], Self, *, *, White, *, *, *, <=50K
+[48 - 50], 12, [40 - 42], Self, *, *, White, *, *, *, <=50K
+[48 - 50], 12, [40 - 42], Self, *, *, White, *, *, *, <=50K
+[48 - 50], 12, [40 - 42], Self, *, *, White, *, *, *, <=50K
+[48 - 50], 12, [40 - 42], Self, *, *, White, *, *, *, <=50K
+[48 - 50], 12, [40 - 42], Self, *, *, White, *, *, *, <=50K
+[48 - 50], 12, [40 - 42], Self, *, *, White, *, *, *, <=50K
+[49 - 54], 9, 40, *, United-States, *, *, *, *, *, <=50K
+[49 - 54], 9, 40, *, United-States, *, *, *, *, *, >50K
+[49 - 54], 9, 40, *, United-States, *, *, *, *, *, <=50K
+[49 - 54], 9, 40, *, United-States, *, *, *, *, *, >50K
+[49 - 54], 9, 40, *, United-States, *, *, *, *, *, <=50K
+[49 - 54], 9, 40, *, United-States, *, *, *, *, *, <=50K
+[49 - 54], 9, 40, *, United-States, *, *, *, *, *, <=50K
+[49 - 54], 9, 40, *, United-States, *, *, *, *, *, <=50K
+[41 - 43], 11, 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
+[41 - 43], 11, 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, >50K
+[41 - 43], 11, 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, >50K
+[41 - 43], 11, 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, >50K
+[41 - 43], 11, 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, >50K
+[41 - 43], 11, 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, >50K
+[41 - 43], 11, 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, >50K
+[41 - 43], 11, 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
+[29 - 35], [11 - 12], [43 - 45], Private, America, Male, *, *, *, *, <=50K
+[29 - 35], [11 - 12], [43 - 45], Private, America, Male, *, *, *, *, <=50K
+[29 - 35], [11 - 12], [43 - 45], Private, America, Male, *, *, *, *, >50K
+[29 - 35], [11 - 12], [43 - 45], Private, America, Male, *, *, *, *, <=50K
+[29 - 35], [11 - 12], [43 - 45], Private, America, Male, *, *, *, *, <=50K
+[29 - 35], [11 - 12], [43 - 45], Private, America, Male, *, *, *, *, >50K
+[29 - 35], [11 - 12], [43 - 45], Private, America, Male, *, *, *, *, <=50K
+[29 - 35], [11 - 12], [43 - 45], Private, America, Male, *, *, *, *, <=50K
+[25 - 27], 10, 40, Private, *, *, *, *, *, *, <=50K
+[25 - 27], 10, 40, Private, *, *, *, *, *, *, <=50K
+[25 - 27], 10, 40, Private, *, *, *, *, *, *, <=50K
+[25 - 27], 10, 40, Private, *, *, *, *, *, *, <=50K
+[25 - 27], 10, 40, Private, *, *, *, *, *, *, <=50K
+[25 - 27], 10, 40, Private, *, *, *, *, *, *, <=50K
+[25 - 27], 10, 40, Private, *, *, *, *, *, *, <=50K
+[25 - 27], 10, 40, Private, *, *, *, *, *, *, <=50K
+[50 - 60], 13, [55 - 60], *, United-States, *, White, *, *, *, >50K
+[50 - 60], 13, [55 - 60], *, United-States, *, White, *, *, *, >50K
+[50 - 60], 13, [55 - 60], *, United-States, *, White, *, *, *, >50K
+[50 - 60], 13, [55 - 60], *, United-States, *, White, *, *, *, <=50K
+[50 - 60], 13, [55 - 60], *, United-States, *, White, *, *, *, <=50K
+[50 - 60], 13, [55 - 60], *, United-States, *, White, *, *, *, >50K
+[50 - 60], 13, [55 - 60], *, United-States, *, White, *, *, *, >50K
+[50 - 60], 13, [55 - 60], *, United-States, *, White, *, *, *, >50K
+[47 - 56], [9 - 10], 60, Self, United-States, Male, White, *, *, *, <=50K
+[47 - 56], [9 - 10], 60, Self, United-States, Male, White, *, *, *, >50K
+[47 - 56], [9 - 10], 60, Self, United-States, Male, White, *, *, *, <=50K
+[47 - 56], [9 - 10], 60, Self, United-States, Male, White, *, *, *, <=50K
+[47 - 56], [9 - 10], 60, Self, United-States, Male, White, *, *, *, <=50K
+[47 - 56], [9 - 10], 60, Self, United-States, Male, White, *, *, *, <=50K
+[47 - 56], [9 - 10], 60, Self, United-States, Male, White, *, *, *, >50K
+[47 - 56], [9 - 10], 60, Self, United-States, Male, White, *, *, *, >50K
+[46 - 53], [3 - 9], [40 - 50], *, America, *, *, *, *, *, <=50K
+[46 - 53], [3 - 9], [40 - 50], *, America, *, *, *, *, *, <=50K
+[46 - 53], [3 - 9], [40 - 50], *, America, *, *, *, *, *, <=50K
+[46 - 53], [3 - 9], [40 - 50], *, America, *, *, *, *, *, <=50K
+[46 - 53], [3 - 9], [40 - 50], *, America, *, *, *, *, *, <=50K
+[46 - 53], [3 - 9], [40 - 50], *, America, *, *, *, *, *, <=50K
+[46 - 53], [3 - 9], [40 - 50], *, America, *, *, *, *, *, <=50K
+[46 - 53], [3 - 9], [40 - 50], *, America, *, *, *, *, *, <=50K
+[30 - 38], 9, [40 - 45], *, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
+[30 - 38], 9, [40 - 45], *, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
+[30 - 38], 9, [40 - 45], *, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
+[30 - 38], 9, [40 - 45], *, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
+[30 - 38], 9, [40 - 45], *, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
+[30 - 38], 9, [40 - 45], *, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
+[30 - 38], 9, [40 - 45], *, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
+[30 - 38], 9, [40 - 45], *, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
+[29 - 35], 10, [58 - 60], *, United-States, Male, *, *, *, *, <=50K
+[29 - 35], 10, [58 - 60], *, United-States, Male, *, *, *, *, <=50K
+[29 - 35], 10, [58 - 60], *, United-States, Male, *, *, *, *, <=50K
+[29 - 35], 10, [58 - 60], *, United-States, Male, *, *, *, *, <=50K
+[29 - 35], 10, [58 - 60], *, United-States, Male, *, *, *, *, <=50K
+[29 - 35], 10, [58 - 60], *, United-States, Male, *, *, *, *, <=50K
+[29 - 35], 10, [58 - 60], *, United-States, Male, *, *, *, *, <=50K
+[29 - 35], 10, [58 - 60], *, United-States, Male, *, *, *, *, >50K
+[19 - 23], 10, [32 - 40], Private, America, Male, *, *, *, *, <=50K
+[19 - 23], 10, [32 - 40], Private, America, Male, *, *, *, *, <=50K
+[19 - 23], 10, [32 - 40], Private, America, Male, *, *, *, *, <=50K
+[19 - 23], 10, [32 - 40], Private, America, Male, *, *, *, *, <=50K
+[19 - 23], 10, [32 - 40], Private, America, Male, *, *, *, *, <=50K
+[19 - 23], 10, [32 - 40], Private, America, Male, *, *, *, *, <=50K
+[19 - 23], 10, [32 - 40], Private, America, Male, *, *, *, *, <=50K
+[19 - 23], 10, [32 - 40], Private, America, Male, *, *, *, *, <=50K
+[29 - 40], 13, 70, Self, United-States, *, *, *, *, *, >50K
+[29 - 40], 13, 70, Self, United-States, *, *, *, *, *, <=50K
+[29 - 40], 13, 70, Self, United-States, *, *, *, *, *, <=50K
+[29 - 40], 13, 70, Self, United-States, *, *, *, *, *, >50K
+[29 - 40], 13, 70, Self, United-States, *, *, *, *, *, >50K
+[29 - 40], 13, 70, Self, United-States, *, *, *, *, *, <=50K
+[29 - 40], 13, 70, Self, United-States, *, *, *, *, *, <=50K
+[29 - 40], 13, 70, Self, United-States, *, *, *, *, *, <=50K
+79, [10 - 14], [20 - 40], Self, America, *, White, *, *, *, <=50K
+79, [10 - 14], [20 - 40], Self, America, *, White, *, *, *, >50K
+79, [10 - 14], [20 - 40], Self, America, *, White, *, *, *, <=50K
+79, [10 - 14], [20 - 40], Self, America, *, White, *, *, *, <=50K
+79, [10 - 14], [20 - 40], Self, America, *, White, *, *, *, <=50K
+79, [10 - 14], [20 - 40], Self, America, *, White, *, *, *, <=50K
+79, [10 - 14], [20 - 40], Self, America, *, White, *, *, *, >50K
+79, [10 - 14], [20 - 40], Self, America, *, White, *, *, *, <=50K
+[27 - 31], 9, 40, Private, America, *, White, *, *, *, <=50K
+[27 - 31], 9, 40, Private, America, *, White, *, *, *, <=50K
+[27 - 31], 9, 40, Private, America, *, White, *, *, *, <=50K
+[27 - 31], 9, 40, Private, America, *, White, *, *, *, <=50K
+[27 - 31], 9, 40, Private, America, *, White, *, *, *, <=50K
+[27 - 31], 9, 40, Private, America, *, White, *, *, *, <=50K
+[27 - 31], 9, 40, Private, America, *, White, *, *, *, <=50K
+[27 - 31], 9, 40, Private, America, *, White, *, *, *, <=50K
+18, 7, [22 - 40], Private, United-States, *, White, Never-married, Own-child, *, <=50K
+18, 7, [22 - 40], Private, United-States, *, White, Never-married, Own-child, *, <=50K
+18, 7, [22 - 40], Private, United-States, *, White, Never-married, Own-child, *, <=50K
+18, 7, [22 - 40], Private, United-States, *, White, Never-married, Own-child, *, <=50K
+18, 7, [22 - 40], Private, United-States, *, White, Never-married, Own-child, *, <=50K
+18, 7, [22 - 40], Private, United-States, *, White, Never-married, Own-child, *, <=50K
+18, 7, [22 - 40], Private, United-States, *, White, Never-married, Own-child, *, <=50K
+18, 7, [22 - 40], Private, United-States, *, White, Never-married, Own-child, *, <=50K
+[18 - 28], 9, [30 - 41], *, *, *, *, *, *, *, <=50K
+[18 - 28], 9, [30 - 41], *, *, *, *, *, *, *, <=50K
+[18 - 28], 9, [30 - 41], *, *, *, *, *, *, *, <=50K
+[18 - 28], 9, [30 - 41], *, *, *, *, *, *, *, <=50K
+[18 - 28], 9, [30 - 41], *, *, *, *, *, *, *, <=50K
+[18 - 28], 9, [30 - 41], *, *, *, *, *, *, *, <=50K
+[18 - 28], 9, [30 - 41], *, *, *, *, *, *, *, <=50K
+[18 - 28], 9, [30 - 41], *, *, *, *, *, *, *, <=50K
+[44 - 46], [9 - 10], 40, Self, United-States, *, White, *, *, *, >50K
+[44 - 46], [9 - 10], 40, Self, United-States, *, White, *, *, *, <=50K
+[44 - 46], [9 - 10], 40, Self, United-States, *, White, *, *, *, >50K
+[44 - 46], [9 - 10], 40, Self, United-States, *, White, *, *, *, <=50K
+[44 - 46], [9 - 10], 40, Self, United-States, *, White, *, *, *, <=50K
+[44 - 46], [9 - 10], 40, Self, United-States, *, White, *, *, *, <=50K
+[44 - 46], [9 - 10], 40, Self, United-States, *, White, *, *, *, <=50K
+[44 - 46], [9 - 10], 40, Self, United-States, *, White, *, *, *, >50K
+[53 - 60], [9 - 10], [35 - 45], Self, United-States, *, *, *, *, *, <=50K
+[53 - 60], [9 - 10], [35 - 45], Self, United-States, *, *, *, *, *, >50K
+[53 - 60], [9 - 10], [35 - 45], Self, United-States, *, *, *, *, *, >50K
+[53 - 60], [9 - 10], [35 - 45], Self, United-States, *, *, *, *, *, <=50K
+[53 - 60], [9 - 10], [35 - 45], Self, United-States, *, *, *, *, *, <=50K
+[53 - 60], [9 - 10], [35 - 45], Self, United-States, *, *, *, *, *, <=50K
+[53 - 60], [9 - 10], [35 - 45], Self, United-States, *, *, *, *, *, >50K
+[53 - 60], [9 - 10], [35 - 45], Self, United-States, *, *, *, *, *, <=50K
+[57 - 58], [11 - 14], [40 - 42], *, *, *, *, *, *, *, <=50K
+[57 - 58], [11 - 14], [40 - 42], *, *, *, *, *, *, *, >50K
+[57 - 58], [11 - 14], [40 - 42], *, *, *, *, *, *, *, <=50K
+[57 - 58], [11 - 14], [40 - 42], *, *, *, *, *, *, *, >50K
+[57 - 58], [11 - 14], [40 - 42], *, *, *, *, *, *, *, >50K
+[57 - 58], [11 - 14], [40 - 42], *, *, *, *, *, *, *, <=50K
+[57 - 58], [11 - 14], [40 - 42], *, *, *, *, *, *, *, >50K
+[57 - 58], [11 - 14], [40 - 42], *, *, *, *, *, *, *, <=50K
+37, 10, [40 - 45], *, America, *, White, *, *, *, <=50K
+37, 10, [40 - 45], *, America, *, White, *, *, *, <=50K
+37, 10, [40 - 45], *, America, *, White, *, *, *, >50K
+37, 10, [40 - 45], *, America, *, White, *, *, *, <=50K
+37, 10, [40 - 45], *, America, *, White, *, *, *, <=50K
+37, 10, [40 - 45], *, America, *, White, *, *, *, <=50K
+37, 10, [40 - 45], *, America, *, White, *, *, *, <=50K
+37, 10, [40 - 45], *, America, *, White, *, *, *, >50K
+[30 - 35], [7 - 9], 40, *, United-States, *, *, *, *, *, <=50K
+[30 - 35], [7 - 9], 40, *, United-States, *, *, *, *, *, <=50K
+[30 - 35], [7 - 9], 40, *, United-States, *, *, *, *, *, <=50K
+[30 - 35], [7 - 9], 40, *, United-States, *, *, *, *, *, <=50K
+[30 - 35], [7 - 9], 40, *, United-States, *, *, *, *, *, <=50K
+[30 - 35], [7 - 9], 40, *, United-States, *, *, *, *, *, <=50K
+[30 - 35], [7 - 9], 40, *, United-States, *, *, *, *, *, <=50K
+[30 - 35], [7 - 9], 40, *, United-States, *, *, *, *, *, <=50K
+[38 - 42], 9, [35 - 40], Self, *, *, *, *, *, *, <=50K
+[38 - 42], 9, [35 - 40], Self, *, *, *, *, *, *, <=50K
+[38 - 42], 9, [35 - 40], Self, *, *, *, *, *, *, <=50K
+[38 - 42], 9, [35 - 40], Self, *, *, *, *, *, *, >50K
+[38 - 42], 9, [35 - 40], Self, *, *, *, *, *, *, <=50K
+[38 - 42], 9, [35 - 40], Self, *, *, *, *, *, *, <=50K
+[38 - 42], 9, [35 - 40], Self, *, *, *, *, *, *, <=50K
+[38 - 42], 9, [35 - 40], Self, *, *, *, *, *, *, <=50K
+[27 - 31], [11 - 14], [35 - 45], *, United-States, *, White, *, *, *, <=50K
+[27 - 31], [11 - 14], [35 - 45], *, United-States, *, White, *, *, *, <=50K
+[27 - 31], [11 - 14], [35 - 45], *, United-States, *, White, *, *, *, <=50K
+[27 - 31], [11 - 14], [35 - 45], *, United-States, *, White, *, *, *, <=50K
+[27 - 31], [11 - 14], [35 - 45], *, United-States, *, White, *, *, *, <=50K
+[27 - 31], [11 - 14], [35 - 45], *, United-States, *, White, *, *, *, >50K
+[27 - 31], [11 - 14], [35 - 45], *, United-States, *, White, *, *, *, <=50K
+[27 - 31], [11 - 14], [35 - 45], *, United-States, *, White, *, *, *, <=50K
+[31 - 35], 9, [30 - 40], Private, United-States, Female, *, *, *, *, <=50K
+[31 - 35], 9, [30 - 40], Private, United-States, Female, *, *, *, *, <=50K
+[31 - 35], 9, [30 - 40], Private, United-States, Female, *, *, *, *, <=50K
+[31 - 35], 9, [30 - 40], Private, United-States, Female, *, *, *, *, >50K
+[31 - 35], 9, [30 - 40], Private, United-States, Female, *, *, *, *, <=50K
+[31 - 35], 9, [30 - 40], Private, United-States, Female, *, *, *, *, >50K
+[31 - 35], 9, [30 - 40], Private, United-States, Female, *, *, *, *, <=50K
+[31 - 35], 9, [30 - 40], Private, United-States, Female, *, *, *, *, <=50K
+[36 - 46], 9, [24 - 36], *, United-States, *, White, *, *, *, <=50K
+[36 - 46], 9, [24 - 36], *, United-States, *, White, *, *, *, <=50K
+[36 - 46], 9, [24 - 36], *, United-States, *, White, *, *, *, <=50K
+[36 - 46], 9, [24 - 36], *, United-States, *, White, *, *, *, <=50K
+[36 - 46], 9, [24 - 36], *, United-States, *, White, *, *, *, <=50K
+[36 - 46], 9, [24 - 36], *, United-States, *, White, *, *, *, <=50K
+[36 - 46], 9, [24 - 36], *, United-States, *, White, *, *, *, <=50K
+[36 - 46], 9, [24 - 36], *, United-States, *, White, *, *, *, <=50K
+[64 - 66], [7 - 10], [40 - 55], Self, United-States, Male, *, *, *, *, <=50K
+[64 - 66], [7 - 10], [40 - 55], Self, United-States, Male, *, *, *, *, <=50K
+[64 - 66], [7 - 10], [40 - 55], Self, United-States, Male, *, *, *, *, <=50K
+[64 - 66], [7 - 10], [40 - 55], Self, United-States, Male, *, *, *, *, <=50K
+[64 - 66], [7 - 10], [40 - 55], Self, United-States, Male, *, *, *, *, <=50K
+[64 - 66], [7 - 10], [40 - 55], Self, United-States, Male, *, *, *, *, <=50K
+[64 - 66], [7 - 10], [40 - 55], Self, United-States, Male, *, *, *, *, <=50K
+[64 - 66], [7 - 10], [40 - 55], Self, United-States, Male, *, *, *, *, >50K
+47, [10 - 11], [38 - 45], *, America, *, *, *, *, *, <=50K
+47, [10 - 11], [38 - 45], *, America, *, *, *, *, *, >50K
+47, [10 - 11], [38 - 45], *, America, *, *, *, *, *, <=50K
+47, [10 - 11], [38 - 45], *, America, *, *, *, *, *, <=50K
+47, [10 - 11], [38 - 45], *, America, *, *, *, *, *, <=50K
+47, [10 - 11], [38 - 45], *, America, *, *, *, *, *, <=50K
+47, [10 - 11], [38 - 45], *, America, *, *, *, *, *, <=50K
+47, [10 - 11], [38 - 45], *, America, *, *, *, *, *, <=50K
+[71 - 90], [10 - 16], [2 - 48], *, United-States, *, *, *, *, *, <=50K
+[71 - 90], [10 - 16], [2 - 48], *, United-States, *, *, *, *, *, >50K
+[71 - 90], [10 - 16], [2 - 48], *, United-States, *, *, *, *, *, <=50K
+[71 - 90], [10 - 16], [2 - 48], *, United-States, *, *, *, *, *, <=50K
+[71 - 90], [10 - 16], [2 - 48], *, United-States, *, *, *, *, *, >50K
+[71 - 90], [10 - 16], [2 - 48], *, United-States, *, *, *, *, *, <=50K
+[71 - 90], [10 - 16], [2 - 48], *, United-States, *, *, *, *, *, <=50K
+[71 - 90], [10 - 16], [2 - 48], *, United-States, *, *, *, *, *, >50K
+[18 - 28], [9 - 13], [12 - 20], *, *, *, White, Never-married, *, *, <=50K
+[18 - 28], [9 - 13], [12 - 20], *, *, *, White, Never-married, *, *, <=50K
+[18 - 28], [9 - 13], [12 - 20], *, *, *, White, Never-married, *, *, <=50K
+[18 - 28], [9 - 13], [12 - 20], *, *, *, White, Never-married, *, *, <=50K
+[18 - 28], [9 - 13], [12 - 20], *, *, *, White, Never-married, *, *, <=50K
+[18 - 28], [9 - 13], [12 - 20], *, *, *, White, Never-married, *, *, <=50K
+[18 - 28], [9 - 13], [12 - 20], *, *, *, White, Never-married, *, *, <=50K
+[18 - 28], [9 - 13], [12 - 20], *, *, *, White, Never-married, *, *, <=50K
+[23 - 28], [3 - 10], [40 - 48], Private, America, *, White, *, *, *, <=50K
+[23 - 28], [3 - 10], [40 - 48], Private, America, *, White, *, *, *, <=50K
+[23 - 28], [3 - 10], [40 - 48], Private, America, *, White, *, *, *, >50K
+[23 - 28], [3 - 10], [40 - 48], Private, America, *, White, *, *, *, <=50K
+[23 - 28], [3 - 10], [40 - 48], Private, America, *, White, *, *, *, <=50K
+[23 - 28], [3 - 10], [40 - 48], Private, America, *, White, *, *, *, <=50K
+[23 - 28], [3 - 10], [40 - 48], Private, America, *, White, *, *, *, <=50K
+[23 - 28], [3 - 10], [40 - 48], Private, America, *, White, *, *, *, <=50K
+[35 - 43], 10, [40 - 60], *, United-States, *, *, *, *, *, <=50K
+[35 - 43], 10, [40 - 60], *, United-States, *, *, *, *, *, <=50K
+[35 - 43], 10, [40 - 60], *, United-States, *, *, *, *, *, >50K
+[35 - 43], 10, [40 - 60], *, United-States, *, *, *, *, *, <=50K
+[35 - 43], 10, [40 - 60], *, United-States, *, *, *, *, *, >50K
+[35 - 43], 10, [40 - 60], *, United-States, *, *, *, *, *, <=50K
+[35 - 43], 10, [40 - 60], *, United-States, *, *, *, *, *, <=50K
+[35 - 43], 10, [40 - 60], *, United-States, *, *, *, *, *, <=50K
+[53 - 57], [1 - 14], [35 - 50], *, *, *, *, *, *, *, <=50K
+[53 - 57], [1 - 14], [35 - 50], *, *, *, *, *, *, *, >50K
+[53 - 57], [1 - 14], [35 - 50], *, *, *, *, *, *, *, <=50K
+[53 - 57], [1 - 14], [35 - 50], *, *, *, *, *, *, *, <=50K
+[53 - 57], [1 - 14], [35 - 50], *, *, *, *, *, *, *, <=50K
+[53 - 57], [1 - 14], [35 - 50], *, *, *, *, *, *, *, >50K
+[53 - 57], [1 - 14], [35 - 50], *, *, *, *, *, *, *, <=50K
+[53 - 57], [1 - 14], [35 - 50], *, *, *, *, *, *, *, <=50K
+[28 - 33], [15 - 16], [55 - 72], Private, America, *, White, *, *, *, >50K
+[28 - 33], [15 - 16], [55 - 72], Private, America, *, White, *, *, *, <=50K
+[28 - 33], [15 - 16], [55 - 72], Private, America, *, White, *, *, *, <=50K
+[28 - 33], [15 - 16], [55 - 72], Private, America, *, White, *, *, *, <=50K
+[28 - 33], [15 - 16], [55 - 72], Private, America, *, White, *, *, *, <=50K
+[28 - 33], [15 - 16], [55 - 72], Private, America, *, White, *, *, *, >50K
+[28 - 33], [15 - 16], [55 - 72], Private, America, *, White, *, *, *, <=50K
+[28 - 33], [15 - 16], [55 - 72], Private, America, *, White, *, *, *, <=50K
 50, 14, 98, *, United-States, *, *, *, *, *, <=50K
 50, 14, 98, *, United-States, *, *, *, *, *, <=50K
 50, 14, 98, *, United-States, *, *, *, *, *, <=50K

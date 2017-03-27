@@ -1,20 +1,20 @@
 age, education-num, hours-per-week, workclass, native-country, sex, race, marital-status, relationship, occupation, income
-39, 13, 41, Gov, United-States, Male, White, Never-married, Not-in-family, bureaucracy, <=50K
-39, 13, 41, Gov, United-States, Male, White, Never-married, Not-in-family, bureaucracy, <=50K
-50, 13, 18.5, *, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
-50, 13, 18.5, *, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
-38, 9.5, 40, Private, United-States, Male, White, Divorced, Not-in-family, manual-labor, <=50K
-38, 9.5, 40, Private, United-States, Male, White, Divorced, Not-in-family, manual-labor, <=50K
-53, 8, 40, Private, United-States, Male, *, Married-civ-spouse, Husband, manual-labor, <=50K
-53, 8, 40, Private, United-States, Male, *, Married-civ-spouse, Husband, manual-labor, <=50K
+39, 13, [40 - 42], Gov, United-States, Male, White, Never-married, Not-in-family, bureaucracy, <=50K
+39, 13, [40 - 42], Gov, United-States, Male, White, Never-married, Not-in-family, bureaucracy, <=50K
+50, 13, [13 - 24], *, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
+50, 13, [13 - 24], *, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
+38, [9 - 10], 40, Private, United-States, Male, White, Divorced, Not-in-family, manual-labor, <=50K
+38, [9 - 10], 40, Private, United-States, Male, White, Divorced, Not-in-family, manual-labor, <=50K
+53, [7 - 9], 40, Private, United-States, Male, *, Married-civ-spouse, Husband, manual-labor, <=50K
+53, [7 - 9], 40, Private, United-States, Male, *, Married-civ-spouse, Husband, manual-labor, <=50K
 28, 13, 40, Private, America, Female, Black, *, *, services, <=50K
 28, 13, 40, Private, America, Female, Black, *, *, services, <=50K
 37, 14, 40, Private, United-States, *, White, Married-civ-spouse, *, *, <=50K
 37, 14, 40, Private, United-States, *, White, Married-civ-spouse, *, *, >50K
-49, 5.5, 20, Private, America, Female, *, *, *, Other-service, <=50K
-49, 5.5, 20, Private, America, Female, *, *, *, Other-service, <=50K
-52, 9, 47.5, Self, United-States, Male, White, Married-civ-spouse, Husband, Exec-managerial, >50K
-52, 9, 47.5, Self, United-States, Male, White, Married-civ-spouse, Husband, Exec-managerial, >50K
+49, [5 - 6], [16 - 24], Private, America, Female, *, *, *, Other-service, <=50K
+49, [5 - 6], [16 - 24], Private, America, Female, *, *, *, Other-service, <=50K
+52, 9, [45 - 50], Self, United-States, Male, White, Married-civ-spouse, Husband, Exec-managerial, >50K
+52, 9, [45 - 50], Self, United-States, Male, White, Married-civ-spouse, Husband, Exec-managerial, >50K
 31, 14, 50, Private, United-States, Female, White, *, *, Prof-specialty, >50K
 31, 14, 50, Private, United-States, Female, White, *, *, Prof-specialty, <=50K
 42, 13, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, Exec-managerial, >50K
@@ -23,94 +23,94 @@ age, education-num, hours-per-week, workclass, native-country, sex, race, marita
 37, 10, 80, Self, *, Male, *, Married-civ-spouse, Husband, Exec-managerial, >50K
 30, 13, 40, State-gov, *, Male, *, Married-civ-spouse, Husband, Prof-specialty, >50K
 30, 13, 40, State-gov, *, Male, *, Married-civ-spouse, Husband, Prof-specialty, >50K
-24, 13, 35, Private, United-States, Female, White, Never-married, *, bureaucracy, <=50K
-24, 13, 35, Private, United-States, Female, White, Never-married, *, bureaucracy, <=50K
-33, 12, 50, Private, United-States, *, Black, *, *, Sales, <=50K
-33, 12, 50, Private, United-States, *, Black, *, *, Sales, <=50K
-37, 4, 45, Private, Mexico, Male, *, Married-civ-spouse, Husband, manual-labor, <=50K
-37, 4, 45, Private, Mexico, Male, *, Married-civ-spouse, Husband, manual-labor, >50K
+[23 - 25], 13, [30 - 40], Private, United-States, Female, White, Never-married, *, bureaucracy, <=50K
+[23 - 25], 13, [30 - 40], Private, United-States, Female, White, Never-married, *, bureaucracy, <=50K
+[32 - 34], 12, 50, Private, United-States, *, Black, *, *, Sales, <=50K
+[32 - 34], 12, 50, Private, United-States, *, Black, *, *, Sales, <=50K
+[34 - 40], 4, 45, Private, Mexico, Male, *, Married-civ-spouse, Husband, manual-labor, <=50K
+[34 - 40], 4, 45, Private, Mexico, Male, *, Married-civ-spouse, Husband, manual-labor, >50K
 25, 9, 35, Self, United-States, Male, White, Never-married, *, manual-labor, <=50K
 25, 9, 35, Self, United-States, Male, White, Never-married, *, manual-labor, <=50K
 32, 9, 40, Private, United-States, Male, White, Never-married, *, manual-labor, <=50K
 32, 9, 40, Private, United-States, Male, White, Never-married, *, manual-labor, <=50K
-38.5, 7.5, 50, *, United-States, Male, White, Married-civ-spouse, Husband, services, <=50K
-38.5, 7.5, 50, *, United-States, Male, White, Married-civ-spouse, Husband, services, <=50K
-43.5, 14, 45, Self, United-States, Female, White, Divorced, Unmarried, Exec-managerial, >50K
-43.5, 14, 45, Self, United-States, Female, White, Divorced, Unmarried, Exec-managerial, <=50K
-40.5, 16, 60, Private, United-States, Male, White, Married-civ-spouse, Husband, Prof-specialty, >50K
-40.5, 16, 60, Private, United-States, Male, White, Married-civ-spouse, Husband, Prof-specialty, >50K
+[38 - 39], [7 - 8], 50, *, United-States, Male, White, Married-civ-spouse, Husband, services, <=50K
+[38 - 39], [7 - 8], 50, *, United-States, Male, White, Married-civ-spouse, Husband, services, <=50K
+[43 - 44], 14, 45, Self, United-States, Female, White, Divorced, Unmarried, Exec-managerial, >50K
+[43 - 44], 14, 45, Self, United-States, Female, White, Divorced, Unmarried, Exec-managerial, <=50K
+[40 - 41], 16, 60, Private, United-States, Male, White, Married-civ-spouse, Husband, Prof-specialty, >50K
+[40 - 41], 16, 60, Private, United-States, Male, White, Married-civ-spouse, Husband, Prof-specialty, >50K
 54, 9, 20, Private, United-States, *, Black, *, *, *, <=50K
 54, 9, 20, Private, United-States, *, Black, *, *, *, <=50K
-35, 5, 41.5, *, United-States, Male, *, Married-civ-spouse, Husband, manual-labor, <=50K
-35, 5, 41.5, *, United-States, Male, *, Married-civ-spouse, Husband, manual-labor, <=50K
-43, 8, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, manual-labor, <=50K
-43, 8, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, manual-labor, <=50K
-59.5, 9, 40, Private, United-States, *, White, *, *, *, <=50K
-59.5, 9, 40, Private, United-States, *, White, *, *, *, >50K
-56.5, 13, 40, Gov, United-States, Male, *, Married-civ-spouse, Husband, services, >50K
-56.5, 13, 40, Gov, United-States, Male, *, Married-civ-spouse, Husband, services, >50K
-20, 9, 40, Private, United-States, Male, White, Never-married, Own-child, manual-labor, <=50K
-20, 9, 40, Private, United-States, Male, White, Never-married, Own-child, manual-labor, <=50K
+35, 5, [40 - 43], *, United-States, Male, *, Married-civ-spouse, Husband, manual-labor, <=50K
+35, 5, [40 - 43], *, United-States, Male, *, Married-civ-spouse, Husband, manual-labor, <=50K
+43, [7 - 9], 40, Private, United-States, Male, White, Married-civ-spouse, Husband, manual-labor, <=50K
+43, [7 - 9], 40, Private, United-States, Male, White, Married-civ-spouse, Husband, manual-labor, <=50K
+[59 - 60], 9, 40, Private, United-States, *, White, *, *, *, <=50K
+[59 - 60], 9, 40, Private, United-States, *, White, *, *, *, >50K
+[56 - 57], 13, 40, Gov, United-States, Male, *, Married-civ-spouse, Husband, services, >50K
+[56 - 57], 13, 40, Gov, United-States, Male, *, Married-civ-spouse, Husband, services, >50K
+[19 - 21], 9, 40, Private, United-States, Male, White, Never-married, Own-child, manual-labor, <=50K
+[19 - 21], 9, 40, Private, United-States, Male, White, Never-married, Own-child, manual-labor, <=50K
 39, 9, 80, Private, United-States, Male, White, Divorced, Not-in-family, *, <=50K
 39, 9, 80, Private, United-States, Male, White, Divorced, Not-in-family, *, <=50K
 49, 9, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, manual-labor, <=50K
 49, 9, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, manual-labor, <=50K
-23.5, 12, 52, Gov, United-States, Male, White, *, *, Protective-serv, <=50K
-23.5, 12, 52, Gov, United-States, Male, White, *, *, Protective-serv, <=50K
-20.5, 10, 44.5, Private, United-States, Male, *, Never-married, Own-child, Sales, <=50K
-20.5, 10, 44.5, Private, United-States, Male, *, Never-married, Own-child, Sales, <=50K
-45, 13, 42.5, Private, United-States, Male, White, Divorced, *, Exec-managerial, <=50K
-45, 13, 42.5, Private, United-States, Male, White, Divorced, *, Exec-managerial, >50K
-30.5, 10, 40, Gov, United-States, Male, White, Married-civ-spouse, *, *, <=50K
-30.5, 10, 40, Gov, United-States, Male, White, Married-civ-spouse, *, *, <=50K
+[23 - 24], 12, 52, Gov, United-States, Male, White, *, *, Protective-serv, <=50K
+[23 - 24], 12, 52, Gov, United-States, Male, White, *, *, Protective-serv, <=50K
+[20 - 21], 10, [44 - 45], Private, United-States, Male, *, Never-married, Own-child, Sales, <=50K
+[20 - 21], 10, [44 - 45], Private, United-States, Male, *, Never-married, Own-child, Sales, <=50K
+45, 13, [40 - 45], Private, United-States, Male, White, Divorced, *, Exec-managerial, <=50K
+45, 13, [40 - 45], Private, United-States, Male, White, Divorced, *, Exec-managerial, >50K
+[30 - 31], 10, 40, Gov, United-States, Male, White, Married-civ-spouse, *, *, <=50K
+[30 - 31], 10, 40, Gov, United-States, Male, White, Married-civ-spouse, *, *, <=50K
 22, 10, 15, *, United-States, Male, *, *, *, services, <=50K
 22, 10, 15, *, United-States, Male, *, *, *, services, <=50K
-48, 7, 43, Private, Puerto-Rico, *, *, *, Unmarried, Machine-op-inspct, <=50K
-48, 7, 43, Private, Puerto-Rico, *, *, *, Unmarried, Machine-op-inspct, <=50K
+48, 7, [40 - 46], Private, Puerto-Rico, *, *, *, Unmarried, Machine-op-inspct, <=50K
+48, 7, [40 - 46], Private, Puerto-Rico, *, *, *, Unmarried, Machine-op-inspct, <=50K
 21, 10, 40, Private, United-States, Male, White, Never-married, Own-child, Machine-op-inspct, <=50K
 21, 10, 40, Private, United-States, Male, White, Never-married, Own-child, Machine-op-inspct, <=50K
-21, 9, 25, Private, United-States, Female, White, *, *, *, <=50K
-21, 9, 25, Private, United-States, Female, White, *, *, *, <=50K
-48, 12.5, 40, Self, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
-48, 12.5, 40, Self, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
+[19 - 23], 9, 25, Private, United-States, Female, White, *, *, *, <=50K
+[19 - 23], 9, 25, Private, United-States, Female, White, *, *, *, <=50K
+48, [12 - 13], 40, Self, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
+48, [12 - 13], 40, Self, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
 53, 13, 40, Self, America, Male, White, Married-civ-spouse, Husband, services, <=50K
 53, 13, 40, Self, America, Male, White, Married-civ-spouse, Husband, services, <=50K
-24.5, 13, 52.5, Private, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
-24.5, 13, 52.5, Private, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
+[24 - 25], 13, [50 - 55], Private, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
+[24 - 25], 13, [50 - 55], Private, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
 49, 9, 40, *, United-States, Female, *, Separated, Unmarried, Adm-clerical, <=50K
 49, 9, 40, *, United-States, Female, *, Separated, Unmarried, Adm-clerical, <=50K
-54, 9, 39, Private, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
-54, 9, 39, Private, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
+[53 - 55], 9, [38 - 40], Private, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
+[53 - 55], 9, [38 - 40], Private, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
 41, 11, 40, State-gov, United-States, Male, White, Married-civ-spouse, Husband, manual-labor, <=50K
 41, 11, 40, State-gov, United-States, Male, White, Married-civ-spouse, Husband, manual-labor, >50K
-30.5, 11, 44, Private, United-States, Male, White, Never-married, Not-in-family, *, <=50K
-30.5, 11, 44, Private, United-States, Male, White, Never-married, Not-in-family, *, <=50K
+[29 - 32], 11, [43 - 45], Private, United-States, Male, White, Never-married, Not-in-family, *, <=50K
+[29 - 32], 11, [43 - 45], Private, United-States, Male, White, Never-married, Not-in-family, *, <=50K
 25, 10, 40, Private, *, Female, *, Married-civ-spouse, Wife, bureaucracy, <=50K
 25, 10, 40, Private, *, Female, *, Married-civ-spouse, Wife, bureaucracy, <=50K
-47.5, 15.5, 60, Self, America, *, White, Married-civ-spouse, *, Prof-specialty, >50K
-47.5, 15.5, 60, Self, America, *, White, Married-civ-spouse, *, Prof-specialty, >50K
-50.5, 13, 55, *, United-States, Male, White, *, *, Exec-managerial, >50K
-50.5, 13, 55, *, United-States, Male, White, *, *, Exec-managerial, >50K
+[47 - 48], [15 - 16], 60, Self, America, *, White, Married-civ-spouse, *, Prof-specialty, >50K
+[47 - 48], [15 - 16], 60, Self, America, *, White, Married-civ-spouse, *, Prof-specialty, >50K
+[50 - 51], 13, 55, *, United-States, Male, White, *, *, Exec-managerial, >50K
+[50 - 51], 13, 55, *, United-States, Male, White, *, *, Exec-managerial, >50K
 47, 9, 60, Self, United-States, Male, White, *, *, *, <=50K
 47, 9, 60, Self, United-States, Male, White, *, *, *, <=50K
-43.5, 10, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, Tech-support, >50K
-43.5, 10, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, Tech-support, <=50K
-49, 3, 40, Private, Mexico, Male, White, Married-civ-spouse, Husband, Machine-op-inspct, <=50K
-49, 3, 40, Private, Mexico, Male, White, Married-civ-spouse, Husband, Machine-op-inspct, <=50K
-36.5, 11, 40, Private, America, Male, White, Married-civ-spouse, Husband, *, <=50K
-36.5, 11, 40, Private, America, Male, White, Married-civ-spouse, Husband, *, >50K
-41, 9, 49, Private, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
-41, 9, 49, Private, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
+[43 - 44], 10, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, Tech-support, >50K
+[43 - 44], 10, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, Tech-support, <=50K
+[46 - 52], 3, 40, Private, Mexico, Male, White, Married-civ-spouse, Husband, Machine-op-inspct, <=50K
+[46 - 52], 3, 40, Private, Mexico, Male, White, Married-civ-spouse, Husband, Machine-op-inspct, <=50K
+[35 - 38], 11, 40, Private, America, Male, White, Married-civ-spouse, Husband, *, <=50K
+[35 - 38], 11, 40, Private, America, Male, White, Married-civ-spouse, Husband, *, >50K
+41, 9, [48 - 50], Private, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
+41, 9, [48 - 50], Private, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
 30, 9, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, manual-labor, <=50K
 30, 9, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, manual-labor, <=50K
-31.5, 13, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
-31.5, 13, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
+[30 - 33], 13, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
+[30 - 33], 13, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
 42, 16, 45, Private, United-States, Male, White, Married-civ-spouse, Husband, Prof-specialty, >50K
 42, 16, 45, Private, United-States, Male, White, Married-civ-spouse, Husband, Prof-specialty, >50K
-29, 10, 59, Private, United-States, Male, White, Divorced, Not-in-family, *, <=50K
-29, 10, 59, Private, United-States, Male, White, Divorced, Not-in-family, *, <=50K
-36.5, 9, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, Craft-repair, <=50K
-36.5, 9, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, Craft-repair, >50K
+29, 10, [58 - 60], Private, United-States, Male, White, Divorced, Not-in-family, *, <=50K
+29, 10, [58 - 60], Private, United-States, Male, White, Divorced, Not-in-family, *, <=50K
+[36 - 37], 9, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, Craft-repair, <=50K
+[36 - 37], 9, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, Craft-repair, >50K
 28, 10, 40, Private, United-States, Female, White, *, Not-in-family, *, <=50K
 28, 10, 40, Private, United-States, Female, White, *, Not-in-family, *, <=50K
 53, 9, 40, Private, United-States, Female, White, Married-civ-spouse, Wife, *, >50K
@@ -121,12 +121,12 @@ age, education-num, hours-per-week, workclass, native-country, sex, race, marita
 19, 10, 32, Private, America, Male, White, Never-married, Own-child, services, <=50K
 31, 13, 40, Private, *, *, Black, *, Own-child, *, <=50K
 31, 13, 40, Private, *, *, Black, *, Own-child, *, <=50K
-31, 13, 70, Self, United-States, Male, White, Married-civ-spouse, Husband, services, >50K
-31, 13, 70, Self, United-States, Male, White, Married-civ-spouse, Husband, services, <=50K
-23.5, 10, 40, Private, United-States, Male, White, Never-married, Not-in-family, Machine-op-inspct, <=50K
-23.5, 10, 40, Private, United-States, Male, White, Never-married, Not-in-family, Machine-op-inspct, <=50K
-79, 10.5, 20, Private, America, *, White, *, *, *, <=50K
-79, 10.5, 20, Private, America, *, White, *, *, *, <=50K
+[29 - 33], 13, 70, Self, United-States, Male, White, Married-civ-spouse, Husband, services, >50K
+[29 - 33], 13, 70, Self, United-States, Male, White, Married-civ-spouse, Husband, services, <=50K
+[23 - 24], 10, 40, Private, United-States, Male, White, Never-married, Not-in-family, Machine-op-inspct, <=50K
+[23 - 24], 10, 40, Private, United-States, Male, White, Never-married, Not-in-family, Machine-op-inspct, <=50K
+79, [10 - 11], 20, Private, America, *, White, *, *, *, <=50K
+79, [10 - 11], 20, Private, America, *, White, *, *, *, <=50K
 27, 9, 40, Private, America, Male, White, Never-married, *, Other-service, <=50K
 27, 9, 40, Private, America, Male, White, Never-married, *, Other-service, <=50K
 40, 12, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, Adm-clerical, <=50K
@@ -135,24 +135,24 @@ age, education-num, hours-per-week, workclass, native-country, sex, race, marita
 18, 7, 22, Private, United-States, *, White, Never-married, Own-child, *, <=50K
 31, 4, 40, *, America, Male, *, Married-civ-spouse, Husband, manual-labor, <=50K
 31, 4, 40, *, America, Male, *, Married-civ-spouse, Husband, manual-labor, <=50K
-18.5, 9, 30, Private, America, Male, *, Never-married, *, Sales, <=50K
-18.5, 9, 30, Private, America, Male, *, Never-married, *, Sales, <=50K
+[18 - 19], 9, 30, Private, America, Male, *, Never-married, *, Sales, <=50K
+[18 - 19], 9, 30, Private, America, Male, *, Never-married, *, Sales, <=50K
 59, 9, 48, Private, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
 59, 9, 48, Private, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
 44, 9, 40, Private, United-States, Female, White, Divorced, Not-in-family, *, >50K
 44, 9, 40, Private, United-States, Female, White, Divorced, Not-in-family, *, <=50K
-55.5, 9, 35, Self, United-States, Female, White, *, *, Sales, <=50K
-55.5, 9, 35, Self, United-States, Female, White, *, *, Sales, >50K
-50, 9, 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, >50K
-50, 9, 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
+[53 - 58], 9, 35, Self, United-States, Female, White, *, *, Sales, <=50K
+[53 - 58], 9, 35, Self, United-States, Female, White, *, *, Sales, >50K
+[49 - 51], 9, 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, >50K
+[49 - 51], 9, 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
 33, 14, 50, Private, United-States, Male, White, Married-civ-spouse, Husband, Prof-specialty, <=50K
 33, 14, 50, Private, United-States, Male, White, Married-civ-spouse, Husband, Prof-specialty, >50K
-30, 5.5, 40, Private, United-States, Male, White, Never-married, Not-in-family, services, <=50K
-30, 5.5, 40, Private, United-States, Male, White, Never-married, Not-in-family, services, <=50K
-45, 16, 50, *, United-States, Female, White, Never-married, Not-in-family, Prof-specialty, >50K
-45, 16, 50, *, United-States, Female, White, Never-married, Not-in-family, Prof-specialty, <=50K
-58, 11, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, services, <=50K
-58, 11, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, services, <=50K
+30, [5 - 6], 40, Private, United-States, Male, White, Never-married, Not-in-family, services, <=50K
+30, [5 - 6], 40, Private, United-States, Male, White, Never-married, Not-in-family, services, <=50K
+[43 - 47], 16, 50, *, United-States, Female, White, Never-married, Not-in-family, Prof-specialty, >50K
+[43 - 47], 16, 50, *, United-States, Female, White, Never-married, Not-in-family, Prof-specialty, <=50K
+[57 - 59], 11, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, services, <=50K
+[57 - 59], 11, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, services, <=50K
 37, 10, 40, Private, America, Female, White, Divorced, Unmarried, *, <=50K
 37, 10, 40, Private, America, Female, White, Divorced, Unmarried, *, <=50K
 28, 10, 25, Private, United-States, Female, *, *, *, *, <=50K
@@ -161,158 +161,158 @@ age, education-num, hours-per-week, workclass, native-country, sex, race, marita
 34, 13, 40, *, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
 29, 10, 50, Local-gov, United-States, Male, *, *, Not-in-family, Handlers-cleaners, <=50K
 29, 10, 50, Local-gov, United-States, Male, *, *, Not-in-family, Handlers-cleaners, <=50K
-37, 10, 49, Private, United-States, Male, White, Married-civ-spouse, Husband, services, >50K
-37, 10, 49, Private, United-States, Male, White, Married-civ-spouse, Husband, services, >50K
-49, 12, 40, Private, *, Female, White, Divorced, *, *, <=50K
-49, 12, 40, Private, *, Female, White, Divorced, *, *, <=50K
-33, 9, 40, *, United-States, Male, Black, Never-married, *, *, <=50K
-33, 9, 40, *, United-States, Male, Black, Never-married, *, *, <=50K
+37, 10, [48 - 50], Private, United-States, Male, White, Married-civ-spouse, Husband, services, >50K
+37, 10, [48 - 50], Private, United-States, Male, White, Married-civ-spouse, Husband, services, >50K
+[48 - 50], 12, 40, Private, *, Female, White, Divorced, *, *, <=50K
+[48 - 50], 12, 40, Private, *, Female, White, Divorced, *, *, <=50K
+[32 - 34], 9, 40, *, United-States, Male, Black, Never-married, *, *, <=50K
+[32 - 34], 9, 40, *, United-States, Male, Black, Never-married, *, *, <=50K
 76, 14, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
 76, 14, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
 44, 13, 60, Private, United-States, Male, White, Married-civ-spouse, Husband, Exec-managerial, >50K
 44, 13, 60, Private, United-States, Male, White, Married-civ-spouse, Husband, Exec-managerial, <=50K
-20.5, 10, 40, Private, United-States, Female, White, Never-married, Own-child, services, <=50K
-20.5, 10, 40, Private, United-States, Female, White, Never-married, Own-child, services, <=50K
+[20 - 21], 10, 40, Private, United-States, Female, White, Never-married, Own-child, services, <=50K
+[20 - 21], 10, 40, Private, United-States, Female, White, Never-married, Own-child, services, <=50K
 29, 9, 40, Private, United-States, Male, White, Never-married, Not-in-family, manual-labor, <=50K
 29, 9, 40, Private, United-States, Male, White, Never-married, Not-in-family, manual-labor, <=50K
-32.5, 9, 40, Self, United-States, *, White, Married-civ-spouse, *, Craft-repair, >50K
-32.5, 9, 40, Self, United-States, *, White, Married-civ-spouse, *, Craft-repair, >50K
+[32 - 33], 9, 40, Self, United-States, *, White, Married-civ-spouse, *, Craft-repair, >50K
+[32 - 33], 9, 40, Self, United-States, *, White, Married-civ-spouse, *, Craft-repair, >50K
 30, 7, 40, Private, United-States, *, White, Never-married, *, *, <=50K
 30, 7, 40, Private, United-States, *, White, Never-married, *, *, <=50K
-32.5, 9, 40, *, United-States, Female, White, Never-married, Not-in-family, Adm-clerical, <=50K
-32.5, 9, 40, *, United-States, Female, White, Never-married, Not-in-family, Adm-clerical, <=50K
-25, 13, 40, Private, United-States, Male, White, Never-married, *, Sales, <=50K
-25, 13, 40, Private, United-States, Male, White, Never-married, *, Sales, <=50K
-56, 9.5, 50, Self, North-America, Male, White, Married-civ-spouse, Husband, services, >50K
-56, 9.5, 50, Self, North-America, Male, White, Married-civ-spouse, Husband, services, <=50K
+[31 - 34], 9, 40, *, United-States, Female, White, Never-married, Not-in-family, Adm-clerical, <=50K
+[31 - 34], 9, 40, *, United-States, Female, White, Never-married, Not-in-family, Adm-clerical, <=50K
+[24 - 26], 13, 40, Private, United-States, Male, White, Never-married, *, Sales, <=50K
+[24 - 26], 13, 40, Private, United-States, Male, White, Never-married, *, Sales, <=50K
+56, [9 - 10], 50, Self, North-America, Male, White, Married-civ-spouse, Husband, services, >50K
+56, [9 - 10], 50, Self, North-America, Male, White, Married-civ-spouse, Husband, services, <=50K
 36, 9, 40, Private, United-States, *, White, Never-married, *, manual-labor, <=50K
 36, 9, 40, Private, United-States, *, White, Never-married, *, manual-labor, <=50K
-53.5, 5, 50, Self, United-States, Male, White, Married-civ-spouse, Husband, manual-labor, <=50K
-53.5, 5, 50, Self, United-States, Male, White, Married-civ-spouse, Husband, manual-labor, >50K
+[53 - 54], 5, 50, Self, United-States, Male, White, Married-civ-spouse, Husband, manual-labor, <=50K
+[53 - 54], 5, 50, Self, United-States, Male, White, Married-civ-spouse, Husband, manual-labor, >50K
 49, 11, 40, *, United-States, Male, *, Married-civ-spouse, Husband, Craft-repair, >50K
 49, 11, 40, *, United-States, Male, *, Married-civ-spouse, Husband, Craft-repair, >50K
-55.5, 10, 56, Self, United-States, Male, White, Married-civ-spouse, Husband, Sales, <=50K
-55.5, 10, 56, Self, United-States, Male, White, Married-civ-spouse, Husband, Sales, <=50K
-23, 9, 41, Private, United-States, Male, White, Never-married, *, Craft-repair, <=50K
-23, 9, 41, Private, United-States, Male, White, Never-married, *, Craft-repair, <=50K
-30.5, 13, 50, *, United-States, Male, White, Married-civ-spouse, Husband, Prof-specialty, >50K
-30.5, 13, 50, *, United-States, Male, White, Married-civ-spouse, Husband, Prof-specialty, <=50K
-19.5, 10, 35, Private, United-States, Male, *, Never-married, *, services, <=50K
-19.5, 10, 35, Private, United-States, Male, *, Never-married, *, services, <=50K
+[55 - 56], 10, 56, Self, United-States, Male, White, Married-civ-spouse, Husband, Sales, <=50K
+[55 - 56], 10, 56, Self, United-States, Male, White, Married-civ-spouse, Husband, Sales, <=50K
+[22 - 24], 9, 41, Private, United-States, Male, White, Never-married, *, Craft-repair, <=50K
+[22 - 24], 9, 41, Private, United-States, Male, White, Never-married, *, Craft-repair, <=50K
+[29 - 32], 13, 50, *, United-States, Male, White, Married-civ-spouse, Husband, Prof-specialty, >50K
+[29 - 32], 13, 50, *, United-States, Male, White, Married-civ-spouse, Husband, Prof-specialty, <=50K
+[19 - 20], 10, 35, Private, United-States, Male, *, Never-married, *, services, <=50K
+[19 - 20], 10, 35, Private, United-States, Male, *, Never-married, *, services, <=50K
 47, 13, 40, Private, United-States, Female, White, *, *, *, >50K
 47, 13, 40, Private, United-States, Female, White, *, *, *, <=50K
-21, 10, 29, Private, United-States, *, White, Never-married, Own-child, *, <=50K
-21, 10, 29, Private, United-States, *, White, Never-married, Own-child, *, <=50K
-32, 12, 42.5, Private, *, Male, White, Married-civ-spouse, Husband, *, >50K
-32, 12, 42.5, Private, *, Male, White, Married-civ-spouse, Husband, *, <=50K
+[20 - 22], 10, [28 - 30], Private, United-States, *, White, Never-married, Own-child, *, <=50K
+[20 - 22], 10, [28 - 30], Private, United-States, *, White, Never-married, Own-child, *, <=50K
+[31 - 33], 12, [40 - 45], Private, *, Male, White, Married-civ-spouse, Husband, *, >50K
+[31 - 33], 12, [40 - 45], Private, *, Male, White, Married-civ-spouse, Husband, *, <=50K
 39, 10, 40, Private, United-States, Male, White, Divorced, Not-in-family, Craft-repair, <=50K
 39, 10, 40, Private, United-States, Male, White, Divorced, Not-in-family, Craft-repair, <=50K
-31.5, 12, 60, Private, United-States, Female, White, Never-married, Not-in-family, *, <=50K
-31.5, 12, 60, Private, United-States, Female, White, Never-married, Not-in-family, *, <=50K
-24.5, 9, 40, Private, United-States, Female, White, Never-married, *, Other-service, <=50K
-24.5, 9, 40, Private, United-States, Female, White, Never-married, *, Other-service, <=50K
-38.5, 9, 37.5, Self-emp-not-inc, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
-38.5, 9, 37.5, Self-emp-not-inc, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
-37.5, 13, 50, Private, *, Male, White, Married-civ-spouse, Husband, Sales, <=50K
-37.5, 13, 50, Private, *, Male, White, Married-civ-spouse, Husband, Sales, <=50K
+[28 - 35], 12, 60, Private, United-States, Female, White, Never-married, Not-in-family, *, <=50K
+[28 - 35], 12, 60, Private, United-States, Female, White, Never-married, Not-in-family, *, <=50K
+[24 - 25], 9, 40, Private, United-States, Female, White, Never-married, *, Other-service, <=50K
+[24 - 25], 9, 40, Private, United-States, Female, White, Never-married, *, Other-service, <=50K
+[38 - 39], 9, [35 - 40], Self-emp-not-inc, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
+[38 - 39], 9, [35 - 40], Self-emp-not-inc, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
+[37 - 38], 13, 50, Private, *, Male, White, Married-civ-spouse, Husband, Sales, <=50K
+[37 - 38], 13, 50, Private, *, Male, White, Married-civ-spouse, Husband, Sales, <=50K
 46, 12, 36, Private, United-States, Female, *, *, Not-in-family, services, <=50K
 46, 12, 36, Private, United-States, Female, *, *, Not-in-family, services, <=50K
 38, 14, 40, Federal-gov, *, Male, White, *, *, Prof-specialty, >50K
 38, 14, 40, Federal-gov, *, Male, White, *, *, Prof-specialty, <=50K
-44, 9.5, 60, Self, United-States, Male, White, Married-civ-spouse, Husband, Craft-repair, <=50K
-44, 9.5, 60, Self, United-States, Male, White, Married-civ-spouse, Husband, Craft-repair, >50K
-27.5, 11, 37.5, Private, United-States, Female, White, Married-civ-spouse, Wife, *, <=50K
-27.5, 11, 37.5, Private, United-States, Female, White, Married-civ-spouse, Wife, *, <=50K
+[43 - 45], [9 - 10], 60, Self, United-States, Male, White, Married-civ-spouse, Husband, Craft-repair, <=50K
+[43 - 45], [9 - 10], 60, Self, United-States, Male, White, Married-civ-spouse, Husband, Craft-repair, >50K
+[27 - 28], 11, [35 - 40], Private, United-States, Female, White, Married-civ-spouse, Wife, *, <=50K
+[27 - 28], 11, [35 - 40], Private, United-States, Female, White, Married-civ-spouse, Wife, *, <=50K
 20, 10, 20, Private, United-States, *, White, Never-married, Own-child, *, <=50K
 20, 10, 20, Private, United-States, *, White, Never-married, Own-child, *, <=50K
 61, 9, 40, Self, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
 61, 9, 40, Self, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
 27, 10, 40, Private, United-States, Female, White, Never-married, Own-child, services, <=50K
 27, 10, 40, Private, United-States, Female, White, Never-married, Own-child, services, <=50K
-46, 11, 40, Private, United-States, *, White, Never-married, Not-in-family, services, >50K
-46, 11, 40, Private, United-States, *, White, Never-married, Not-in-family, services, <=50K
+[45 - 47], 11, 40, Private, United-States, *, White, Never-married, Not-in-family, services, >50K
+[45 - 47], 11, 40, Private, United-States, *, White, Never-married, Not-in-family, services, <=50K
 70, 10, 40, Private, United-States, Male, White, Never-married, *, services, <=50K
 70, 10, 40, Private, United-States, Male, White, Never-married, *, services, >50K
-31.5, 9, 30, Private, United-States, Female, *, *, *, *, <=50K
-31.5, 9, 30, Private, United-States, Female, *, *, *, *, <=50K
-22, 10, 27, Private, United-States, Male, White, Married-civ-spouse, Husband, services, <=50K
-22, 10, 27, Private, United-States, Male, White, Married-civ-spouse, Husband, services, <=50K
-36, 9, 24.5, Private, United-States, Female, White, *, Unmarried, services, <=50K
-36, 9, 24.5, Private, United-States, Female, White, *, Unmarried, services, <=50K
-64.5, 7, 40, Private, United-States, Male, *, *, *, *, <=50K
-64.5, 7, 40, Private, United-States, Male, *, *, *, *, <=50K
-47, 10, 39, *, America, Female, White, Divorced, Unmarried, *, <=50K
-47, 10, 39, *, America, Female, White, Divorced, Unmarried, *, <=50K
+[31 - 32], 9, 30, Private, United-States, Female, *, *, *, *, <=50K
+[31 - 32], 9, 30, Private, United-States, Female, *, *, *, *, <=50K
+22, 10, [24 - 30], Private, United-States, Male, White, Married-civ-spouse, Husband, services, <=50K
+22, 10, [24 - 30], Private, United-States, Male, White, Married-civ-spouse, Husband, services, <=50K
+36, 9, [24 - 25], Private, United-States, Female, White, *, Unmarried, services, <=50K
+36, 9, [24 - 25], Private, United-States, Female, White, *, Unmarried, services, <=50K
+[64 - 65], 7, 40, Private, United-States, Male, *, *, *, *, <=50K
+[64 - 65], 7, 40, Private, United-States, Male, *, *, *, *, <=50K
+47, 10, [38 - 40], *, America, Female, White, Divorced, Unmarried, *, <=50K
+47, 10, [38 - 40], *, America, Female, White, Divorced, Unmarried, *, <=50K
 33, 13, 40, *, *, Female, *, *, *, Exec-managerial, <=50K
 33, 13, 40, *, *, Female, *, *, *, Exec-managerial, >50K
-21, 9, 37.5, Private, United-States, Male, *, Never-married, Own-child, Craft-repair, <=50K
-21, 9, 37.5, Private, United-States, Male, *, Never-married, Own-child, Craft-repair, <=50K
+21, 9, [35 - 40], Private, United-States, Male, *, Never-married, Own-child, Craft-repair, <=50K
+21, 9, [35 - 40], Private, United-States, Male, *, Never-married, Own-child, Craft-repair, <=50K
 48, 9, 46, Private, United-States, Male, *, Married-civ-spouse, Husband, manual-labor, <=50K
 48, 9, 46, Private, United-States, Male, *, Married-civ-spouse, Husband, manual-labor, <=50K
-24.5, 13, 40, Private, United-States, Male, White, Never-married, Not-in-family, *, <=50K
-24.5, 13, 40, Private, United-States, Male, White, Never-married, Not-in-family, *, <=50K
-72.5, 10, 5.5, Self, United-States, *, *, *, *, *, <=50K
-72.5, 10, 5.5, Self, United-States, *, *, *, *, *, <=50K
+[23 - 26], 13, 40, Private, United-States, Male, White, Never-married, Not-in-family, *, <=50K
+[23 - 26], 13, 40, Private, United-States, Male, White, Never-married, Not-in-family, *, <=50K
+[71 - 74], 10, [2 - 9], Self, United-States, *, *, *, *, *, <=50K
+[71 - 74], 10, [2 - 9], Self, United-States, *, *, *, *, *, <=50K
 42, 13, 50, Private, *, Male, *, *, *, *, <=50K
 42, 13, 50, Private, *, Male, *, *, *, *, >50K
-44.5, 14, 40, *, United-States, Female, *, Divorced, Unmarried, *, <=50K
-44.5, 14, 40, *, United-States, Female, *, Divorced, Unmarried, *, <=50K
-29, 9, 40, Private, *, Female, *, *, *, Exec-managerial, <=50K
-29, 9, 40, Private, *, Female, *, *, *, Exec-managerial, <=50K
+[44 - 45], 14, 40, *, United-States, Female, *, Divorced, Unmarried, *, <=50K
+[44 - 45], 14, 40, *, United-States, Female, *, Divorced, Unmarried, *, <=50K
+[28 - 30], 9, 40, Private, *, Female, *, *, *, Exec-managerial, <=50K
+[28 - 30], 9, 40, Private, *, Female, *, *, *, Exec-managerial, <=50K
 45, 14, 40, Self-emp-not-inc, United-States, Male, White, Married-civ-spouse, Husband, services, >50K
 45, 14, 40, Self-emp-not-inc, United-States, Male, White, Married-civ-spouse, Husband, services, <=50K
-46.5, 14, 40, Gov, United-States, Male, White, *, *, *, <=50K
-46.5, 14, 40, Gov, United-States, Male, White, *, *, *, <=50K
+[46 - 47], 14, 40, Gov, United-States, Male, White, *, *, *, <=50K
+[46 - 47], 14, 40, Gov, United-States, Male, White, *, *, *, <=50K
 18, 7, 16, Private, United-States, Male, White, Never-married, Own-child, *, <=50K
 18, 7, 16, Private, United-States, Male, White, Never-married, Own-child, *, <=50K
-66.5, 11, 22, *, United-States, Female, White, *, Not-in-family, services, <=50K
-66.5, 11, 22, *, United-States, Female, White, *, Not-in-family, services, <=50K
+[66 - 67], 11, [20 - 24], *, United-States, Female, White, *, Not-in-family, services, <=50K
+[66 - 67], 11, [20 - 24], *, United-States, Female, White, *, Not-in-family, services, <=50K
 28, 9, 40, *, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
 28, 9, 40, *, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
-51.5, 10, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
-51.5, 10, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
+[51 - 52], 10, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
+[51 - 52], 10, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
 27, 13, 50, Private, United-States, Male, White, Never-married, Not-in-family, Craft-repair, <=50K
 27, 13, 50, Private, United-States, Male, White, Never-married, Not-in-family, Craft-repair, <=50K
-27, 9, 30, Private, United-States, Female, White, *, Unmarried, services, <=50K
-27, 9, 30, Private, United-States, Female, White, *, Unmarried, services, <=50K
-18.5, 9.5, 12, Private, United-States, Male, White, Never-married, Own-child, *, <=50K
-18.5, 9.5, 12, Private, United-States, Male, White, Never-married, Own-child, *, <=50K
-44, 10, 39, *, United-States, Male, *, Married-civ-spouse, Husband, Exec-managerial, >50K
-44, 10, 39, *, United-States, Male, *, Married-civ-spouse, Husband, Exec-managerial, <=50K
-44.5, 10, 40, Private, United-States, Female, White, Divorced, Not-in-family, *, <=50K
-44.5, 10, 40, Private, United-States, Female, White, Divorced, Not-in-family, *, <=50K
-35.5, 10, 45, Private, United-States, Male, Black, Never-married, Not-in-family, Craft-repair, <=50K
-35.5, 10, 45, Private, United-States, Male, Black, Never-married, Not-in-family, Craft-repair, <=50K
-37, 10, 43.5, Gov, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
-37, 10, 43.5, Gov, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
-35, 9, 40, Private, United-States, Male, Black, Married-civ-spouse, Husband, *, <=50K
-35, 9, 40, Private, United-States, Male, Black, Married-civ-spouse, Husband, *, <=50K
+27, 9, [25 - 35], Private, United-States, Female, White, *, Unmarried, services, <=50K
+27, 9, [25 - 35], Private, United-States, Female, White, *, Unmarried, services, <=50K
+[18 - 19], [9 - 10], 12, Private, United-States, Male, White, Never-married, Own-child, *, <=50K
+[18 - 19], [9 - 10], 12, Private, United-States, Male, White, Never-married, Own-child, *, <=50K
+44, 10, [38 - 40], *, United-States, Male, *, Married-civ-spouse, Husband, Exec-managerial, >50K
+44, 10, [38 - 40], *, United-States, Male, *, Married-civ-spouse, Husband, Exec-managerial, <=50K
+[43 - 46], 10, 40, Private, United-States, Female, White, Divorced, Not-in-family, *, <=50K
+[43 - 46], 10, 40, Private, United-States, Female, White, Divorced, Not-in-family, *, <=50K
+[30 - 41], 10, 45, Private, United-States, Male, Black, Never-married, Not-in-family, Craft-repair, <=50K
+[30 - 41], 10, 45, Private, United-States, Male, Black, Never-married, Not-in-family, Craft-repair, <=50K
+37, 10, [42 - 45], Gov, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
+37, 10, [42 - 45], Gov, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
+[34 - 36], 9, 40, Private, United-States, Male, Black, Married-civ-spouse, Husband, *, <=50K
+[34 - 36], 9, 40, Private, United-States, Male, Black, Married-civ-spouse, Husband, *, <=50K
 41, 13, 40, Self-emp-not-inc, United-States, Female, White, *, Not-in-family, *, <=50K
 41, 13, 40, Self-emp-not-inc, United-States, Female, White, *, Not-in-family, *, <=50K
-67, 16, 5.5, *, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
-67, 16, 5.5, *, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
-39.5, 10, 28, *, United-States, Female, Black, Divorced, Not-in-family, *, <=50K
-39.5, 10, 28, *, United-States, Female, Black, Divorced, Not-in-family, *, <=50K
-24.5, 10, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, manual-labor, <=50K
-24.5, 10, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, manual-labor, <=50K
+[58 - 76], 16, [1 - 10], *, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
+[58 - 76], 16, [1 - 10], *, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
+[38 - 41], 10, 28, *, United-States, Female, Black, Divorced, Not-in-family, *, <=50K
+[38 - 41], 10, 28, *, United-States, Female, Black, Divorced, Not-in-family, *, <=50K
+[24 - 25], 10, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, manual-labor, <=50K
+[24 - 25], 10, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, manual-labor, <=50K
 41, 13, 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
 41, 13, 40, *, United-States, Male, *, Married-civ-spouse, Husband, *, >50K
 23, 3, 40, Private, Mexico, *, White, Married-civ-spouse, Other-relative, manual-labor, <=50K
 23, 3, 40, Private, Mexico, *, White, Married-civ-spouse, Other-relative, manual-labor, <=50K
-40.5, 14, 60, *, United-States, *, White, *, *, Exec-managerial, >50K
-40.5, 14, 60, *, United-States, *, White, *, *, Exec-managerial, >50K
-25, 9, 40, Self, United-States, Male, White, Never-married, Not-in-family, *, <=50K
-25, 9, 40, Self, United-States, Male, White, Never-married, Not-in-family, *, <=50K
+[40 - 41], 14, [55 - 65], *, United-States, *, White, *, *, Exec-managerial, >50K
+[40 - 41], 14, [55 - 65], *, United-States, *, White, *, *, Exec-managerial, >50K
+[24 - 26], 9, 40, Self, United-States, Male, White, Never-married, Not-in-family, *, <=50K
+[24 - 26], 9, 40, Self, United-States, Male, White, Never-married, Not-in-family, *, <=50K
 26, 14, 40, Private, United-States, Female, White, Never-married, Not-in-family, services, <=50K
 26, 14, 40, Private, United-States, Female, White, Never-married, Not-in-family, services, <=50K
 42, 10, 40, Gov, United-States, Female, White, Never-married, Not-in-family, *, <=50K
 42, 10, 40, Gov, United-States, Female, White, Never-married, Not-in-family, *, <=50K
-39, 9, 35.5, *, United-States, Female, White, Divorced, Unmarried, Adm-clerical, <=50K
-39, 9, 35.5, *, United-States, Female, White, Divorced, Unmarried, Adm-clerical, <=50K
-18, 8, 40, Private, United-States, Female, White, Never-married, Own-child, Sales, <=50K
-18, 8, 40, Private, United-States, Female, White, Never-married, Own-child, Sales, <=50K
-36, 13, 40.5, Private, United-States, Male, *, Married-civ-spouse, Husband, services, >50K
-36, 13, 40.5, Private, United-States, Male, *, Married-civ-spouse, Husband, services, <=50K
+[37 - 41], 9, [35 - 36], *, United-States, Female, White, Divorced, Unmarried, Adm-clerical, <=50K
+[37 - 41], 9, [35 - 36], *, United-States, Female, White, Divorced, Unmarried, Adm-clerical, <=50K
+18, [7 - 9], 40, Private, United-States, Female, White, Never-married, Own-child, Sales, <=50K
+18, [7 - 9], 40, Private, United-States, Female, White, Never-married, Own-child, Sales, <=50K
+36, 13, [36 - 45], Private, United-States, Male, *, Married-civ-spouse, Husband, services, >50K
+36, 13, [36 - 45], Private, United-States, Male, *, Married-civ-spouse, Husband, services, <=50K
 35, 9, 60, Private, United-States, Male, White, *, Not-in-family, manual-labor, <=50K
 35, 9, 60, Private, United-States, Male, White, *, Not-in-family, manual-labor, <=50K
 17, 7, 12, Private, United-States, *, White, Never-married, Own-child, services, <=50K
@@ -323,58 +323,58 @@ age, education-num, hours-per-week, workclass, native-country, sex, race, marita
 35, 10, 40, Private, United-States, Female, *, Never-married, Not-in-family, *, <=50K
 60, 9, 40, Self, United-States, Male, *, Married-civ-spouse, Husband, manual-labor, <=50K
 60, 9, 40, Self, United-States, Male, *, Married-civ-spouse, Husband, manual-labor, <=50K
-37.5, 13, 60, Private, United-States, Male, *, *, *, *, >50K
-37.5, 13, 60, Private, United-States, Male, *, *, *, *, >50K
+[37 - 38], 13, 60, Private, United-States, Male, *, *, *, *, >50K
+[37 - 38], 13, 60, Private, United-States, Male, *, *, *, *, >50K
 45, 13, 55, Private, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
 45, 13, 55, Private, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
-25.5, 6.5, 40, Private, United-States, Male, White, *, *, Craft-repair, <=50K
-25.5, 6.5, 40, Private, United-States, Male, White, *, *, Craft-repair, <=50K
-34.5, 10, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, manual-labor, <=50K
-34.5, 10, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, manual-labor, <=50K
-90, 9.5, 40, Self, United-States, Male, *, *, *, services, <=50K
-90, 9.5, 40, Self, United-States, Male, *, *, *, services, <=50K
-55, 1.5, 35, *, United-States, Female, *, *, Not-in-family, *, <=50K
-55, 1.5, 35, *, United-States, Female, *, *, Not-in-family, *, <=50K
+[25 - 26], [6 - 7], 40, Private, United-States, Male, White, *, *, Craft-repair, <=50K
+[25 - 26], [6 - 7], 40, Private, United-States, Male, White, *, *, Craft-repair, <=50K
+[31 - 38], 10, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, manual-labor, <=50K
+[31 - 38], 10, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, manual-labor, <=50K
+90, [9 - 10], 40, Self, United-States, Male, *, *, *, services, <=50K
+90, [9 - 10], 40, Self, United-States, Male, *, *, *, services, <=50K
+[53 - 57], [1 - 2], 35, *, United-States, Female, *, *, Not-in-family, *, <=50K
+[53 - 57], [1 - 2], 35, *, United-States, Female, *, *, Not-in-family, *, <=50K
 66, 9, 50, Self-emp-not-inc, United-States, Male, White, Married-civ-spouse, Husband, Farming-fishing, <=50K
 66, 9, 50, Self-emp-not-inc, United-States, Male, White, Married-civ-spouse, Husband, Farming-fishing, <=50K
 65, 9, 40, Private, United-States, *, White, *, *, bureaucracy, <=50K
 65, 9, 40, Private, United-States, *, White, *, *, bureaucracy, >50K
 35, 7, 40, *, United-States, Male, Black, Separated, Not-in-family, manual-labor, <=50K
 35, 7, 40, *, United-States, Male, Black, Separated, Not-in-family, manual-labor, <=50K
-41, 9, 39, Private, United-States, Female, *, Divorced, Unmarried, Sales, <=50K
-41, 9, 39, Private, United-States, Female, *, Divorced, Unmarried, Sales, <=50K
+41, 9, [38 - 40], Private, United-States, Female, *, Divorced, Unmarried, Sales, <=50K
+41, 9, [38 - 40], Private, United-States, Female, *, Divorced, Unmarried, Sales, <=50K
 25, 10, 42, Private, United-States, Male, White, Never-married, Not-in-family, *, <=50K
 25, 10, 42, Private, United-States, Male, White, Never-married, Not-in-family, *, <=50K
 33, 10, 40, Private, United-States, Female, *, Divorced, *, *, <=50K
 33, 10, 40, Private, United-States, Female, *, Divorced, *, *, <=50K
-28.5, 15, 55.5, *, United-States, Male, White, Never-married, Not-in-family, *, >50K
-28.5, 15, 55.5, *, United-States, Male, White, Never-married, Not-in-family, *, <=50K
-60.5, 9, 40, Gov, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
-60.5, 9, 40, Gov, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
-38, 14, 75, *, United-States, Male, White, Married-civ-spouse, Husband, Exec-managerial, >50K
-38, 14, 75, *, United-States, Male, White, Married-civ-spouse, Husband, Exec-managerial, >50K
-23.5, 9, 40, *, United-States, Male, White, Never-married, Own-child, *, <=50K
-23.5, 9, 40, *, United-States, Male, White, Never-married, Own-child, *, <=50K
-42, 9.5, 20, Self-emp-not-inc, United-States, *, White, Married-civ-spouse, *, *, <=50K
-42, 9.5, 20, Self-emp-not-inc, United-States, *, White, Married-civ-spouse, *, *, <=50K
-33, 9, 34.5, Private, United-States, Female, White, Never-married, Not-in-family, Other-service, <=50K
-33, 9, 34.5, Private, United-States, Female, White, Never-married, Not-in-family, Other-service, <=50K
-40.5, 12, 60, Private, United-States, *, White, Married-civ-spouse, *, *, >50K
-40.5, 12, 60, Private, United-States, *, White, Married-civ-spouse, *, *, >50K
-41.5, 15, 40, Private, United-States, Female, *, Married-civ-spouse, Wife, *, >50K
-41.5, 15, 40, Private, United-States, Female, *, Married-civ-spouse, Wife, *, <=50K
-59, 6, 35, Local-gov, United-States, *, *, *, *, *, <=50K
-59, 6, 35, Local-gov, United-States, *, *, *, *, *, <=50K
-19.5, 10, 40, *, United-States, Male, White, Never-married, Own-child, *, <=50K
-19.5, 10, 40, *, United-States, Male, White, Never-married, Own-child, *, <=50K
-60, 10, 22, Private, United-States, *, White, *, Not-in-family, *, <=50K
-60, 10, 22, Private, United-States, *, White, *, Not-in-family, *, <=50K
-43.5, 9, 40, Self, *, Male, *, Married-civ-spouse, Husband, *, >50K
-43.5, 9, 40, Self, *, Male, *, Married-civ-spouse, Husband, *, <=50K
+[28 - 29], 15, [55 - 56], *, United-States, Male, White, Never-married, Not-in-family, *, >50K
+[28 - 29], 15, [55 - 56], *, United-States, Male, White, Never-married, Not-in-family, *, <=50K
+[59 - 62], 9, 40, Gov, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
+[59 - 62], 9, 40, Gov, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
+38, 14, [70 - 80], *, United-States, Male, White, Married-civ-spouse, Husband, Exec-managerial, >50K
+38, 14, [70 - 80], *, United-States, Male, White, Married-civ-spouse, Husband, Exec-managerial, >50K
+[23 - 24], 9, 40, *, United-States, Male, White, Never-married, Own-child, *, <=50K
+[23 - 24], 9, 40, *, United-States, Male, White, Never-married, Own-child, *, <=50K
+[41 - 43], [9 - 10], 20, Self-emp-not-inc, United-States, *, White, Married-civ-spouse, *, *, <=50K
+[41 - 43], [9 - 10], 20, Self-emp-not-inc, United-States, *, White, Married-civ-spouse, *, *, <=50K
+[32 - 34], 9, [34 - 35], Private, United-States, Female, White, Never-married, Not-in-family, Other-service, <=50K
+[32 - 34], 9, [34 - 35], Private, United-States, Female, White, Never-married, Not-in-family, Other-service, <=50K
+[40 - 41], 12, 60, Private, United-States, *, White, Married-civ-spouse, *, *, >50K
+[40 - 41], 12, 60, Private, United-States, *, White, Married-civ-spouse, *, *, >50K
+[41 - 42], 15, 40, Private, United-States, Female, *, Married-civ-spouse, Wife, *, >50K
+[41 - 42], 15, 40, Private, United-States, Female, *, Married-civ-spouse, Wife, *, <=50K
+59, 6, [30 - 40], Local-gov, United-States, *, *, *, *, *, <=50K
+59, 6, [30 - 40], Local-gov, United-States, *, *, *, *, *, <=50K
+[19 - 20], 10, 40, *, United-States, Male, White, Never-married, Own-child, *, <=50K
+[19 - 20], 10, 40, *, United-States, Male, White, Never-married, Own-child, *, <=50K
+[58 - 62], 10, [20 - 24], Private, United-States, *, White, *, Not-in-family, *, <=50K
+[58 - 62], 10, [20 - 24], Private, United-States, *, White, *, Not-in-family, *, <=50K
+[42 - 45], 9, 40, Self, *, Male, *, Married-civ-spouse, Husband, *, >50K
+[42 - 45], 9, 40, Self, *, Male, *, Married-civ-spouse, Husband, *, <=50K
 20, 9, 40, Private, United-States, Female, White, Never-married, *, Other-service, <=50K
 20, 9, 40, Private, United-States, Female, White, Never-married, *, Other-service, <=50K
-47, 11, 45, Private, United-States, *, White, *, *, *, <=50K
-47, 11, 45, Private, United-States, *, White, *, *, *, <=50K
+[45 - 49], 11, 45, Private, United-States, *, White, *, *, *, <=50K
+[45 - 49], 11, 45, Private, United-States, *, White, *, *, *, <=50K
 50, 4, 40, Private, America, Male, White, *, *, Craft-repair, <=50K
 50, 4, 40, Private, America, Male, White, *, *, Craft-repair, <=50K
 36, 13, 40, Self, United-States, Female, *, Divorced, *, Prof-specialty, <=50K
@@ -385,117 +385,117 @@ age, education-num, hours-per-week, workclass, native-country, sex, race, marita
 17, 5, 24, Private, United-States, Male, White, Never-married, *, Other-service, <=50K
 50, 14, 98, Self, United-States, Male, White, *, *, *, <=50K
 50, 14, 98, Self, United-States, Male, White, *, *, *, <=50K
-28, 14, 37.5, *, United-States, Male, White, Never-married, *, Prof-specialty, <=50K
-28, 14, 37.5, *, United-States, Male, White, Never-married, *, Prof-specialty, <=50K
-30.5, 9, 40, Private, United-States, Female, White, Divorced, *, Prof-specialty, <=50K
-30.5, 9, 40, Private, United-States, Female, White, Divorced, *, Prof-specialty, <=50K
+[27 - 29], 14, [35 - 40], *, United-States, Male, White, Never-married, *, Prof-specialty, <=50K
+[27 - 29], 14, [35 - 40], *, United-States, Male, White, Never-married, *, Prof-specialty, <=50K
+[30 - 31], 9, 40, Private, United-States, Female, White, Divorced, *, Prof-specialty, <=50K
+[30 - 31], 9, 40, Private, United-States, Female, White, Divorced, *, Prof-specialty, <=50K
 44, 10, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, manual-labor, >50K
 44, 10, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, manual-labor, <=50K
 24, 10, 48, Private, United-States, *, White, Married-civ-spouse, *, *, >50K
 24, 10, 48, Private, United-States, *, White, Married-civ-spouse, *, *, <=50K
 22, 13, 15, Private, *, Female, White, Never-married, Not-in-family, services, <=50K
 22, 13, 15, Private, *, Female, White, Never-married, Not-in-family, services, <=50K
-43, 10, 40, *, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
-43, 10, 40, *, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
-60, 13, 43.5, Private, United-States, Female, White, Divorced, Not-in-family, *, <=50K
-60, 13, 43.5, Private, United-States, Female, White, Divorced, Not-in-family, *, >50K
+[42 - 44], 10, 40, *, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
+[42 - 44], 10, 40, *, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
+60, 13, [42 - 45], Private, United-States, Female, White, Divorced, Not-in-family, *, <=50K
+60, 13, [42 - 45], Private, United-States, Female, White, Divorced, Not-in-family, *, >50K
 57, 14, 40, Gov, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
 57, 14, 40, Gov, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
-52, 10, 45, Private, United-States, Male, White, Divorced, Not-in-family, *, <=50K
-52, 10, 45, Private, United-States, Male, White, Divorced, Not-in-family, *, <=50K
-65, 9, 28, Self, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
-65, 9, 28, Self, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
-37, 13, 62, Self, United-States, Female, White, Divorced, Not-in-family, services, <=50K
-37, 13, 62, Self, United-States, Female, White, Divorced, Not-in-family, services, <=50K
-23, 10, 25, Private, United-States, Female, *, Never-married, Not-in-family, *, <=50K
-23, 10, 25, Private, United-States, Female, *, Never-married, Not-in-family, *, <=50K
-33, 9, 45, Private, United-States, Male, White, *, *, Transport-moving, >50K
-33, 9, 45, Private, United-States, Male, White, *, *, Transport-moving, <=50K
+[50 - 54], 10, 45, Private, United-States, Male, White, Divorced, Not-in-family, *, <=50K
+[50 - 54], 10, 45, Private, United-States, Male, White, Divorced, Not-in-family, *, <=50K
+65, 9, [16 - 40], Self, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
+65, 9, [16 - 40], Self, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
+37, 13, [60 - 64], Self, United-States, Female, White, Divorced, Not-in-family, services, <=50K
+37, 13, [60 - 64], Self, United-States, Female, White, Divorced, Not-in-family, services, <=50K
+[21 - 25], 10, 25, Private, United-States, Female, *, Never-married, Not-in-family, *, <=50K
+[21 - 25], 10, 25, Private, United-States, Female, *, Never-married, Not-in-family, *, <=50K
+[31 - 35], 9, 45, Private, United-States, Male, White, *, *, Transport-moving, >50K
+[31 - 35], 9, 45, Private, United-States, Male, White, *, *, Transport-moving, <=50K
 26, 12, 45, Private, United-States, Male, White, Never-married, Not-in-family, services, <=50K
 26, 12, 45, Private, United-States, Male, White, Never-married, Not-in-family, services, <=50K
-42, 10, 54, Self, United-States, Male, White, Married-civ-spouse, Husband, manual-labor, >50K
-42, 10, 54, Self, United-States, Male, White, Married-civ-spouse, Husband, manual-labor, <=50K
-34, 14, 42.5, Private, *, Male, *, Married-civ-spouse, Husband, *, >50K
-34, 14, 42.5, Private, *, Male, *, Married-civ-spouse, Husband, *, >50K
-29.5, 10, 40, Private, United-States, Female, White, Never-married, *, *, <=50K
-29.5, 10, 40, Private, United-States, Female, White, Never-married, *, *, <=50K
+[41 - 43], 10, 54, Self, United-States, Male, White, Married-civ-spouse, Husband, manual-labor, >50K
+[41 - 43], 10, 54, Self, United-States, Male, White, Married-civ-spouse, Husband, manual-labor, <=50K
+34, 14, [35 - 50], Private, *, Male, *, Married-civ-spouse, Husband, *, >50K
+34, 14, [35 - 50], Private, *, Male, *, Married-civ-spouse, Husband, *, >50K
+[29 - 30], 10, 40, Private, United-States, Female, White, Never-married, *, *, <=50K
+[29 - 30], 10, 40, Private, United-States, Female, White, Never-married, *, *, <=50K
 43, 10, 50, *, United-States, Female, White, Married-civ-spouse, Wife, *, >50K
 43, 10, 50, *, United-States, Female, White, Married-civ-spouse, Wife, *, <=50K
 66, 9, 55, *, United-States, Male, White, *, *, Transport-moving, <=50K
 66, 9, 55, *, United-States, Male, White, *, *, Transport-moving, <=50K
-20, 3, 48, Private, Central-America, Male, White, Never-married, *, Other-service, <=50K
-20, 3, 48, Private, Central-America, Male, White, Never-married, *, Other-service, <=50K
-37, 9, 40, Gov, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
-37, 9, 40, Gov, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
+[17 - 23], 3, 48, Private, Central-America, Male, White, Never-married, *, Other-service, <=50K
+[17 - 23], 3, 48, Private, Central-America, Male, White, Never-married, *, Other-service, <=50K
+[36 - 38], 9, 40, Gov, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
+[36 - 38], 9, 40, Gov, United-States, Male, White, Married-civ-spouse, Husband, *, >50K
 33, 9, 20, Private, United-States, *, White, Never-married, *, *, <=50K
 33, 9, 20, Private, United-States, *, White, Never-married, *, *, <=50K
 22, 10, 40, *, United-States, Female, Black, Never-married, Own-child, *, <=50K
 22, 10, 40, *, United-States, Female, Black, Never-married, Own-child, *, <=50K
-43.5, 13, 42, Self, United-States, Male, White, Never-married, *, *, <=50K
-43.5, 13, 42, Self, United-States, Male, White, Never-married, *, *, <=50K
-56, 12, 32.5, Self, *, Male, White, *, Not-in-family, *, <=50K
-56, 12, 32.5, Self, *, Male, White, *, Not-in-family, *, <=50K
-32, 13, 25, Private, United-States, Male, White, Never-married, Own-child, *, <=50K
-32, 13, 25, Private, United-States, Male, White, Never-married, Own-child, *, <=50K
+[43 - 44], 13, 42, Self, United-States, Male, White, Never-married, *, *, <=50K
+[43 - 44], 13, 42, Self, United-States, Male, White, Never-married, *, *, <=50K
+56, 12, [25 - 40], Self, *, Male, White, *, Not-in-family, *, <=50K
+56, 12, [25 - 40], Self, *, Male, White, *, Not-in-family, *, <=50K
+[31 - 33], 13, 25, Private, United-States, Male, White, Never-married, Own-child, *, <=50K
+[31 - 33], 13, 25, Private, United-States, Male, White, Never-married, Own-child, *, <=50K
 26, 9, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
 26, 9, 40, Private, United-States, Male, White, Married-civ-spouse, Husband, *, <=50K
-46, 8, 30, *, United-States, Male, White, Married-civ-spouse, Husband, manual-labor, <=50K
-46, 8, 30, *, United-States, Male, White, Married-civ-spouse, Husband, manual-labor, <=50K
+46, [7 - 9], 30, *, United-States, Male, White, Married-civ-spouse, Husband, manual-labor, <=50K
+46, [7 - 9], 30, *, United-States, Male, White, Married-civ-spouse, Husband, manual-labor, <=50K
 40, 11, 40, Private, United-States, Male, *, Married-civ-spouse, Husband, *, >50K
 40, 11, 40, Private, United-States, Male, *, Married-civ-spouse, Husband, *, >50K
 42, 9, 35, Private, United-States, Female, White, *, *, *, <=50K
 42, 9, 35, Private, United-States, Female, White, *, *, *, <=50K
-26.5, 5, 40, Self, *, Male, White, *, *, Craft-repair, <=50K
-26.5, 5, 40, Self, *, Male, White, *, *, Craft-repair, <=50K
-22.5, 9, 57.5, Private, United-States, Male, White, *, *, *, <=50K
-22.5, 9, 57.5, Private, United-States, Male, White, *, *, *, <=50K
+[26 - 27], 5, 40, Self, *, Male, White, *, *, Craft-repair, <=50K
+[26 - 27], 5, 40, Self, *, Male, White, *, *, Craft-repair, <=50K
+[22 - 23], 9, [55 - 60], Private, United-States, Male, White, *, *, *, <=50K
+[22 - 23], 9, [55 - 60], Private, United-States, Male, White, *, *, *, <=50K
 26, 10, 15, Gov, United-States, Female, White, Never-married, *, Adm-clerical, <=50K
 26, 10, 15, Gov, United-States, Female, White, Never-married, *, Adm-clerical, <=50K
 44, 9, 40, Private, United-States, *, Black, *, *, *, <=50K
 44, 9, 40, Private, United-States, *, Black, *, *, *, <=50K
-34, 9, 40, Private, United-States, Female, White, Married-civ-spouse, Wife, *, <=50K
-34, 9, 40, Private, United-States, Female, White, Married-civ-spouse, Wife, *, >50K
-47.5, 14, 37.5, Self, United-States, Male, White, *, *, Exec-managerial, <=50K
-47.5, 14, 37.5, Self, United-States, Male, White, *, *, Exec-managerial, >50K
-48, 3, 45, Private, United-States, *, White, *, *, Craft-repair, <=50K
-48, 3, 45, Private, United-States, *, White, *, *, Craft-repair, <=50K
+[33 - 35], 9, 40, Private, United-States, Female, White, Married-civ-spouse, Wife, *, <=50K
+[33 - 35], 9, 40, Private, United-States, Female, White, Married-civ-spouse, Wife, *, >50K
+[46 - 49], 14, [30 - 45], Self, United-States, Male, White, *, *, Exec-managerial, <=50K
+[46 - 49], 14, [30 - 45], Self, United-States, Male, White, *, *, Exec-managerial, >50K
+[46 - 50], 3, 45, Private, United-States, *, White, *, *, Craft-repair, <=50K
+[46 - 50], 3, 45, Private, United-States, *, White, *, *, Craft-repair, <=50K
 36, 10, 40, Local-gov, United-States, Female, White, *, *, *, <=50K
 36, 10, 40, Local-gov, United-States, Female, White, *, *, *, <=50K
 29, 9, 40, Private, United-States, Male, White, *, Not-in-family, manual-labor, <=50K
 29, 9, 40, Private, United-States, Male, White, *, Not-in-family, manual-labor, <=50K
-44.5, 10, 17, Private, United-States, Female, White, *, *, Adm-clerical, >50K
-44.5, 10, 17, Private, United-States, Female, White, *, *, Adm-clerical, <=50K
-52, 14.5, 55, Self, United-States, Male, White, Married-civ-spouse, Husband, Exec-managerial, >50K
-52, 14.5, 55, Self, United-States, Male, White, Married-civ-spouse, Husband, Exec-managerial, >50K
-35, 10, 50, Private, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
-35, 10, 50, Private, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
+[44 - 45], 10, [6 - 28], Private, United-States, Female, White, *, *, Adm-clerical, >50K
+[44 - 45], 10, [6 - 28], Private, United-States, Female, White, *, *, Adm-clerical, <=50K
+52, [13 - 16], [50 - 60], Self, United-States, Male, White, Married-civ-spouse, Husband, Exec-managerial, >50K
+52, [13 - 16], [50 - 60], Self, United-States, Male, White, Married-civ-spouse, Husband, Exec-managerial, >50K
+[32 - 38], 10, 50, Private, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
+[32 - 38], 10, 50, Private, United-States, Male, *, Married-civ-spouse, Husband, *, <=50K
 24, 9, 40, *, *, *, *, Never-married, *, manual-labor, <=50K
 24, 9, 40, *, *, *, *, Never-married, *, manual-labor, <=50K
-36.5, 8.5, 50, Self, United-States, Male, White, *, *, Craft-repair, >50K
-36.5, 8.5, 50, Self, United-States, Male, White, *, *, Craft-repair, <=50K
-36.5, 9, 40, *, United-States, Female, White, Divorced, Unmarried, *, <=50K
-36.5, 9, 40, *, United-States, Female, White, Divorced, Unmarried, *, <=50K
-37, 7.5, 37.5, Private, United-States, Female, White, *, Unmarried, Craft-repair, <=50K
-37, 7.5, 37.5, Private, United-States, Female, White, *, Unmarried, Craft-repair, <=50K
-25, 9, 66, Private, America, Male, White, *, *, manual-labor, <=50K
-25, 9, 66, Private, America, Male, White, *, *, manual-labor, <=50K
-30, 12.5, 25, Private, United-States, Female, White, Married-civ-spouse, Wife, services, >50K
-30, 12.5, 25, Private, United-States, Female, White, Married-civ-spouse, Wife, services, >50K
-28, 10.5, 40, Private, *, Male, *, *, *, Craft-repair, <=50K
-28, 10.5, 40, Private, *, Male, *, *, *, Craft-repair, <=50K
-35.5, 9, 60, *, United-States, *, *, *, *, *, <=50K
-35.5, 9, 60, *, United-States, *, *, *, *, *, <=50K
-45, 9, 40, *, United-States, *, White, *, *, *, >50K
-45, 9, 40, *, United-States, *, White, *, *, *, <=50K
+[35 - 38], [8 - 9], 50, Self, United-States, Male, White, *, *, Craft-repair, >50K
+[35 - 38], [8 - 9], 50, Self, United-States, Male, White, *, *, Craft-repair, <=50K
+[34 - 39], 9, 40, *, United-States, Female, White, Divorced, Unmarried, *, <=50K
+[34 - 39], 9, 40, *, United-States, Female, White, Divorced, Unmarried, *, <=50K
+[33 - 41], [6 - 9], [35 - 40], Private, United-States, Female, White, *, Unmarried, Craft-repair, <=50K
+[33 - 41], [6 - 9], [35 - 40], Private, United-States, Female, White, *, Unmarried, Craft-repair, <=50K
+25, 9, [60 - 72], Private, America, Male, White, *, *, manual-labor, <=50K
+25, 9, [60 - 72], Private, America, Male, White, *, *, manual-labor, <=50K
+30, [12 - 13], 25, Private, United-States, Female, White, Married-civ-spouse, Wife, services, >50K
+30, [12 - 13], 25, Private, United-States, Female, White, Married-civ-spouse, Wife, services, >50K
+[27 - 29], [10 - 11], 40, Private, *, Male, *, *, *, Craft-repair, <=50K
+[27 - 29], [10 - 11], 40, Private, *, Male, *, *, *, Craft-repair, <=50K
+[34 - 37], 9, 60, *, United-States, *, *, *, *, *, <=50K
+[34 - 37], 9, 60, *, United-States, *, *, *, *, *, <=50K
+[44 - 46], 9, 40, *, United-States, *, White, *, *, *, >50K
+[44 - 46], 9, 40, *, United-States, *, White, *, *, *, <=50K
 54, 9, 40, *, United-States, Male, *, *, *, Transport-moving, <=50K
 54, 9, 40, *, United-States, Male, *, *, *, Transport-moving, <=50K
-26, 13, 20, *, United-States, *, White, Never-married, Not-in-family, services, <=50K
-26, 13, 20, *, United-States, *, White, Never-married, Not-in-family, services, <=50K
-25.5, 10, 27.5, Private, United-States, Female, *, *, *, *, <=50K
-25.5, 10, 27.5, Private, United-States, Female, *, *, *, *, <=50K
-58, 10, 50, Private, *, *, White, Divorced, Unmarried, *, <=50K
-58, 10, 50, Private, *, *, White, Divorced, Unmarried, *, >50K
-26.5, 14.5, 40, Private, United-States, Male, *, Never-married, *, *, <=50K
-26.5, 14.5, 40, Private, United-States, Male, *, Never-married, *, *, <=50K
-47.5, 12, 46.5, Private, United-States, Male, White, *, *, *, <=50K
-47.5, 12, 46.5, Private, United-States, Male, White, *, *, *, >50K
+[24 - 28], 13, 20, *, United-States, *, White, Never-married, Not-in-family, services, <=50K
+[24 - 28], 13, 20, *, United-States, *, White, Never-married, Not-in-family, services, <=50K
+[25 - 26], 10, [20 - 35], Private, United-States, Female, *, *, *, *, <=50K
+[25 - 26], 10, [20 - 35], Private, United-States, Female, *, *, *, *, <=50K
+58, 10, [42 - 58], Private, *, *, White, Divorced, Unmarried, *, <=50K
+58, 10, [42 - 58], Private, *, *, White, Divorced, Unmarried, *, >50K
+[24 - 29], [13 - 16], 40, Private, United-States, Male, *, Never-married, *, *, <=50K
+[24 - 29], [13 - 16], 40, Private, United-States, Male, *, Never-married, *, *, <=50K
+[28 - 67], [9 - 15], [45 - 48], Private, United-States, Male, White, *, *, *, <=50K
+[28 - 67], [9 - 15], [45 - 48], Private, United-States, Male, White, *, *, *, >50K
