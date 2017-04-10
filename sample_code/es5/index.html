@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+  <title>Anon Sample</title>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+</head>
+
+<body>
+
+<script type="text/javascript" src="./js/graphinius.min.js"></script>
+<script type="text/javascript" src="./js/anonymization.min.js"></script>
+
+<script>
+  let basename = "/akhci-sample-data/00_sample_data_UI_prototype";
+  
+  let TARGETS = [
+    "target_education-num",
+    "target_marital-status",
+    "target_income"
+  ];
+
+  let filename = "original_data_500_rows.csv";
+
+  let csvIn = new $A.IO.CSVIN($A.config.adults);
+  console.log("CSV Reader: ");
+  console.log(csvIn);
+
+  TARGETS.forEach( function (target) {    
+    let url = basename + "/" + target + "/" + filename;
+
+    csvIn.readCSVFromURL(url, function(body) {
+      console.log("File length in total rows:");
+      console.log(body.length);
+      console.log("Headers:")
+      console.log(body[0]);
+    });
+  });  
+
+</script>
+
+</body>
+
+</html>
