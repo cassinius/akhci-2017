@@ -8,10 +8,20 @@
 
 <body>
 
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
 <script type="text/javascript" src="./js/graphinius.min.js"></script>
 <script type="text/javascript" src="./js/anonymization.min.js"></script>
 
 <script>
+  console.log("AnonymizationJS:");
+  console.dir($A);
+
+  console.log("GraphiniusJS:");
+  console.dir($G);
+
   let basename = "/akhci-sample-data/00_sample_data_UI_prototype";
   
   let TARGETS = [
@@ -21,21 +31,103 @@
   ];
 
   let filename = "original_data_500_rows.csv";
+  let anonym_file = "adults_anonymized_k3_equal.csv";
 
   let csvIn = new $A.IO.CSVIN($A.config.adults);
   console.log("CSV Reader: ");
   console.log(csvIn);
+  
 
-  TARGETS.forEach( function (target) {    
-    let url = basename + "/" + target + "/" + filename;
+  let url = basename + "/" + TARGETS[0] + "/" + filename;
+  let records = [];
+  // CAUTION: beware the SOP... (no JSONP etc. implemented)
+  csvIn.readCSVFromURL(url, function(csv) {
+    // console.log("File URL: " + url);
+    // console.log("File length in total rows:");
+    // console.log(csv.length);
+    // console.log("Headers:");
+    // console.log(csv[0]);
+    // console.log(csv[1]);
+    // records = csv.slice(1);
+  });
+  
 
-    csvIn.readCSVFromURL(url, function(body) {
-      console.log("File length in total rows:");
-      console.log(body.length);
-      console.log("Headers:")
-      console.log(body[0]);
-    });
-  });  
+  // Instantiate a SaNGreeA object
+  // NOTE: The config should be instantiated by the User Interface,
+  // the internal $A.config... was only for testing!
+  let config = $A.config.adults;
+  
+  // of course we can overwrite the settings locally
+  config.NR_DRAWS = 500; // max for this file...
+  config.K_FACTOR = 7;
+
+  let san = new $A.algorithms.Sangreea("testus", config);
+  console.log("SaNGreeA Algorithm:");
+  console.log(san);
+
+
+  // Inspect the internal graph => should be empty
+  console.log("Graph Stats BEFORE Instantiation:");
+  console.log(san._graph.getStats());
+
+
+  // Specify Generalization hierarchy files
+  let gen_base = '/akhci-sample-data/genHierarchies/',
+      workclass_file = gen_base + 'workclassGH.json',
+      sex_file = gen_base + 'sexGH.json',
+      race_file = gen_base + 'raceGH.json',
+      marital_file = gen_base + 'marital-statusGH.json',
+      nat_country_file = gen_base + 'native-countryGH.json',
+      relationship_file = gen_base + 'relationshipGH.json',
+      occupation_file = gen_base + 'occupationGH.json',
+      income_file = gen_base + 'incomeGH.json';
+
+  // Uff, this feels like 2012 at the latest....
+  $.ajaxSetup({
+      async: false
+  });
+
+  // Load Generalization hierarchies
+  [workclass_file, nat_country_file, sex_file, race_file, marital_file,
+   relationship_file, occupation_file, income_file].forEach((file) => {
+    var json = $.getJSON(file).responseText;
+    // console.log(json);
+    strgh = new $A.genHierarchy.Category(json);
+    san.setCatHierarchy(strgh._name, strgh);
+  });
+
+
+  // Remotely read the original data and anonymize
+  csvIn.readCSVFromURL(url, function(csv) {
+    console.log("File URL ANON: " + url);
+    console.log("File length ANON in total rows:");
+    console.log(csv.length);
+    console.log("Headers:")
+    console.log(csv[0]);
+    console.log(csv[1]);
+
+    san.instantiateGraph(csv, false );
+    // Inspect the internal graph again => should be populated now
+    console.log("Graph Stats AFTER Instantiation:");
+    console.log(san._graph.getStats());
+
+    // let's run the whole anonymization inside the browser
+    san.anonymizeGraph();
+
+    // let's take a look at the clusters
+    console.dir(san._clusters);
+  });
+
+
+  // function selectRandomCluster(clusters) {
+
+  // }
+
+
+  // function selectRandomRecord(clusters) {
+
+  // }
+
 
 </script>
 
