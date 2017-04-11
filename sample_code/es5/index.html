@@ -116,17 +116,25 @@
 
     // let's take a look at the clusters
     console.dir(san._clusters);
+
+    sampleCostCalculation(san);
   });
 
 
-  // function selectRandomCluster(clusters) {
+  function sampleCostCalculation(san) {
+    // Compute costs between some Cluster and some node
+    let cluster = selectRandomCluster(san._clusters);
+    let node = san._graph.getRandomNode();
 
-  // }
+    function selectRandomCluster(clusters) {
+      return clusters[Math.floor(Math.random()*clusters.length)];
+    }
 
-
-  // function selectRandomRecord(clusters) {
-
-  // }
+    console.log("\n Computing cost of generalization between cluster and node:");
+    console.log(cluster);
+    console.log(node);
+    console.log("Cost: " + san.calculateGIL(cluster, node));
+  }
 
 
 </script>
