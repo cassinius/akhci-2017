@@ -38,19 +38,7 @@
   console.log(csvIn);
   
 
-  let url = basename + "/" + TARGETS[0] + "/" + filename;
-  let records = [];
-  // CAUTION: beware the SOP... (no JSONP etc. implemented)
-  csvIn.readCSVFromURL(url, function(csv) {
-    // console.log("File URL: " + url);
-    // console.log("File length in total rows:");
-    // console.log(csv.length);
-    // console.log("Headers:");
-    // console.log(csv[0]);
-    // console.log(csv[1]);
-    // records = csv.slice(1);
-  });
-  
+  let url = basename + "/" + TARGETS[0] + "/" + filename;  
 
   // Instantiate a SaNGreeA object
   // NOTE: The config should be instantiated by the User Interface,
