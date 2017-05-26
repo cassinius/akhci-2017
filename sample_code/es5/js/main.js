@@ -121,10 +121,53 @@ csvIn.readCSVFromURL(url, function(csv) {
     type: "POST",
     url: ML_URL,
     data: JSON.stringify({
-      'grouptoken': "cafebabe",
-      'usertoken': "firstuser",
-      'csvdata': csv_result,
-      'target': 'marital-status'
+      "grouptoken": "string",
+      "usertoken": "string",      
+      "weights": {
+        "bias": {
+          "age": 0.37931034482758613,
+          "education-num": 0.0689655172413793,
+          "hours-per-week": 0.0689655172413793,
+          "workclass": 0.0689655172413793,
+          "native-country": 0.0689655172413793,
+          "sex": 0.0689655172413793,
+          "race": 0.0689655172413793,
+          "relationship": 0.0689655172413793,
+          "occupation": 0.0689655172413793,
+          "marital-status": 0.0689655172413793
+        },
+        "iml": {
+          "age": 0.13704865909390093,
+          "education-num": 0.14385388791553647,
+          "hours-per-week": 0.1279067106608888,
+          "workclass": 0.11057201781371723,
+          "native-country": 0.11958109916626228,
+          "sex": 0.0958123676325629,
+          "race": 0.12552706039834438,
+          "relationship": 0.074162197318787,
+          "occupation": 0.032768000000000005,
+          "marital-status": 0.032768000000000005
+        }
+      },
+      "csv": {
+        "bias": csv_result,
+        "iml": csv_result
+      },
+      "target": "marital-status",
+      // ===== OPTIONAL =====
+      "user": {
+        "token": "NjY6W29iamVjdCBPYmplY3RdOjE0OTU0NDI1NTI4MDk6dW5kZWZpbmVk",
+        "education": {
+          "id": 1,
+          "description": "secondary modern school"
+        },
+        "age": 66,
+        "username": "Anonym"
+      },
+      "survey": {
+        "sid": 2,
+        "target_column": "income",
+      }
     }),
     contentType: "application/json; charset=utf-8",
     // dataType: "application/json; charset=utf-8",
@@ -152,5 +195,9 @@ function sampleCostCalculation(san) {
 
 function MLSuccess(data) {
   console.log("SUCCESS result from server:");
-  console.log(JSON.parse(data));
+  let result_obj = JSON.parse(data);
+  console.log(result_obj);
+
+  document.querySelector("#results_json").innerHTML = JSON.stringify(result_obj, undefined, 2);
+  document.querySelector("#result-plot-img").src = result_obj.plotURL;
 }
