@@ -16,7 +16,8 @@ let anonym_file = "adults_anonymized_k3_equal.csv";
 let basename = "/akhci-sample-data/00_sample_data_UI_prototype";
 let url = basename + "/" + TARGETS[0] + "/" + filename;
 // Remote Machine Learning Service
-let ML_URL = "http://localhost:5000/anonML";
+// let ML_URL = "http://localhost:5000/anonML";
+let ML_URL = "http://berndmalle.com:5000/anonML";
 
 
 let csvIn = new $A.IO.CSVIN($A.config.adults);
@@ -89,6 +90,9 @@ $.ajaxSetup({
   san.setCatHierarchy(strgh._name, strgh);
 });
 
+$.ajaxSetup({
+    async: true
+});
 
 // Remotely read the original data and anonymize
 csvIn.readCSVFromURL(url, function(csv) {
@@ -176,6 +180,20 @@ csvIn.readCSVFromURL(url, function(csv) {
   });
 });
 
+// In the meanwhile, set the spinner and waiting text...
+document.querySelector("#results_json").innerHTML = "<h3> Please be patient... this can take a few minutes to compute... </h3>";
+document.querySelector("#result-plot-img").src = "./img/spinner.gif";
+
+
+function MLSuccess(data) {
+  console.log("SUCCESS result from server:");
+  let result_obj = JSON.parse(data);
+  console.log(result_obj);
+
+  document.querySelector("#results_json").innerHTML = JSON.stringify(result_obj, undefined, 2);
+  document.querySelector("#result-plot-img").src = result_obj.plotURL;
+}
+
 
 function sampleCostCalculation(san) {
   // Compute costs between some Cluster and some node
@@ -190,14 +208,4 @@ function sampleCostCalculation(san) {
   console.log(cluster);
   console.log(node);
   console.log("Cost: " + san.calculateGIL(cluster, node));
-}
-
-
-function MLSuccess(data) {
-  console.log("SUCCESS result from server:");
-  let result_obj = JSON.parse(data);
-  console.log(result_obj);
-
-  document.querySelector("#results_json").innerHTML = JSON.stringify(result_obj, undefined, 2);
-  document.querySelector("#result-plot-img").src = result_obj.plotURL;
 }
