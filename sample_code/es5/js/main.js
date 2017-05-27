@@ -15,12 +15,11 @@ let anonym_file = "adults_anonymized_k3_equal.csv";
 // Host
 let basename = "/akhci-sample-data/00_sample_data_UI_prototype";
 let url = basename + "/" + TARGETS[1] + "/" + filename;
-// Remote Machine Learning Service
 
-let ML_URL = "http://localhost:5000/anonML";
+// Remote Machine Learning Service 
+// let ML_URL = "http://localhost:5000/anonML";
 // let ML_URL = "http://berndmalle.com:5000/anonML";
-
-console.log(`Remote ML Service: ${ML_URL}`);
+// console.log(`Remote ML Service: ${ML_URL}`);
 
 let csvIn = new $A.IO.CSVIN($A.config.adults);
 // console.log("CSV Reader: ");
@@ -122,79 +121,85 @@ csvIn.readCSVFromURL(url, function(csv) {
   let csv_result = san.constructAnonymizedCSV();
 
   // Build the request data
-  let request_data = JSON.stringify({
-      "grouptoken": "string",
-      "usertoken": "string",      
-      "weights": {
-        "bias": {
-          "age": 0.37931034482758613,
-          "education-num": 0.0689655172413793,
-          "hours-per-week": 0.0689655172413793,
-          "workclass": 0.0689655172413793,
-          "native-country": 0.0689655172413793,
-          "sex": 0.0689655172413793,
-          "race": 0.0689655172413793,
-          "relationship": 0.0689655172413793,
-          "occupation": 0.0689655172413793,
-          "marital-status": 0.0689655172413793
-        },
-        "iml": {
-          "age": 0.13704865909390093,
-          "education-num": 0.14385388791553647,
-          "hours-per-week": 0.1279067106608888,
-          "workclass": 0.11057201781371723,
-          "native-country": 0.11958109916626228,
-          "sex": 0.0958123676325629,
-          "race": 0.12552706039834438,
-          "relationship": 0.074162197318787,
-          "occupation": 0.032768000000000005,
-          "marital-status": 0.032768000000000005
-        }
+  // !!! DO NOT JSON STRINGIFY FOR SOCKET COMMUNICATION !!!
+  // !!! THIS RESULTED IN A SPURIOUS SAME-ORIGIN-POLICY ERROR !!!
+  let request_data = {
+    "grouptoken": "string",
+    "usertoken": "string",      
+    "weights": {
+      "bias": {
+        "age": 0.37931034482758613,
+        "education-num": 0.0689655172413793,
+        "hours-per-week": 0.0689655172413793,
+        "workclass": 0.0689655172413793,
+        "native-country": 0.0689655172413793,
+        "sex": 0.0689655172413793,
+        "race": 0.0689655172413793,
+        "relationship": 0.0689655172413793,
+        "occupation": 0.0689655172413793,
+        "marital-status": 0.0689655172413793
       },
-      "csv": {
-        "bias": csv_result,
-        "iml": csv_result
-      },
-      "target": config['TARGET_COLUMN'],
-      // ===== OPTIONAL =====
-      "user": {
-        "token": "NjY6W29iamVjdCBPYmplY3RdOjE0OTU0NDI1NTI4MDk6dW5kZWZpbmVk",
-        "education": {
-          "id": 1,
-          "description": "secondary modern school"
-        },
-        "age": 66,
-        "username": "Anonym"
-      },
-      "survey": {
-        "sid": 2,
-        "target_column": "income",
+      "iml": {
+        "age": 0.13704865909390093,
+        "education-num": 0.14385388791553647,
+        "hours-per-week": 0.1279067106608888,
+        "workclass": 0.11057201781371723,
+        "native-country": 0.11958109916626228,
+        "sex": 0.0958123676325629,
+        "race": 0.12552706039834438,
+        "relationship": 0.074162197318787,
+        "occupation": 0.032768000000000005,
+        "marital-status": 0.032768000000000005
       }
-    });
+    },
+    "csv": {
+      "bias": csv_result,
+      "iml": csv_result
+    },
+    "target": config['TARGET_COLUMN'],
+    // ===== OPTIONAL =====
+    "user": {
+      "token": "NjY6W29iamVjdCBPYmplY3RdOjE0OTU0NDI1NTI4MDk6dW5kZWZpbmVk",
+      "education": {
+        "id": 1,
+        "description": "secondary modern school"
+      },
+      "age": 66,
+      "username": "Anonym"
+    },
+    "survey": {
+      "sid": 2,
+      "target_column": "income",
+    }
+  };
   
 
-  // And invoke the remote Machine Learning Service via Sockets
-  // sendToRestAPI(request_data);
+  /**
+   * And invoke the remote Machine Learning Service via Sockets
+   */
+  sendToRestAPI(request_data);
 
-  // Or via traditional jquery AJAX request
-  var jqxhr = $.ajax({
-    type: "POST",
-    url: ML_URL,
-    data: request_data,
-    contentType: "application/json; charset=utf-8",
-    // dataType: "application/json; charset=utf-8",
-    beforeSend: function() {
-      // In the meanwhile, set the spinner and waiting text...
-      document.querySelector("#results_json").innerHTML = "<h3> Please be patient... running 4 different classifiers on both datasets, \n 5-fold CV each... this can take a few minutes to compute... </h3>";
-      document.querySelector("#result-plot-img").src = "./img/spinner.gif";
-    }
-  }).done((data, status, jqXHR) => {
-    MLSuccess(data);
-  }).fail(() => {
-      // In the meanwhile, set the spinner and waiting text...
-      document.querySelector("#results_json").innerHTML = "<h3 style='color:red;'> Service call FAILED. Sorry. Please try again later. </h3>";
-      document.querySelector("#result-plot-img").src = "./img/fail.png";
-  });
+  /**
+   * Or via traditional jquery AJAX request
+   */
+  // var jqxhr = $.ajax({
+  //   type: "POST",
+  //   url: ML_URL,
+  //   data: request_data,
+  //   contentType: "application/json; charset=utf-8",
+  //   // dataType: "application/json; charset=utf-8",
+  //   beforeSend: function() {
+  //     // In the meanwhile, set the spinner and waiting text...
+  //     document.querySelector("#results_json").innerHTML = "<h3> Please be patient... running 4 different classifiers on both datasets, \n 5-fold CV each... this can take a few minutes to compute... </h3>";
+  //     document.querySelector("#result-plot-img").src = "./img/spinner.gif";
+  //   }
+  // }).done((data, status, jqXHR) => {
+  //   MLSuccess(data);
+  // }).fail(() => {
+  //     // In the meanwhile, set the spinner and waiting text...
+  //     document.querySelector("#results_json").innerHTML = "<h3 style='color:red;'> Service call FAILED. Sorry. Please try again later. </h3>";
+  //     document.querySelector("#result-plot-img").src = "./img/fail.png";
+  // });
 });
 
 
