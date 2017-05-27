@@ -14,15 +14,16 @@ let filename = "original_data_500_rows.csv";
 let anonym_file = "adults_anonymized_k3_equal.csv";
 // Host
 let basename = "/akhci-sample-data/00_sample_data_UI_prototype";
-let url = basename + "/" + TARGETS[0] + "/" + filename;
+let url = basename + "/" + TARGETS[1] + "/" + filename;
 // Remote Machine Learning Service
 // let ML_URL = "http://localhost:5000/anonML";
 let ML_URL = "http://berndmalle.com:5000/anonML";
 
+console.log(`Remote ML Service: ${ML_URL}`);
 
 let csvIn = new $A.IO.CSVIN($A.config.adults);
-console.log("CSV Reader: ");
-console.log(csvIn);
+// console.log("CSV Reader: ");
+// console.log(csvIn);
 
 
 // Instantiate a SaNGreeA object
@@ -35,10 +36,10 @@ config['GEN_WEIGHT_VECTORS']['equal'] = {
         'native-country': 1.0/13.0,
         'sex': 1.0/13.0,
         'race': 1.0/13.0,
-        // 'marital-status': 1.0/13.0,
+        'marital-status': 1.0/13.0,
         'relationship': 1.0/13.0,
         'occupation': 1.0/13.0,
-        'income': 1.0/13.0
+        // 'income': 1.0/13.0
     },
     'range': {
         'age': 1.0/13.0,
@@ -46,7 +47,7 @@ config['GEN_WEIGHT_VECTORS']['equal'] = {
         'hours-per-week': 1.0/13.0
     }
 }
-config['TARGET_COLUMN'] = 'marital-status';
+config['TARGET_COLUMN'] = 'income';
 console.log("SaNGreeA config:");
 console.log(config);
 
@@ -82,8 +83,8 @@ $.ajaxSetup({
 });
 
 // Load Generalization hierarchies
-[workclass_file, nat_country_file, sex_file, race_file, // marital_file,
-  relationship_file, occupation_file, income_file].forEach((file) => {
+[workclass_file, nat_country_file, sex_file, race_file, marital_file,
+  relationship_file, occupation_file].forEach((file) => { // , income_file
   var json = $.getJSON(file).responseText;
   // console.log(json);
   strgh = new $A.genHierarchy.Category(json);
@@ -157,7 +158,7 @@ csvIn.readCSVFromURL(url, function(csv) {
         "bias": csv_result,
         "iml": csv_result
       },
-      "target": "marital-status",
+      "target": config['TARGET_COLUMN'],
       // ===== OPTIONAL =====
       "user": {
         "token": "NjY6W29iamVjdCBPYmplY3RdOjE0OTU0NDI1NTI4MDk6dW5kZWZpbmVk",
@@ -175,14 +176,19 @@ csvIn.readCSVFromURL(url, function(csv) {
     }),
     contentType: "application/json; charset=utf-8",
     // dataType: "application/json; charset=utf-8",
+    beforeSend: function() {
+      // In the meanwhile, set the spinner and waiting text...
+      document.querySelector("#results_json").innerHTML = "<h3> Please be patient... running 4 different classifiers on both datasets, \n 5-fold CV each... this can take a few minutes to compute... </h3>";
+      document.querySelector("#result-plot-img").src = "./img/spinner.gif";
+    }
   }).done((data, status, jqXHR) => {
     MLSuccess(data);
+  }).fail(() => {
+      // In the meanwhile, set the spinner and waiting text...
+      document.querySelector("#results_json").innerHTML = "<h3 style='color:red;'> Service call FAILED. Sorry. Please try again later. </h3>";
+      document.querySelector("#result-plot-img").src = "./img/fail.png";
   });
 });
-
-// In the meanwhile, set the spinner and waiting text...
-document.querySelector("#results_json").innerHTML = "<h3> Please be patient... this can take a few minutes to compute... </h3>";
-document.querySelector("#result-plot-img").src = "./img/spinner.gif";
 
 
 function MLSuccess(data) {
