@@ -16,8 +16,9 @@ let anonym_file = "adults_anonymized_k3_equal.csv";
 let basename = "/akhci-sample-data/00_sample_data_UI_prototype";
 let url = basename + "/" + TARGETS[1] + "/" + filename;
 // Remote Machine Learning Service
-// let ML_URL = "http://localhost:5000/anonML";
-let ML_URL = "http://berndmalle.com:5000/anonML";
+
+let ML_URL = "http://localhost:5000/anonML";
+// let ML_URL = "http://berndmalle.com:5000/anonML";
 
 console.log(`Remote ML Service: ${ML_URL}`);
 
@@ -117,15 +118,11 @@ csvIn.readCSVFromURL(url, function(csv) {
 
   sampleCostCalculation(san);
 
-
   // get the anonymized dataset as csv string
   let csv_result = san.constructAnonymizedCSV();
-  
-  // And invoke the remote Machine Learning Service
-  var jqxhr = $.ajax({
-    type: "POST",
-    url: ML_URL,
-    data: JSON.stringify({
+
+  // Build the request data
+  let request_data = JSON.stringify({
       "grouptoken": "string",
       "usertoken": "string",      
       "weights": {
@@ -173,7 +170,17 @@ csvIn.readCSVFromURL(url, function(csv) {
         "sid": 2,
         "target_column": "income",
       }
-    }),
+    });
+  
+
+  // And invoke the remote Machine Learning Service via Sockets
+  // sendToRestAPI(request_data);
+
+  // Or via traditional jquery AJAX request
+  var jqxhr = $.ajax({
+    type: "POST",
+    url: ML_URL,
+    data: request_data,
     contentType: "application/json; charset=utf-8",
     // dataType: "application/json; charset=utf-8",
     beforeSend: function() {
