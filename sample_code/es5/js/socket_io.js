@@ -7,14 +7,17 @@ var options = {
               //  "flash policy port": 843,
                "auto connect": true,
               //  "path":"/sample/socket.io",
-               "transports":["websockets", "polling"], //["polling"],
+              "transports":["websocket"], // ["websocket", "polling"]
+              "reconnectionDelayMax": 60000,
                // And most importantly:
                "timeout": Number.POSITIVE_INFINITY,
                "requestTimeout": Number.POSITIVE_INFINITY,
               //  "forceJSONP": true,
-              "upgrade": true
+              "upgrade": true,
+              "pingInterval": 60000,
+              "pingTimeout": Number.POSITIVE_INFINITY
               };
-let socket = io(socketUrl, options);
+let socket = io(socketUrl);
 
 let NR_RESULTS = undefined;
 let current_results = 0;
@@ -35,10 +38,12 @@ socket.on('connect', function() {
 
 
   socket.on('intermediaryComputed', (data) => {
-    // console.log(data.result);
-    let progress_width = ++current_results / NR_RESULTS;
+    console.log(data.result);
+
+    let progress_percentage = `${Math.round(++current_results / NR_RESULTS *100)}%`;
     // console.log(`New progress bar width: ${progress_width}`);
-    document.querySelector("#progress-bar-inner").style.width = `${progress_width*100}%`;
+    document.querySelector("#progress-bar-inner").style.width = progress_percentage;
+    document.querySelector("#progress-percentage").innerHTML = progress_percentage;
 
     let report_string = `<h3> Intermediate result from ${data.result.algorithm} (F1 Score): ${data.result.f1} </h3>`;
     document.querySelector("#progress-update").innerHTML = report_string;
@@ -69,7 +74,7 @@ socket.on('connect', function() {
     else 
       throw err; // Or whatever you want to do
   });
-  
+
 });
 
 
