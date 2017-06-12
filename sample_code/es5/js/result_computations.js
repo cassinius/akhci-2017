@@ -1,19 +1,22 @@
 let RESULTS_URL = "http://berndmalle.com:5050/getDBResults";
 
-let TARGET = "marital-status"; // 'education-num', 'income'
+let METRIC = "f1"; // "accuracy", "precision", "recall"
 let results;
 
-let classifiers = {
+let TARGETS = ["income", "marital-status", "education-num"];
+let CLASSIFIERS = ["linear_svc", "logistic_regression", "random_forest", "gradient_boosting"];
+
+let classifier_results = {
     linear_svc: {
       income: {
         bias: 0,
         iml: 0
       },
-      marital_status: {
+      'marital-status': {
         bias: 0,
         iml: 0
       },
-      education_num: {
+      'education-num': {
         bias: 0,
         iml: 0
       }
@@ -23,11 +26,11 @@ let classifiers = {
         bias: 0,
         iml: 0
       },
-      marital_status: {
+      'marital-status': {
         bias: 0,
         iml: 0
       },
-      education_num: {
+      'education-num': {
         bias: 0,
         iml: 0
       }
@@ -37,11 +40,11 @@ let classifiers = {
         bias: 0,
         iml: 0
       },
-      marital_status: {
+      'marital-status': {
         bias: 0,
         iml: 0
       },
-      education_num: {
+      'education-num': {
         bias: 0,
         iml: 0
       }
@@ -51,11 +54,11 @@ let classifiers = {
         bias: 0,
         iml: 0
       },
-      marital_status: {
+      'marital-status': {
         bias: 0,
         iml: 0
       },
-      education_num: {
+      'education-num': {
         bias: 0,
         iml: 0
       }
@@ -90,23 +93,90 @@ function ResultSuccess(data) {
 
 
 function showResults() {
-  console.log(`Showing results for target: ${TARGET}`)
-  let count = 0;  
+  console.log(`Showing results for metric: ${METRIC}`)
+  let count = 0;
+  let class_counts = {
+    "income": 0,
+    "marital-status": 0,
+    "education-num": 0
+  }
+
+
   
   for ( let res in results ) {
     let result = results[res];
+    
+    count++;
+    class_counts[result.target]++;
 
-    if ( result.target === TARGET ) {
-      count++;
-      let bias = result['results_bias'];
-      let iml = result['results_iml'];
+    let bias = result['results_bias'];
+    let iml = result['results_iml'];
 
-      console.log(bias);
-    }
+    CLASSIFIERS.forEach((classifier) => {
+      classifier_results[classifier][result.target]['bias'] += bias[classifier][METRIC];
+      classifier_results[classifier][result.target]['iml'] += iml[classifier][METRIC];
+    });
   }
 
+  CLASSIFIERS.forEach((classifier) => {
+    TARGETS.forEach((target) => {
+      classifier_results[classifier][target]['bias'] /= class_counts[target];
+      classifier_results[classifier][target]['iml'] /= class_counts[target];
+    });
+  });
+
+  // console.log(classifier_results);
   console.log(`Computed ${count} results.`);
+
+  showPlots();
+}
+
+
+function showPlots() {
+  CLASSIFIERS.forEach(classifier => {
+    let bias = {
+      x: TARGETS,
+      y: [],
+      name: 'Bias',
+      type: 'bar'
+    };
+    let iml = {
+      x: TARGETS,
+      y: [],
+      name: 'iML',
+      type: 'bar'
+    };
+    TARGETS.forEach((target) => {
+      bias.y.push(classifier_results[classifier][target].bias);
+      iml.y.push(classifier_results[classifier][target].iml);
+    });
+
+    let data = [bias, iml];
+    let layout = {
+      barmode: 'group',
+      title: `${classifier}`,
+      opacity: 0.3
+  };
+    Plotly.newPlot(`plot-${classifier}`, data, layout);
+    Plotly.animate
+  });
 }
 
 
 // Set button functionality
+document.querySelector("#show-acc").addEventListener('click', (ev) => {
+  METRIC = "accuracy";
+  showResults();
+} );
+document.querySelector("#show-precision").addEventListener('click', (ev) => {
+  METRIC = "precision";
+  showResults();
+} );
+document.querySelector("#show-recall").addEventListener('click', (ev) => {
+  METRIC = "recall";
+  showResults();
+} );
+document.querySelector("#show-f1").addEventListener('click', (ev) => {
+  METRIC = "f1";
+  showResults();
+} );
