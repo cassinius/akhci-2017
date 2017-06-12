@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+  <head> 
+    <title>iML Anonymization Results</title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+  </head>
+
+  <body>
+
+    <h1> Bias / iML Anonymization --  the results... *drumroll* </h1>
+
+    <div id="buttons">
+      <span id="show-acc" class="button"> Show Accuracies </span>
+      <span id="show-precision" class="button"> Show Precision </span>
+      <span id="show-recall" class="button"> Show Recall </span>
+      <span id="show-f1" class="button"> Show F1 Scores </span>
+    </div>
+
+    <div id="plots">
+      <span class="result-plot" id="results-lsvc"> Loading...</span>
+      <span class="result-plot" id="results-lreg"> Loading...</span>
+      <span class="result-plot" id="results-ranf"> Loading...</span>
+      <span class="result-plot" id="results-gbst"> Loading...</span>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script type="text/javascript" src="./js/result_computations.js"></script>
+
+  </body>
+
+</html>

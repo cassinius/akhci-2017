@@ -16,8 +16,8 @@ let anonym_file = "adults_anonymized_k3_equal.csv";
 let basename = "/akhci-sample-data/00_sample_data_UI_prototype";
 let url = basename + "/" + TARGETS[1] + "/" + filename;
 // Remote Machine Learning Service
-// let ML_URL = "http://localhost:5000/anonML";
-let ML_URL = "http://berndmalle.com:5000/anonML";
+let ML_URL = "http://localhost:5000/anonML";
+// let ML_URL = "http://berndmalle.com:5000/anonML";
 
 console.log(`Remote ML Service: ${ML_URL}`);
 
