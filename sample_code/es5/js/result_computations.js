@@ -88,11 +88,11 @@ var jqxhr = $.ajax({
 
 function ResultSuccess(data) {
   results = JSON.parse(data).results;
-  showResults();
+  computeResults();
 }
 
 
-function showResults() {
+function computeResults() {
   console.log(`Showing results for metric: ${METRIC}`)
   let count = 0;
   let class_counts = {
@@ -100,8 +100,6 @@ function showResults() {
     "marital-status": 0,
     "education-num": 0
   }
-
-
   
   for ( let res in results ) {
     let result = results[res];
@@ -128,11 +126,16 @@ function showResults() {
   // console.log(classifier_results);
   console.log(`Computed ${count} results.`);
 
-  showPlots();
+  showPlots(class_counts);
 }
 
 
-function showPlots() {
+function showPlots(class_counts) {
+
+  document.querySelector("#income-count").innerHTML = `Income count: ${class_counts["income"]}`;
+  document.querySelector("#marital-count").innerHTML = `Marital count: ${class_counts["marital-status"]}`;
+  document.querySelector("#education-count").innerHTML = `Education count: ${class_counts["education-num"]}`;
+
   CLASSIFIERS.forEach(classifier => {
     let bias = {
       x: TARGETS,
@@ -166,17 +169,17 @@ function showPlots() {
 // Set button functionality
 document.querySelector("#show-acc").addEventListener('click', (ev) => {
   METRIC = "accuracy";
-  showResults();
+  computeResults();
 } );
 document.querySelector("#show-precision").addEventListener('click', (ev) => {
   METRIC = "precision";
-  showResults();
+  computeResults();
 } );
 document.querySelector("#show-recall").addEventListener('click', (ev) => {
   METRIC = "recall";
-  showResults();
+  computeResults();
 } );
 document.querySelector("#show-f1").addEventListener('click', (ev) => {
   METRIC = "f1";
-  showResults();
+  computeResults();
 } );
