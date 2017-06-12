@@ -20,9 +20,9 @@
     </div>
 
     <div id="counts">
-      <span id="income-count" class="county"> Counting... </span>
-      <span id="marital-count" class="county"> Counting... </span>
-      <span id="education-count" class="county"> Counting... </span>
+      <span id="income-count" class="county"> Income count: n/a </span>
+      <span id="marital-count" class="county"> Marital count: n/a </span>
+      <span id="education-count" class="county"> Education count: n/a </span>
     </div>
 
     <div id="plots">
@@ -32,14 +32,17 @@
       <span class="result-plot" id="plot-gradient_boosting"> </span>
     </div>
 
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.min.js"
-      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-      crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script type="text/javascript" src="./lib/jquery-3.2.1.min.js"> </script>
+    <script type="text/javascript" src="./lib/plotly-latest.min.js"></script>
+
     <script type="text/javascript" src="./js/result_computations.js"></script>
 
+    <script>
+      $(document).ready( () => {
+        console.log("Retrieving results...");
+        retrieveResults();
+      });
+    </script>
   </body>
 
 </html>

@@ -65,28 +65,44 @@ let classifier_results = {
     }
   }
 
-// And invoke the remote Machine Learning Service
-var jqxhr = $.ajax({
-  type: "GET",
-  url: RESULTS_URL,
-  contentType: "application/json; charset=utf-8",
-  beforeSend: function() {
-    // In the meanwhile, set the spinner and waiting text...
+function retrieveResults() {
+  // And invoke the remote Machine Learning Service
 
-    // document.querySelector("#results_json").innerHTML = "<h3> Please be patient... running 4 different classifiers on both datasets, \n 5-fold CV each... this can take a few minutes to compute... </h3>";
-    // document.querySelector("#result-plot-img").src = "./img/spinner.gif";
-  }
-}).done((data, status, jqXHR) => {
-  ResultSuccess(data);
-}).fail(() => {
-    // In the meanwhile, set the spinner and waiting text...
+  // fetch(RESULTS_URL)
+  //   .then( (response) => {
+  //     return response.blob();
+  //   })
+  //   .then( (blob) => {
+  //     let data = JSON.parse(blob);
+  //     console.log(data);
+  //   });
 
-    // document.querySelector("#results_json").innerHTML = "<h3 style='color:red;'> Service call FAILED. Sorry. Please try again later. </h3>";
-    // document.querySelector("#result-plot-img").src = "./img/fail.png";
-});
+  var jqxhr = $.ajax({
+    type: "GET",
+    url: RESULTS_URL,
+    contentType: "application/json; charset=utf-8",
+    beforeSend: function() {
+      CLASSIFIERS.forEach((c) => {
+        Plotly.purge(`plot-${c}`);
+        document.querySelector(`#plot-${c}`).style.background = "url(./img/spinner2.gif)";
+        document.querySelector(`#plot-${c}`).style.backgroundSize = "100% 100%";
+      });
+    }
+  }).done((data, status, jqXHR) => {
+    CLASSIFIERS.forEach((c) => {
+      document.querySelector(`#plot-${c}`).style.background = "";
+    });
+    resultSuccess(data);
+  }).fail(() => {
+      // In the meanwhile, set the spinner and waiting text...
+
+      // document.querySelector("#results_json").innerHTML = "<h3 style='color:red;'> Service call FAILED. Sorry. Please try again later. </h3>";
+      // document.querySelector("#result-plot-img").src = "./img/fail.png";
+  });
+}
 
 
-function ResultSuccess(data) {
+function resultSuccess(data) {
   results = JSON.parse(data).results;
   computeResults();
 }
@@ -169,17 +185,17 @@ function showPlots(class_counts) {
 // Set button functionality
 document.querySelector("#show-acc").addEventListener('click', (ev) => {
   METRIC = "accuracy";
-  computeResults();
+  retrieveResults();
 } );
 document.querySelector("#show-precision").addEventListener('click', (ev) => {
   METRIC = "precision";
-  computeResults();
+  retrieveResults();
 } );
 document.querySelector("#show-recall").addEventListener('click', (ev) => {
   METRIC = "recall";
-  computeResults();
+  retrieveResults();
 } );
 document.querySelector("#show-f1").addEventListener('click', (ev) => {
   METRIC = "f1";
-  computeResults();
+  retrieveResults();
 } );
