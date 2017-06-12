@@ -1,6 +1,7 @@
 let RESULTS_URL = "http://berndmalle.com:5050/getDBResults";
 
 let METRIC = "f1"; // "accuracy", "precision", "recall"
+// $("#show-f1").addClass('active');
 let results;
 
 let TARGETS = ["income", "marital-status", "education-num"];
@@ -185,17 +186,25 @@ function showPlots(class_counts) {
 // Set button functionality
 document.querySelector("#show-acc").addEventListener('click', (ev) => {
   METRIC = "accuracy";
+  $(".button").removeClass('active');
+  $("#show-acc").addClass('active');
   retrieveResults();
 } );
 document.querySelector("#show-precision").addEventListener('click', (ev) => {
   METRIC = "precision";
+  $(".button").removeClass('active');
+  $("#show-precision").addClass('active');
   retrieveResults();
 } );
 document.querySelector("#show-recall").addEventListener('click', (ev) => {
   METRIC = "recall";
+  $(".button").removeClass('active');
+  $("#show-recall").addClass('active');
   retrieveResults();
 } );
 document.querySelector("#show-f1").addEventListener('click', (ev) => {
   METRIC = "f1";
+  $(".button").removeClass('active');
+  $("#show-f1").addClass('active');
   retrieveResults();
 } );

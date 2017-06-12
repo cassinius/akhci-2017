@@ -18,6 +18,10 @@ body {
   user-select: none;
 }
 
+.button.active {
+  box-shadow: 0px 5px 0px yellow;
+}
+
 .button:hover {
   cursor: pointer;
   /*margin: 15px 5px 30px 5px;*/
