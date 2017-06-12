@@ -66,7 +66,7 @@ body {
 #counts {
   margin: 10px 0 10px 0;
   font-size: 20px;
-  padding-left: 200px;
+  /*padding-left: 200px;*/
 }
 
 #counts .county {
