@@ -4,7 +4,6 @@
   <head> 
     <title>iML Anonymization Results</title>
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-
     <link rel="stylesheet" type="text/css" href="./css/main.css" />
   </head>
 
@@ -20,9 +19,10 @@
     </div>
 
     <div id="counts">
-      <span id="income-count" class="county"> Income count: n/a </span>
-      <span id="marital-count" class="county"> Marital count: n/a </span>
-      <span id="education-count" class="county"> Education count: n/a </span>
+      <span id="experiment-count" class="county"> Experiment count: n/a </span>
+      <span id="income-count" class="county"> Income: n/a </span>
+      <span id="marital-count" class="county"> Marital Status: n/a </span>
+      <span id="education-count" class="county"> Education Num: n/a </span>
     </div>
 
     <div id="plots">
@@ -32,16 +32,14 @@
       <span class="result-plot" id="plot-gradient_boosting"> </span>
     </div>
 
-    <script type="text/javascript" src="./lib/jquery-3.2.1.min.js"> </script>
     <script type="text/javascript" src="./lib/plotly-latest.min.js"></script>
-
     <script type="text/javascript" src="./js/result_computations.js"></script>
 
     <script>
-      // $(document).ready( () => {
-      //   console.log("Retrieving results...");
-      //   retrieveResults();
-      // });
+      document.addEventListener("DOMContentLoaded", function(){
+        console.log("Retrieving results...");
+        retrieveResults();
+      });
     </script>
   </body>
 

@@ -1,7 +1,6 @@
 let RESULTS_URL = "http://berndmalle.com:5050/getDBResults";
 
 let METRIC = "f1"; // "accuracy", "precision", "recall"
-// $("#show-f1").addClass('active');
 let results;
 
 let TARGETS = ["income", "marital-status", "education-num"];
@@ -67,38 +66,40 @@ let classifier_results = {
   }
 
 function retrieveResults() {
+  // Unset plots & show spinners
+  setPlotRectBGImage('spinner2.gif');
+
   // And invoke the remote Machine Learning Service
-
-  // fetch(RESULTS_URL)
-  //   .then( (response) => {
-  //     return response.blob();
-  //   })
-  //   .then( (blob) => {
-  //     let data = JSON.parse(blob);
-  //     console.log(data);
-  //   });
-
-  var jqxhr = $.ajax({
-    type: "GET",
-    url: RESULTS_URL,
-    contentType: "application/json; charset=utf-8",
-    beforeSend: function() {
-      CLASSIFIERS.forEach((c) => {
-        Plotly.purge(`plot-${c}`);
-        document.querySelector(`#plot-${c}`).style.background = "url(./img/spinner2.gif)";
-        document.querySelector(`#plot-${c}`).style.backgroundSize = "100% 100%";
-      });
-    }
-  }).done((data, status, jqXHR) => {
-    CLASSIFIERS.forEach((c) => {
-      document.querySelector(`#plot-${c}`).style.background = "";
+  fetch(RESULTS_URL)  
+    .then(  
+      function(response) {  
+        if (response.status !== 200) {  
+          console.log('Looks like there was a problem. Status Code: ' + response.status);
+          setCountSectionText("n/a", "n/a", "n/a", "n/a");
+          setPlotRectBGImage('fail.png');
+          return;
+        }
+        // Examine the text in the response  
+        response.json().then(function(data) {
+          // console.log(data);
+          results = data.results;
+          computeResults();
+        });
+      }  
+    )  
+    .catch(function(err) {  
+      console.log('Fetch Error :-S', err);
+      setCountSectionText("n/a", "n/a", "n/a", "n/a");
+      setPlotRectBGImage('fail.png');
     });
-    resultSuccess(data);
-  }).fail(() => {
-      // In the meanwhile, set the spinner and waiting text...
+}
 
-      // document.querySelector("#results_json").innerHTML = "<h3 style='color:red;'> Service call FAILED. Sorry. Please try again later. </h3>";
-      // document.querySelector("#result-plot-img").src = "./img/fail.png";
+
+function setPlotRectBGImage(img) {
+  CLASSIFIERS.forEach((c) => {
+    Plotly.purge(`plot-${c}`);
+    document.querySelector(`#plot-${c}`).style.background = `url(./img/${img})`;
+    document.querySelector(`#plot-${c}`).style.backgroundSize = "100% 100%";
   });
 }
 
@@ -111,7 +112,7 @@ function resultSuccess(data) {
 
 function computeResults() {
   console.log(`Showing results for metric: ${METRIC}`)
-  let count = 0;
+  let result_count = 0;
   let class_counts = {
     "income": 0,
     "marital-status": 0,
@@ -121,7 +122,7 @@ function computeResults() {
   for ( let res in results ) {
     let result = results[res];
     
-    count++;
+    result_count++;
     class_counts[result.target]++;
 
     let bias = result['results_bias'];
@@ -141,17 +142,23 @@ function computeResults() {
   });
 
   // console.log(classifier_results);
-  console.log(`Computed ${count} results.`);
+  console.log(`Computed ${result_count} results.`);
 
-  showPlots(class_counts);
+  showPlots(result_count, class_counts);
 }
 
 
-function showPlots(class_counts) {
+function setCountSectionText(all, income, marital, education) {
+  document.querySelector("#experiment-count").innerHTML = `Experiment count: ${all}`;
+  document.querySelector("#income-count").innerHTML = `Income: ${income}`;
+  document.querySelector("#marital-count").innerHTML = `Marital Status: ${marital}`;
+  document.querySelector("#education-count").innerHTML = `Education Num: ${education}`;
+}
 
-  document.querySelector("#income-count").innerHTML = `Income count: ${class_counts["income"]}`;
-  document.querySelector("#marital-count").innerHTML = `Marital count: ${class_counts["marital-status"]}`;
-  document.querySelector("#education-count").innerHTML = `Education count: ${class_counts["education-num"]}`;
+
+function showPlots(result_count, class_counts) {
+
+  setCountSectionText(result_count, class_counts["income"], class_counts["marital-status"], class_counts["education-num"]);
 
   CLASSIFIERS.forEach(classifier => {
     let bias = {
@@ -186,25 +193,30 @@ function showPlots(class_counts) {
 // Set button functionality
 document.querySelector("#show-acc").addEventListener('click', (ev) => {
   METRIC = "accuracy";
-  $(".button").removeClass('active');
-  $("#show-acc").addClass('active');
+  unsetAllActiveButtons();
+  document.querySelector("#show-acc").classList.add('active');
   retrieveResults();
 } );
 document.querySelector("#show-precision").addEventListener('click', (ev) => {
   METRIC = "precision";
-  $(".button").removeClass('active');
-  $("#show-precision").addClass('active');
+  unsetAllActiveButtons();
+  document.querySelector("#show-precision").classList.add('active');
   retrieveResults();
 } );
 document.querySelector("#show-recall").addEventListener('click', (ev) => {
   METRIC = "recall";
-  $(".button").removeClass('active');
-  $("#show-recall").addClass('active');
+  unsetAllActiveButtons();
+  document.querySelector("#show-recall").classList.add('active');
   retrieveResults();
 } );
 document.querySelector("#show-f1").addEventListener('click', (ev) => {
   METRIC = "f1";
-  $(".button").removeClass('active');
-  $("#show-f1").addClass('active');
+  unsetAllActiveButtons();
+  document.querySelector("#show-f1").classList.add('active');
   retrieveResults();
 } );
+
+
+function unsetAllActiveButtons() {
+  document.querySelectorAll(".button").forEach( (el) => el.classList.remove('active') );
+}
