@@ -83,6 +83,7 @@ function retrieveResults() {
         response.json().then(function(data) {
           // console.log(data);
           results = data.results;
+          setPlotRectBGImage('');
           computeResults();
         });
       }  
@@ -96,9 +97,10 @@ function retrieveResults() {
 
 
 function setPlotRectBGImage(img) {
+  let image = img ? `url(./img/${img})` : '';
   CLASSIFIERS.forEach((c) => {
     Plotly.purge(`plot-${c}`);
-    document.querySelector(`#plot-${c}`).style.background = `url(./img/${img})`;
+    document.querySelector(`#plot-${c}`).style.background = image;
     document.querySelector(`#plot-${c}`).style.backgroundSize = "100% 100%";
   });
 }
