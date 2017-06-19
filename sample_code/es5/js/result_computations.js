@@ -220,5 +220,6 @@ document.querySelector("#show-f1").addEventListener('click', (ev) => {
 
 
 function unsetAllActiveButtons() {
-  document.querySelectorAll(".button").forEach( (el) => el.classList.remove('active') );
+  let buttons = document.querySelectorAll(".button");
+  Array.prototype.forEach.call( buttons, (el) => el.classList.remove('active') );
 }
